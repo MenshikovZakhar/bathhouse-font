@@ -11,8 +11,8 @@
 }
 
 .header__logo {
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     cursor: pointer;
     padding-left: 160px;
 }
@@ -221,8 +221,8 @@
 
 @media screen and (max-width: 650px) {
     .header__logo {
-        height: 40px;
-        width: 70px;
+        height: 80px;
+        width: 80px;
     }
 
     .header {
@@ -256,7 +256,7 @@
 
 @media screen and (max-width: 600px) {
     .header__logo {
-        height: 50px;
+        height: 80px;
         width: 80px;
         padding-left: 10px;
     }

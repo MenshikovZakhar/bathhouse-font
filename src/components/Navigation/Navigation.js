@@ -30,16 +30,16 @@ function Navigation() {
                         isActive ? 'nav__link active' : 'nav__link'
                     }
                 >
-                    Обо мне
+                    О Нас
                 </NavLink>
 
                 <NavLink
-                    to='/services'
+                    to='/catalog'
                     className={({ isActive }) =>
                         isActive ? 'nav__link-2 active' : 'nav__link-2'
                     }
                 >
-                    <img className='menu_icon' src={menu_icon} alt='' /> Услуги
+                    <img className='menu_icon' src={menu_icon} alt='' /> Каталог
                 </NavLink>
                 <ul className="submenu">
                     <li className="submenu__links"><Link className="submenu__link" to="/services_1">Окрашивание</Link></li>
@@ -48,14 +48,21 @@ function Navigation() {
                     <li className="submenu__links"><Link className="submenu__link" to="/services_4">Профессиональный уход</Link></li>
                 </ul>
                 <NavLink
-                    to='/price'
+                    to='/delivery'
                     className={({ isActive }) =>
                         isActive ? 'nav__link active' : 'nav__link'
                     }
                 >
-                    Стоимость
+                    Доставка
                 </NavLink>
-
+                <NavLink
+                    to='/portfolio'
+                    className={({ isActive }) =>
+                        isActive ? 'nav__link active' : 'nav__link'
+                    }
+                >
+                    Наши работы
+                </NavLink>
                 <NavLink
                     to='/contacts'
                     className={({ isActive }) =>

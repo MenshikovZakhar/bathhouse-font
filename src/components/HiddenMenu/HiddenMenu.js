@@ -29,10 +29,10 @@ function HiddenMenu({ onClickCloseMenu }) {
             }
             onClick={onClickCloseMenu}
           >
-            Обо мне
+            О Нас
           </NavLink>
           <NavLink
-            to='/services'
+            to='/delivery'
             className={({ isActive }) =>
               isActive
                 ? 'nav-movie__link-adapt active'
@@ -40,10 +40,10 @@ function HiddenMenu({ onClickCloseMenu }) {
             }
             onClick={onClickCloseMenu}
           >
-            Услуги
+            Каталог
           </NavLink>
           <NavLink
-            to='/price'
+            to='/delivery'
             className={({ isActive }) =>
               isActive
                 ? 'nav-movie__link-adapt active'
@@ -51,7 +51,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             }
             onClick={onClickCloseMenu}
           >
-            Стоимость
+            Доставка
           </NavLink>
           <NavLink
             to='/portfolio'
@@ -62,7 +62,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             }
             onClick={onClickCloseMenu}
           >
-            Портфолио
+            Наши работы
           </NavLink>
           <NavLink
             to='/contacts'
