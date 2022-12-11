@@ -15,6 +15,7 @@ function Footer() {
                 <div className='footer__address'>
                     <p className='footer__year'><img className='iqon__location' src={location} alt='logo' />Челябинск, xxxxxxxx</p>
                     <p className='footer__year'><img className='iqon__email' src={email} alt='logo' />xxxxxxxxx@mail.ru</p>
+                    <p className='footer__year'><img className='iqon__email' src={phone} alt='logo' />+7(951)484-00-77</p>
                 </div>
                 <ul className='footer__list'>
 
