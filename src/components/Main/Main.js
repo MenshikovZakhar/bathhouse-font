@@ -7,13 +7,12 @@ function Main({ onAppointment }) {
     return (
         <>
             <Helmet>
-                <title>Окрашивание волос в Челябинске</title>
-                <meta name="description" content="окрашивание волос, тонирование волос, женские стрижки Челябинск" />
+                <title>Банные Чаны</title>
+                <meta name="description" content="Банные Чаны купить, изготавление банных чаннов Челябинск" />
                 <link rel="canonical" href="/" />
                 <meta name="yandex-verification" content="66f9e7d8e1547925" />
             </Helmet>
             <Header
-                onAppointment={onAppointment}
             />
             <main className='content'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
