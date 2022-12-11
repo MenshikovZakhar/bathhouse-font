@@ -1,0 +1,294 @@
+.header {
+    background-color: #140800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom-color: #c7c7c7;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.header__logo {
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+    padding-left: 160px;
+}
+
+.header_active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background: rgba(20, 8, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media screen and (max-width: 1380px) {
+    .header__add {
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        padding-left: 140px;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .header__logo {
+        padding-left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+
+    .header_active {
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+
+    .header__logo {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+
+    .header__logo {
+        padding-left: 30px;
+    }
+
+    .nav__link {
+        margin-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .nav__link-2 {
+        margin-right: 10px;
+    }
+
+    .header {
+        padding-left: 55px;
+        padding-right: 30px;
+    }
+
+    .header_active {
+        padding-left: 55px;
+        padding-right: 30px;
+    }
+
+    .header__logo {
+        height: 50px;
+        width: 80px;
+        padding-left: 0px;
+    }
+
+    .nav__link {
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo {
+        padding-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    .header__logo {
+        padding-left: 0px;
+    }
+
+    .nav__link-2 {
+        margin-right: 10px;
+    }
+
+    .nav__link {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        padding-left: 10px;
+        padding-right: 40px;
+    }
+
+    .header_active {
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+
+    .header__logo {
+        height: 40px;
+        width: 60px;
+        padding-left: 70px;
+    }
+
+    .header__add {
+        width: 170px;
+        font-size: 16px;
+        height: 40px;
+
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .header {
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+
+    .header__logo {
+        padding-left: 20px;
+    }
+
+    .nav__link-2 {
+        margin-right: 10px;
+    }
+
+    .nav__link {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 774px) {
+
+    .header__logo {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header_active {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .header__logo {
+        padding-left: 20px;
+    }
+
+    .nav__link {
+        margin-right: 10px;
+    }
+
+    .nav__link-2 {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header__logo {
+        height: 40px;
+    }
+
+    .header_active {
+        padding-left: 20px;
+        padding-right: 0px;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header__logo {
+        height: 40px;
+        width: 70px;
+    }
+
+    .header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header_active {
+        padding-left: 10px;
+        padding-right: 0px;
+
+    }
+
+    .header__logo {
+        padding-left: 0px;
+    }
+
+    .header__add {
+        width: 155px;
+        font-size: 15px;
+    }
+
+    .nav__link-2 {
+        margin-right: 5px;
+    }
+
+    .nav__link {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__logo {
+        height: 50px;
+        width: 80px;
+        padding-left: 10px;
+    }
+
+    .header {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .header_active {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .header__add {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__add {
+        width: 130px;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .header_active {
+        right: 5px;
+    }
+}
