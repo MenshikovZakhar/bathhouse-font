@@ -38,6 +38,8 @@
     margin: 0;
     margin-top: 10px;
     font-size: 20px;
+    align-items: center;
+    display: flex;
 }
 
 .footer__list {
@@ -76,14 +78,10 @@
     margin-right: 10px;
 }
 
-
-
-
-
-
-
-
-
+.iqon__phone {
+    width: 25px;
+    margin-right: 5px;
+}
 
 @media screen and (max-width: 768px) {
     .footer {
@@ -115,7 +113,7 @@
 
     .footer__list {
         flex-direction: row;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .footer__year {

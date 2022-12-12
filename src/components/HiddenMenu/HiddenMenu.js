@@ -11,7 +11,7 @@ function HiddenMenu({ onClickCloseMenu }) {
         <div className='nav-menu__close' onClick={onClickCloseMenu}></div>
         <div className='nav-movie__movie_adapt'>
           <Link to='/' className='header__link'>
-            <img className='header__logo header__logo-hiddenMenu' src={logo} alt='logo' />
+            <img className='header__logo-hiddenMenu' src={logo} alt='logo' />
           </Link>
           <Link
             to='/'
@@ -21,18 +21,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             Главная
           </Link>
           <NavLink
-            to='/about'
-            className={({ isActive }) =>
-              isActive
-                ? 'nav-movie__link-adapt active'
-                : 'nav-movie__link-adapt'
-            }
-            onClick={onClickCloseMenu}
-          >
-            О Нас
-          </NavLink>
-          <NavLink
-            to='/delivery'
+            to='/catalog'
             className={({ isActive }) =>
               isActive
                 ? 'nav-movie__link-adapt active'
@@ -76,16 +65,16 @@ function HiddenMenu({ onClickCloseMenu }) {
             Контакты
           </NavLink>
         </div>
-        <h1 className="hidden-menu__title">Cвязаться со мной</h1>
+        <h1 className="hidden-menu__title">Cвязаться с нами</h1>
 
         <div className='iqons'>
-          <a href="tel:+79514840077">
+          <a href="tel:+79514652520">
             <img className='iqons__logo' src={phone} alt='logo' />
           </a>
-          <a href="https://wa.me/79514840077" target="_blank" rel="noreferrer">
+          <a href="https://wa.me/79514652520" target="_blank" rel="noreferrer">
             <img className='iqons__logo' src={whatsapp} alt='logo' />
           </a>
-          <a href="https://t.me/Valeria_Smolentseva" target="_blank" rel="noreferrer">
+          <a href="https://t.me/79514652520" target="_blank" rel="noreferrer">
             <img className='iqons__logo' src={telegram} alt='logo' />
           </a>
         </div>
