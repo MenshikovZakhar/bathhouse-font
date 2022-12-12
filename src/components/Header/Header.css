@@ -58,15 +58,13 @@
     left: 0;
     right: 0;
     z-index: 20;
-    background: rgba(20, 8, 0, 0.7);
+    background: rgba(57, 80, 54, 0.8);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
 }
-
-
 
 @media screen and (max-width: 1400px) {
     .header__contact {

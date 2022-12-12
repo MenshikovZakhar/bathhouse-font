@@ -3,7 +3,8 @@ import Footer from '../Footer/Footer';
 import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-function Main({ onAppointment }) {
+import About from './About/About';
+function Main({ }) {
     return (
         <>
             <Helmet>
@@ -16,6 +17,7 @@ function Main({ onAppointment }) {
             />
             <main className='content'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+                <About />
             </main>
             <Footer />
 

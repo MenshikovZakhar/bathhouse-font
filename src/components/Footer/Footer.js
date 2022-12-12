@@ -10,7 +10,7 @@ function Footer() {
     return (
         <footer className='footer'>
             <h1 className='footer__title'>
-                © 2022 xxxxxxxxxxxx
+                © 2022 XXXXXXXXXXXXXXXX
             </h1>
             <div className='footer__info'>
                 <div className='footer__address'>
