@@ -25,15 +25,6 @@ function Navigation() {
             <nav className='nav__menu'>
 
                 <NavLink
-                    to='/about'
-                    className={({ isActive }) =>
-                        isActive ? 'nav__link active' : 'nav__link'
-                    }
-                >
-                    О Нас
-                </NavLink>
-
-                <NavLink
                     to='/catalog'
                     className={({ isActive }) =>
                         isActive ? 'nav__link-2 active' : 'nav__link-2'

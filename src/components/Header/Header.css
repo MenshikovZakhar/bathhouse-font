@@ -10,6 +10,41 @@
     border-bottom-width: 2px;
 }
 
+.header__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.header__list-item {
+    list-style: none;
+}
+
+.header__list-item:hover {
+    opacity: 0.8;
+}
+
+.iqon__logo-header {
+    width: 40px;
+    margin: 0px 10px;
+}
+
+.header__contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.header__text-contact {
+    font-size: 25px;
+    align-items: center;
+    margin: 0 auto 5px;
+    color: rgb(255, 255, 255);
+    width: 220px;
+}
+
 .header__logo {
     height: 80px;
     width: 80px;
@@ -30,6 +65,15 @@
     padding-left: 100px;
     padding-right: 100px;
 }
+
+
+
+@media screen and (max-width: 1400px) {
+    .header__contact {
+        margin-left: 50px;
+    }
+}
+
 
 @media screen and (max-width: 1380px) {
     .header__add {
@@ -93,13 +137,26 @@
     }
 
     .header__logo {
-        height: 50px;
-        width: 80px;
-        padding-left: 0px;
+        height: 70px;
+        width: 70px;
     }
 
     .nav__link {
         margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    .nav__link {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1035px) {
+    .nav__link {
+        margin-right: 35px;
     }
 
 }
@@ -109,6 +166,12 @@
         padding-left: 50px;
     }
 
+}
+
+@media screen and (max-width: 970px) {
+    .header__contact {
+        margin-left: 40px;
+    }
 }
 
 @media screen and (max-width: 960px) {
@@ -125,10 +188,21 @@
     }
 }
 
+@media screen and (max-width: 930px) {
+    .header__contact {
+        margin-left: 30px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .header {
         padding-left: 10px;
         padding-right: 40px;
+    }
+
+    .header__text-contact {
+        font-size: 23px;
+        width: 200px;
     }
 
     .header_active {
@@ -137,9 +211,9 @@
     }
 
     .header__logo {
-        height: 40px;
+        height: 60px;
         width: 60px;
-        padding-left: 70px;
+        padding-left: 50px;
     }
 
     .header__add {
@@ -168,6 +242,13 @@
 
     .nav__link {
         margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .header__contact {
+        margin-left: 20px;
     }
 }
 
@@ -202,14 +283,30 @@
     }
 }
 
+@media screen and (max-width: 730px) {
+    .header__text-contact {
+        font-size: 20px;
+        width: 170px;
+    }
+
+    .header__contact {
+        margin-left: 10px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .header {
         padding-left: 0px;
         padding-right: 0px;
     }
 
+    .header__contact {
+        margin-left: 30px;
+    }
+
     .header__logo {
-        height: 40px;
+        height: 50px;
+        width: 50px;
     }
 
     .header_active {
@@ -220,9 +317,9 @@
 }
 
 @media screen and (max-width: 650px) {
-    .header__logo {
-        height: 80px;
-        width: 80px;
+
+    .header__contact {
+        margin-left: 20px;
     }
 
     .header {
@@ -237,7 +334,7 @@
     }
 
     .header__logo {
-        padding-left: 0px;
+        padding-left: 20px;
     }
 
     .header__add {
@@ -254,10 +351,31 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    .header__contact {
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        padding-left: 10px;
+    }
+
+    .iqon__logo-header {
+        width: 40px;
+        margin: 0px 5px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .header__contact {
+        margin-left: 0px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .header__logo {
-        height: 80px;
-        width: 80px;
+        height: 60px;
+        width: 60px;
         padding-left: 10px;
     }
 
@@ -283,6 +401,28 @@
     .header__add {
         width: 130px;
         font-size: 15px;
+    }
+
+    .iqon__logo-header {
+        width: 35px;
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .iqon__logo-header {
+        width: 35px;
+        margin: 0px 5px;
+    }
+
+    .header__text-contact {
+        font-size: 18px;
+        width: 160px;
+    }
+
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 

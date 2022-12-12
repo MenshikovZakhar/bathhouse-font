@@ -136,6 +136,17 @@
     }
 }
 
+@media screen and (max-width: 1060px) {
+
+    .nav__link {
+        margin-right: 30px;
+    }
+
+    .nav__link-2 {
+        margin-right: 30px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .nav__link {
         margin-right: 10px;
@@ -173,6 +184,16 @@
     .submenu {
         right: 280px;
         top: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav__link {
+        margin-right: 15px;
+    }
+
+    .nav__link-2 {
+        margin-right: 15px;
     }
 }
 
