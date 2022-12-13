@@ -1,5 +1,6 @@
 import './About.css';
 import about_img_1 from '../../../images/about_1.png';
+import about_img_2 from '../../../images/about_2.png';
 
 
 function Services() {
@@ -13,8 +14,16 @@ function Services() {
                         <h2 className="services__name-title">Удовольствие в любое время года</h2>
                         <p className="services__name">Банный чан – это новый формат отдыха на открытом воздухе с семьей или друзьями.
                             В холодное время года это купанием в полезном горячем источнике, а летом его можно использовать в качестве бодрящей холодной купели.</p></li>
-                    <li className="about__link "><img className='img_services' alt='' />
-                        <p className="services__name">Тонирование</p></li>
+                    <li className="about__link "><img className='img_services' src={about_img_2} alt='' />
+                        <h2 className="services__name-title">Полезно для здоровья</h2>
+                        <p className="services__name">
+                            •	Оздоравливает сердечно-сосудистую систему <br />
+                            •	Расслабляет мышцы <br />
+                            •	Выводит шлаки и токсины <br />
+                            •	Успокаивает нервную систему <br />
+                            •	Укрепляет иммунитет <br />
+                            •	Улучшает обменные процессы <br />
+                        </p></li>
                     <li className="about__link services__links-3"><img className='img_services' alt='' />
                         <p className="services__name">Женские стрижки</p></li>
 
