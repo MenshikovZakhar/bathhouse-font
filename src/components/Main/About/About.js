@@ -24,7 +24,8 @@ function Services() {
                             •	Успокаивает нервную систему <br />
                             •	Укрепляет иммунитет <br />
                             •	Улучшает обменные процессы <br />
-                        </p></li>
+                        </p>
+                    </li>
                     <li className="about__link"><img className='img_about' src={about_img_3} alt='' />
                         <h2 className="about__name-title">Коммерческая выгода.</h2>
                         <p className="about__name">Банный чан можно приобрести и для коммерческого использования – для банных комплексов,
