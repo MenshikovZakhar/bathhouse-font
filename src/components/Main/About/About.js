@@ -1,6 +1,7 @@
 import './About.css';
 import about_img_1 from '../../../images/about_1.png';
 import about_img_2 from '../../../images/about_2.png';
+import about_img_3 from '../../../images/about_3.png';
 
 
 function Services() {
@@ -24,9 +25,11 @@ function Services() {
                             •	Укрепляет иммунитет <br />
                             •	Улучшает обменные процессы <br />
                         </p></li>
-                    <li className="about__link services__links-3"><img className='img_services' alt='' />
-                        <p className="services__name">Женские стрижки</p></li>
-
+                    <li className="about__link services__links-3"><img className='img_services' src={about_img_3} alt='' />
+                        <h2 className="services__name-title">Коммерческая выгода.</h2>
+                        <p className="services__name">Банный чан можно приобрести и для коммерческого использования – для банных комплексов,
+                            санаториев, туристических баз. Это возможность увеличить прибыль, привлечь и подарить
+                            своим клиентам новые, незабываемые ощущения банного отдыха. </p></li>
                 </ul>
             </div>
         </section>
