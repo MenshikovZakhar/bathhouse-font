@@ -10,14 +10,14 @@ function Services() {
             <div className="about__description">
                 <h1 className="about__title">Банный чан это</h1>
 
-                <ul className="services__list">
-                    <li className="about__link services__links"><img className='img_services' src={about_img_1} alt='' />
-                        <h2 className="services__name-title">Удовольствие в любое время года</h2>
-                        <p className="services__name">Банный чан – это новый формат отдыха на открытом воздухе с семьей или друзьями.
+                <ul className="about__list">
+                    <li className="about__link"><img className='img_about' src={about_img_1} alt='' />
+                        <h2 className="about__name-title">Удовольствие в любое время года</h2>
+                        <p className="about__name">Банный чан – это новый формат отдыха на открытом воздухе с семьей или друзьями.
                             В холодное время года это купанием в полезном горячем источнике, а летом его можно использовать в качестве бодрящей холодной купели.</p></li>
-                    <li className="about__link "><img className='img_services' src={about_img_2} alt='' />
-                        <h2 className="services__name-title">Полезно для здоровья</h2>
-                        <p className="services__name">
+                    <li className="about__link"><img className='img_about' src={about_img_2} alt='' />
+                        <h2 className="about__name-title">Полезно для здоровья</h2>
+                        <p className="about__name">
                             •	Оздоравливает сердечно-сосудистую систему <br />
                             •	Расслабляет мышцы <br />
                             •	Выводит шлаки и токсины <br />
@@ -25,9 +25,9 @@ function Services() {
                             •	Укрепляет иммунитет <br />
                             •	Улучшает обменные процессы <br />
                         </p></li>
-                    <li className="about__link services__links-3"><img className='img_services' src={about_img_3} alt='' />
-                        <h2 className="services__name-title">Коммерческая выгода.</h2>
-                        <p className="services__name">Банный чан можно приобрести и для коммерческого использования – для банных комплексов,
+                    <li className="about__link"><img className='img_about' src={about_img_3} alt='' />
+                        <h2 className="about__name-title">Коммерческая выгода.</h2>
+                        <p className="about__name">Банный чан можно приобрести и для коммерческого использования – для банных комплексов,
                             санаториев, туристических баз. Это возможность увеличить прибыль, привлечь и подарить
                             своим клиентам новые, незабываемые ощущения банного отдыха. </p></li>
                 </ul>

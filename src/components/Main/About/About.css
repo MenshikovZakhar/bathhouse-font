@@ -1,4 +1,4 @@
-.services__list {
+.about__list {
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -18,7 +18,7 @@
     background-color: #eeeeee96;
 }
 
-.services__name {
+.about__name {
     text-align: center;
     margin: 0;
     color: #000000;
@@ -29,7 +29,7 @@
     width: 200px;
 }
 
-.services__name-title {
+.about__name-title {
     text-align: center;
     margin: 0;
     font-weight: 900;
@@ -51,7 +51,7 @@
     padding: 15px 0;
 }
 
-.services-title {
+.about-title {
     text-decoration: none;
 }
 
@@ -64,15 +64,12 @@
     padding-top: 15px;
 }
 
-.img_services_1 {
-    text-decoration: none;
-}
 
 .about__link {
     text-decoration: none;
 }
 
-.img_services {
+.img_about {
     width: 200px;
     height: 200px;
 }
@@ -85,7 +82,7 @@
         max-width: 1300px;
     }
 
-    .img_services {
+    .img_about {
         width: 200px;
         height: 200px;
         margin: 0 0 0 20px;
@@ -107,7 +104,7 @@
 }
 
 @media(max-width: 1280px) {
-    .img_services {
+    .img_about {
         margin: 0 10px 0 0px;
     }
 
@@ -130,9 +127,6 @@
         max-width: 1000px;
     }
 
-    .services {
-        padding-bottom: 20px;
-    }
 }
 
 @media(max-width: 1050px) {
@@ -153,7 +147,7 @@
         max-width: 840px;
     }
 
-    .services__list {
+    .about__list {
         gap: 50px;
     }
 }
@@ -163,7 +157,7 @@
         max-width: 750px;
     }
 
-    .services__list {
+    .about__list {
         gap: 10px;
     }
 }
@@ -175,9 +169,7 @@
 }
 
 @media(max-width: 800px) {
-    .services__description {}
-
-    .img_services {
+    .img_about {
         width: 150px;
         height: 150px;
         margin: 0 0 0 30px;
@@ -192,7 +184,7 @@
 }
 
 @media(max-width: 680px) {
-    .services__list {
+    .about__list {
         display: flex;
         flex-direction: column;
     }
@@ -202,19 +194,19 @@
         flex-direction: row;
     }
 
-    .services__name-title {
+    .about__name-title {
         align-items: center;
         display: flex;
     }
 
-    .services__name {
+    .about__name {
         padding: 0;
         width: 250px;
         align-items: center;
         display: flex;
     }
 
-    .img_services {
+    .img_about {
         align-items: center;
         display: flex;
         margin: 0 0 0 10px;
@@ -235,7 +227,7 @@
         gap: 5px;
     }
 
-    .services__list {
+    .about__list {
         width: 550px;
     }
 
@@ -249,7 +241,7 @@
         max-width: 500px;
     }
 
-    .services__list {
+    .about__list {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -265,13 +257,13 @@
         margin: 0 auto;
     }
 
-    .img_services {
+    .img_about {
         width: 150px;
         height: 150px;
         margin: 0 0 0 60px;
     }
 
-    .services__name-title {
+    .about__name-title {
         width: 250px;
         margin-left: 20px;
     }
@@ -282,7 +274,7 @@
         max-width: 450px;
     }
 
-    .services__list {
+    .about__list {
         width: 400px;
         gap: 30px;
     }
@@ -311,11 +303,11 @@
         width: 300px;
     }
 
-    .services__name {
+    .about__name {
         width: 250px;
     }
 
-    .services__list {
+    .about__list {
         width: 300px;
     }
 }
@@ -326,9 +318,10 @@
         padding: 10px 0 0px;
     }
 
-    .services__list {
+    .about__list {
         width: 320px;
         padding: 10px 0 20px;
+        gap: 20px;
     }
 
     .about__title {
@@ -338,22 +331,22 @@
         padding: 10px 0;
     }
 
-    .services__name-title {
-        width: 250px;
-        margin-left: 40px;
+    .about__name-title {
+        width: 200px;
+        margin-left: 30px;
     }
 
-    .services__name {
+    .about__name {
         font-size: 15px;
         margin-left: 0px;
         padding: 5px 0;
-        width: 300px;
+        width: 250px;
     }
 
-    .img_services {
+    .img_about {
         width: 100px;
         height: 100px;
-        margin: 0 0 0 100px;
+        margin: 0 0 0 80px;
     }
 
 }
@@ -363,12 +356,12 @@
         max-width: 295px;
     }
 
-    .services__list {
+    .about__list {
         width: 290px;
     }
 
-    .services__name {
+    .about__name {
         width: 250px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
 }
