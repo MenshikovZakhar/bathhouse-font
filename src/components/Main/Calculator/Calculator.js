@@ -35,10 +35,11 @@ function Calculator() {
         <div className="App">
             <h3>Select Toppings</h3>
             <ul className="toppings-list">
-                {toppings.map(({ name, price }, index) => {
+                {toppings.map(({ name, price, src }, index) => {
                     return (
                         <li key={index}>
                             <div className="toppings-list-item">
+                                <img className="image_2" src={src} />
                                 <div className="left-section">
                                     <input
                                         type="checkbox"
@@ -63,9 +64,6 @@ function Calculator() {
                 </li>
             </ul>
         </div>
-
-
-
     );
 }
 
