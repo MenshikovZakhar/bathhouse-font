@@ -4,6 +4,7 @@ import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
 import About from './About/About';
+import Calculator from './Calculator/Calculator';
 function Main({ }) {
     return (
         <>
@@ -18,6 +19,8 @@ function Main({ }) {
             <main className='content'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
                 <About />
+
+                <Calculator />
             </main>
             <Footer />
 
