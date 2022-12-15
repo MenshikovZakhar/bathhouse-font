@@ -7,6 +7,7 @@ import slide6 from '../images/calculator/6.png';
 import slide7 from '../images/calculator/7.png';
 import slide8 from '../images/calculator/8.png';
 import slide9 from '../images/calculator/9.png';
+import slide10 from '../images/calculator/10.png';
 import slide11 from '../images/calculator/11.png';
 export const toppings = [
     {
@@ -71,7 +72,7 @@ export const toppings = [
     {
         name: "Столик из нержавеющей стали",
         price: 12000,
-        src: slide1
+        src: slide10
     },
 ];
 
