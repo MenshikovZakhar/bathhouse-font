@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { toppings } from "../../../constants/arrayPortfolio";
+
+
 import "./Calculator.css";
 
-const getFormattedPrice = (price) => `$${price.toFixed(2)}`;
+const getFormattedPrice = (price) => `₽ ${price.toFixed(2)}`;
 
-function Calculator() {
+function Calculator({ toppings }) {
     const [checkedState, setCheckedState] = useState(
         new Array(toppings.length).fill(false)
     );
@@ -64,6 +65,9 @@ function Calculator() {
                 </li>
             </ul>
         </div>
+
+
+
     );
 }
 
