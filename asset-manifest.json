@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a006f68d.css",
-    "main.js": "./static/js/main.a2f9a264.js",
+    "main.js": "./static/js/main.c2c32674.js",
     "static/js/787.8411ccae.chunk.js": "./static/js/787.8411ccae.chunk.js",
     "static/media/11.png": "./static/media/11.e4f0ae00150aae3a4a8f.png",
     "static/media/logo_1.png": "./static/media/logo_1.e8b8112b5680f9d732b7.png",
@@ -10,6 +10,7 @@
     "static/media/1.png": "./static/media/1.1d6c9555a498c8f2dbcf.png",
     "static/media/9.png": "./static/media/9.137cdc4e5a10085b8b60.png",
     "static/media/about_2.png": "./static/media/about_2.39f9146ec431107a8cb1.png",
+    "static/media/10.png": "./static/media/10.50e35120d00ec4c81a7b.png",
     "static/media/philosopher_bold_italic.eot": "./static/media/philosopher_bold_italic.e88fa16105e5247a4164.eot",
     "static/media/philosopher_bold_italic.ttf": "./static/media/philosopher_bold_italic.aabf68ea2cbf84b9ef2c.ttf",
     "static/media/2.png": "./static/media/2.2e94945b20b266f65f04.png",
@@ -33,11 +34,11 @@
     "static/media/menu.svg": "./static/media/menu.111cfc3a3545a9ff785c.svg",
     "static/media/closemenu.svg": "./static/media/closemenu.80dfd5bd01b8fe0a895e.svg",
     "main.a006f68d.css.map": "./static/css/main.a006f68d.css.map",
-    "main.a2f9a264.js.map": "./static/js/main.a2f9a264.js.map",
+    "main.c2c32674.js.map": "./static/js/main.c2c32674.js.map",
     "787.8411ccae.chunk.js.map": "./static/js/787.8411ccae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a006f68d.css",
-    "static/js/main.a2f9a264.js"
+    "static/js/main.c2c32674.js"
   ]
 }
