@@ -9,12 +9,49 @@ import slide8 from '../images/calculator/8.png';
 import slide9 from '../images/calculator/9.png';
 import slide10 from '../images/calculator/10.png';
 import slide11 from '../images/calculator/11.png';
+
+export const catalog_1 = [
+    {
+        size: "1750 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "2-4",
+        volume: "1400 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "33000 руб",
+        src: slide1
+    },
+
+    {
+        size: "1750 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "2-4",
+        volume: "1400 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "40000 руб",
+        src: slide1
+    },
+
+    {
+        size: "1750 мм",
+        material: "Нержавеющая сталь AISI 304, 2мм",
+        quantity: "2-4",
+        volume: "1400 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "102000 руб",
+        src: slide2
+    },
+
+]
+
+
 export const toppings = [
     {
         name: "Сталь СТЗ, 2мм",
         price: 33000,
         src: slide1
-
     },
     {
         name: "Сталь СТЗ, 3мм",
