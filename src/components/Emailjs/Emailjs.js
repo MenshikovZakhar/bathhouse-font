@@ -12,7 +12,7 @@ import {
 } from '../../constants/index';
 import success from '../../images/success.png';
 import error from '../../images/error.png';
-function Emailjs({ isOpen, onClose, }) {
+function Emailjs({ isOpen, onClose, card }) {
     const classPopup = classNames(`popup`, {
         popup_opened: isOpen
     });
@@ -116,6 +116,7 @@ function Emailjs({ isOpen, onClose, }) {
                             onChange={handleChange}
                             placeholder='Укажите желаемый вид, оказываемых услуг, время и удобную для Вас дату'
                         />
+                        <p>{card.price}</p>
                         <button disabled={!isFormValid} type="submit"
                             className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>
                             Отправить</button>

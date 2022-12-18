@@ -7,12 +7,14 @@ import Catalog from '../Catalog/Catalog';
 import Emailjs from '../Emailjs/Emailjs';
 function App() {
   const [isOrderbuyOpen, sethandleOrderbuyOpen] = useState(false);
+  const [selectedCard, setSelectedCard] = useState({});
   const closePopupsMessage = () => {
     sethandleOrderbuyOpen(false);
   };
 
   //открытие попапа онлайн записи
-  const handleOrderbuy = () => {
+  const handleOrderbuy = (card) => {
+    setSelectedCard(card);
     sethandleOrderbuyOpen(true)
   }
   return (
@@ -32,6 +34,7 @@ function App() {
       <Emailjs
         isOpen={isOrderbuyOpen}
         onClose={closePopupsMessage}
+        card={selectedCard}
       />
     </div>
   )

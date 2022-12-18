@@ -2,7 +2,9 @@ import React from 'react';
 import './Сard.css';
 function Сard({ card, onOrderbuy }) {
 
-
+    function handleClick() {
+        onOrderbuy(card);
+    }
     return (
         <li className="elements__card">
             <img className="image" src={card.src} />
@@ -36,7 +38,7 @@ function Сard({ card, onOrderbuy }) {
                     <p className="card__characteristic">{card.price}</p>
                 </div>
             </div>
-            <button type="button" onClick={onOrderbuy}>Заказать</button>
+            <button type="button" onClick={handleClick}>Заказать</button>
         </li>
     )
 }
