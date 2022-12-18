@@ -35,7 +35,7 @@ export const catalog_1 = [
 
     {
         size: "1750 мм",
-        material: "Нержавеющая сталь AISI 304, 2мм",
+        material: "Нерж. сталь, 2мм",
         quantity: "2-4",
         volume: "1400 л",
         finishing: "Под отделку",

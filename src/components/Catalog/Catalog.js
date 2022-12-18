@@ -19,7 +19,6 @@ function Catalog({ }) {
             />
             <main className='сatalog'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
-
                 <>
                     <section className='portfolio-card'>
                         <h2 className="сatalog__title">Купель</h2>
