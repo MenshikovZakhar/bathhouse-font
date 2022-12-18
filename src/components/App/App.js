@@ -1,9 +1,20 @@
 import { Route, Switch } from 'react-router-dom';
+import { useState } from 'react';
 import './App.css';
 import Main from '../Main/Main';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import Catalog from '../Catalog/Catalog';
+import Emailjs from '../Emailjs/Emailjs';
 function App() {
+  const [isOrderbuyOpen, sethandleOrderbuyOpen] = useState(false);
+  const closePopupsMessage = () => {
+    sethandleOrderbuyOpen(false);
+  };
+
+  //открытие попапа онлайн записи
+  const handleOrderbuy = () => {
+    sethandleOrderbuyOpen(true)
+  }
   return (
     <div className='page'>
       <Switch>
@@ -12,12 +23,16 @@ function App() {
           />
         </Route>
         <Route exact path='/catalog'>
-          <Catalog />
+          <Catalog onOrderbuy={handleOrderbuy} />
         </Route>
         <Route path='*'>
           <PageNotFound />
         </Route>
       </Switch>
+      <Emailjs
+        isOpen={isOrderbuyOpen}
+        onClose={closePopupsMessage}
+      />
     </div>
   )
 }

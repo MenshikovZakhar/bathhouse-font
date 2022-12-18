@@ -1,6 +1,6 @@
 import React from 'react';
 import './Сard.css';
-function Сard({ card }) {
+function Сard({ card, onOrderbuy }) {
 
 
     return (
@@ -36,6 +36,7 @@ function Сard({ card }) {
                     <p className="card__characteristic">{card.price}</p>
                 </div>
             </div>
+            <button type="button" onClick={onOrderbuy}>Заказать</button>
         </li>
     )
 }
