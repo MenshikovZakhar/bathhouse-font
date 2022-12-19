@@ -124,7 +124,7 @@ function Emailjs({ isOpen, onClose, card }) {
                             type="text"
                             name='price'
 
-                            value={toSend.price}
+                            value={toSend.price || ''}
 
 
                         />
