@@ -21,7 +21,9 @@ function Emailjs({ isOpen, onClose, card }) {
         name: '',
         phone: '',
         message: '',
+        price: '555'
     });
+
     const [errors, setErrors] = useState({});
     const [isFormValid, setIsFormValid] = useState(false);
     const [messageAcceptAuth, setMessageAcceptAuth] = useState('');
@@ -30,10 +32,10 @@ function Emailjs({ isOpen, onClose, card }) {
     const onSubmit = (e) => {
         e.preventDefault();
         send(
-            'service_ap6gpqg',
-            'template_ity9nob',
+            'service_jqb24ow',
+            'template_mlgutby',
             toSend,
-            'Z6le3YMDE9ovmwfTV'
+            '-LJby7CkMCeE2d5DF'
         )
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
@@ -50,7 +52,6 @@ function Emailjs({ isOpen, onClose, card }) {
         setEmailjsOpen(true)
     };
 
-
     const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
         setErrors({ ...errors, [e.target.name]: e.target.validationMessage });
@@ -64,6 +65,7 @@ function Emailjs({ isOpen, onClose, card }) {
         if (e.target === e.currentTarget) {
             onClose();
             setEmailjsOpen(false)
+            setToSend('');
         }
     };
 
@@ -116,7 +118,17 @@ function Emailjs({ isOpen, onClose, card }) {
                             onChange={handleChange}
                             placeholder='Укажите желаемый вид, оказываемых услуг, время и удобную для Вас дату'
                         />
-                        <p>{card.price}</p>
+
+                        <input
+                            className='emailjs__input'
+                            type="text"
+                            name='price'
+
+                            value={toSend.price}
+
+
+                        />
+
                         <button disabled={!isFormValid} type="submit"
                             className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>
                             Отправить</button>
@@ -142,7 +154,7 @@ function Emailjs({ isOpen, onClose, card }) {
                 aria-label='Close'
                 className='emailjs__close'
                 type='button'
-                onClick={() => { setEmailjsOpen(false); onClose(false) }}
+                onClick={() => { setToSend(''); setEmailjsOpen(false); onClose(false) }}
             ></button>
 
         </div>

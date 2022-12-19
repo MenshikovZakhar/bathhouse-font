@@ -8,7 +8,7 @@ import Calculator from './Calculator/Calculator';
 import { toppings } from "../../constants/arrayPortfolio";
 import { top } from "../../constants/arrayPortfolio";
 ;
-function Main({ }) {
+function Main({ onOrderbuy }) {
     return (
         <>
             <Helmet>
@@ -24,9 +24,13 @@ function Main({ }) {
                 <About />
                 <Calculator
                     toppings={toppings}
+                    onOrderbuy={onOrderbuy}
+
                 />
                 <Calculator
                     toppings={top}
+                    onOrderbuy={onOrderbuy}
+
                 />
             </main>
             <Footer />

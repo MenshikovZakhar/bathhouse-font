@@ -22,6 +22,7 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <Main
+            onOrderbuy={handleOrderbuy}
           />
         </Route>
         <Route exact path='/catalog'>

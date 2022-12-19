@@ -5,10 +5,12 @@ import "./Calculator.css";
 
 const getFormattedPrice = (price) => `₽ ${price.toFixed(2)}`;
 
-function Calculator({ toppings }) {
+function Calculator({ toppings, onOrderbuy }) {
     const [checkedState, setCheckedState] = useState(
         new Array(toppings.length).fill(false)
     );
+
+
 
     const [total, setTotal] = useState(0);
 
@@ -31,6 +33,10 @@ function Calculator({ toppings }) {
 
         setTotal(totalPrice);
     };
+
+    function handleClick() {
+        onOrderbuy(total);
+    }
 
     return (
         <div className="App">
@@ -64,10 +70,8 @@ function Calculator({ toppings }) {
                     </div>
                 </li>
             </ul>
+            <button type="button" onClick={handleClick}>Заказать</button>
         </div>
-
-
-
     );
 }
 
