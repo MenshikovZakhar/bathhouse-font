@@ -73,7 +73,7 @@ export default function Emailjs({ isOpen, card, onClose, }) {
                     <h2 className='emailjs__title'>Оставьте Вашу заявку.</h2>
                     <p className='emailjs__text'>Я свяжусь с Вами в ближайшее время.</p>
                     <form onSubmit={sendEmail} className="emailjs__form">
-
+                        <input type="text" name="name" />
                         <input type="text" name="message" defaultValue={card.material} />
                         <input type="text" name="price" defaultValue={card.price} />
 
