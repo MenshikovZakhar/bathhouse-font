@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Сard from '../Сard/Сard';
 import { catalog_1 } from '../../constants/arrayPortfolio';
 
-function Catalog({ onOrderbuy }) {
+function Catalog({ onOrderbuy, }) {
     return (
         <>
             <Helmet>

@@ -1,5 +1,5 @@
 import { Route, Switch } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, } from 'react';
 import './App.css';
 import Main from '../Main/Main';
 import PageNotFound from '../PageNotFound/PageNotFound';
@@ -22,11 +22,11 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <Main
-            onOrderbuy={handleOrderbuy}
           />
         </Route>
         <Route exact path='/catalog'>
-          <Catalog onOrderbuy={handleOrderbuy} />
+          <Catalog onOrderbuy={handleOrderbuy}
+            cardx={selectedCard} />
         </Route>
         <Route path='*'>
           <PageNotFound />
