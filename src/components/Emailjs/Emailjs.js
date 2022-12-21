@@ -32,14 +32,14 @@ export default function Emailjs({ isOpen, card, onClose, }) {
 
 
     function sendEmail(e) {
-        e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+        e.preventDefault();
 
         emailjs.sendForm('service_jqb24ow', 'template_mlgutby', e.target, '-LJby7CkMCeE2d5DF')
             .then((response) => {
                 window.location.reload()
                 console.log('SUCCESS!', response.status, response.text);
                 setMessageAcceptAuth(SAVE_MOVIE_MESSAGE);
-                setImgAcceptAuth(success);  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+                setImgAcceptAuth(success);
             }).catch((err) => {
                 console.log('FAILED...', err);
                 setMessageAcceptAuth(NOT_FOUND_MESSAGE);
@@ -47,6 +47,15 @@ export default function Emailjs({ isOpen, card, onClose, }) {
             });
         setEmailjsOpen(true)
     }
+
+    const handleChange = (e) => {
+
+        setErrors({ ...errors, [e.target.name]: e.target.validationMessage });
+        setIsFormValid(e.target.closest('form').checkValidity());
+        setImgAcceptAuth("")
+        setMessageAcceptAuth("");
+        setIsLoading(false);
+    };
 
     const handleMouseDown = (e) => {
         if (e.target === e.currentTarget) {
@@ -73,11 +82,36 @@ export default function Emailjs({ isOpen, card, onClose, }) {
                     <h2 className='emailjs__title'>Оставьте Вашу заявку.</h2>
                     <p className='emailjs__text'>Я свяжусь с Вами в ближайшее время.</p>
                     <form onSubmit={sendEmail} className="emailjs__form">
-                        <input type="text" name="name" />
-                        <input type="text" name="message" defaultValue={card.material} />
-                        <input type="text" name="price" defaultValue={card.price} />
 
-                        <input type="submit" value="Send" />
+                        <input
+                            className='emailjs__input'
+                            type='text'
+                            name='name'
+                            placeholder='Введите Ваше Имя'
+                            onChange={handleChange}
+                            pattern="[а-яА-Яa-zA-ZёË\- ]{2,}"
+                            required
+                        />
+                        <span className="register__error auth__error">{errors.name}</span>
+
+                        <input
+                            className='emailjs__input'
+                            type="tel"
+                            name='phone'
+                            placeholder='Введите Ваш телефон'
+                            onChange={handleChange}
+                            pattern="[0-9]{11}"
+                            required
+                        />
+                        <span className="register__error auth__error">{errors.phone}</span>
+                        <p className='emailjs__input' name="message" defaultValue={card.material}>{card.material}</p>
+                        <p className='emailjs__input' name="price" defaultValue={card.price}>{card.price}</p>
+                        <input className='emailjs__input_1' type="text" name="message" defaultValue={card.material} />
+                        <input className='emailjs__input_1' type="text" name="price" defaultValue={card.price} />
+                        <button disabled={!isFormValid} type="submit"
+                            className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>
+                            Заказать</button>
+
 
                         <p className='emailjs__text_2'>Также для связи со мной Вы можете воспользоваться любым из доступных способов.</p>
                         <div className='emailjs__iqons'>

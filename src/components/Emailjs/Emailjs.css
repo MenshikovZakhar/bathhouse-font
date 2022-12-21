@@ -126,6 +126,11 @@
     width: 400px;
 }
 
+.emailjs__input_1 {
+    width: 400px;
+    display: none;
+}
+
 .emailjs__iqons {
     margin-left: 0px;
 }
