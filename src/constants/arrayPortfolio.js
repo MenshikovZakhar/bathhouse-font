@@ -12,6 +12,7 @@ import slide11 from '../images/calculator/11.png';
 
 export const catalog_1 = [
     {
+        product: "Купель",
         size: "1750 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "2-4",
@@ -23,6 +24,7 @@ export const catalog_1 = [
     },
 
     {
+        product: "Купель",
         size: "1750 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "2-4",
@@ -34,6 +36,7 @@ export const catalog_1 = [
     },
 
     {
+        product: "Купель",
         size: "1750 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "2-4",
@@ -43,6 +46,55 @@ export const catalog_1 = [
         price: "102000 руб",
         src: slide2
     },
+
+    {
+        product: "Купель",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "39000 руб",
+        src: slide1
+    },
+
+    {
+        product: "Купель",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "46000 руб",
+        src: slide1
+    },
+
+    {
+        product: "Купель",
+        size: "2000 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "110000 руб",
+        src: slide2
+    },
+
+    {
+        product: "Купель",
+        size: "2000 мм",
+        material: "Нерж. сталь, 3мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "141000 руб",
+        src: slide2
+    },
+
 
 ]
 
