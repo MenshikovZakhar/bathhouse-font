@@ -19,6 +19,8 @@
     text-align: center;
 }
 
+
+
 @media(max-width: 1300px) {
     .elements {
         width: 950px;

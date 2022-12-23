@@ -26,7 +26,7 @@ function App() {
         </Route>
         <Route exact path='/catalog'>
           <Catalog onOrderbuy={handleOrderbuy}
-            cardx={selectedCard} />
+            cardx={selectedCard} type={'all'} />
         </Route>
         <Route path='*'>
           <PageNotFound />
