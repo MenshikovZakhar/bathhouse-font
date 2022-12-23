@@ -112,7 +112,7 @@ export const catalog_1 = [
         size: "2350 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "6-8",
-        volume: "1900 л",
+        volume: "2200 л",
         finishing: "Под отделку",
         equipment: " ",
         price: "138000 руб",
@@ -124,7 +124,7 @@ export const catalog_1 = [
         size: "2350 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "6-8",
-        volume: "1900 л",
+        volume: "2200 л",
         finishing: "Под отделку",
         equipment: " ",
         price: "195000 руб",
@@ -158,7 +158,7 @@ export const catalog_1 = [
     {
         product: "Купель с отделкой деревом",
         size: "1750 мм",
-        material: "Сталь СТЗ, 2мм",
+        material: "Нерж. сталь, 2мм",
         quantity: "2-4",
         volume: "1400 л",
         finishing: "Отделка деревом",
@@ -167,7 +167,89 @@ export const catalog_1 = [
         src: slide12
     },
 
+    {
+        product: "Купель с отделкой деревом",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "57000 руб",
+        src: slide3
+    },
 
+    {
+        product: "Купель с отделкой деревом",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "64000 руб",
+        src: slide3
+    },
+
+    {
+        product: "Купель с отделкой деревом",
+        size: "2000 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "128000 руб",
+        src: slide12
+    },
+
+    {
+        product: "Купель с отделкой деревом",
+        size: "2000 мм",
+        material: "Нерж. сталь, 3мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "159000 руб",
+        src: slide12
+    },
+
+    {
+        product: "Купель с отделкой деревом",
+        size: "2350 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "6-8",
+        volume: "2200 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "80000 руб",
+        src: slide3
+    },
+
+    {
+        product: "Купель с отделкой деревом",
+        size: "2350 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "6-8",
+        volume: "2200 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "158000 руб",
+        src: slide12
+    },
+
+    {
+        product: "Купель с отделкой деревом",
+        size: "2350 мм",
+        material: "Нерж. сталь, 3мм",
+        quantity: "6-8",
+        volume: "2200 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "215000 руб",
+        src: slide12
+    },
 ]
 
 
