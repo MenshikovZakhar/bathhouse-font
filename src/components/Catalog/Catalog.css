@@ -3,8 +3,8 @@
     margin: 0 auto;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
     justify-content: center;
@@ -16,4 +16,16 @@
     font-weight: 900;
     margin: 10px auto;
     text-align: center;
+}
+
+@media(max-width: 1300px) {
+    .elements {
+        width: 950px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .elements {
+        width: 950px;
+    }
 }
