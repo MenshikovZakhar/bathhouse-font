@@ -38,7 +38,7 @@ function Сard({ card, onOrderbuy }) {
                     <p className="card__characteristic">{card.price}</p>
                 </div>
             </div>
-            <button type="button" onClick={handleClick}>Заказать</button>
+            <button className="card__button" type="button" onClick={handleClick}>Заказать</button>
         </li>
     )
 }
