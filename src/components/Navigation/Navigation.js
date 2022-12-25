@@ -27,7 +27,7 @@ function Navigation() {
                 <NavLink
                     to='/catalog'
                     className={({ isActive }) =>
-                        isActive ? 'nav__link-2 active' : 'nav__link-2'
+                        isActive ? 'nav__link active' : 'nav__link'
                     }
                 >
                     Каталог

@@ -85,6 +85,12 @@
     opacity: 0.6;
 }
 
+
+.nav-movie__link-adapt:hover {
+    padding-bottom: 10px;
+    font-size: 21px;
+}
+
 .nav-movie__link-adapt_profile {
     text-decoration: none;
     color: black;

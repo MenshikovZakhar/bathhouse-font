@@ -35,22 +35,11 @@
 }
 
 .nav__link:hover {
-    opacity: 1.0;
+    opacity: 0.8;
+    padding-bottom: 10px;
+    font-size: 23px;
 }
 
-.nav__link-2:hover {
-    opacity: 1.0;
-}
-
-.nav__link-2 {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-right: 50px;
-    position: relative;
-    align-items: center;
-    height: 50%;
-    display: flex;
-}
 
 .active {
     border: 2px solid;
@@ -68,10 +57,6 @@
         margin-right: 40px;
     }
 
-    .nav__link-2 {
-        margin-right: 40px;
-    }
-
 }
 
 @media screen and (max-width: 1100px) {
@@ -86,9 +71,6 @@
         margin-right: 30px;
     }
 
-    .nav__link-2 {
-        margin-right: 30px;
-    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -96,18 +78,10 @@
         margin-right: 10px;
     }
 
-    .nav__link-2 {
-        margin-right: 10px;
-    }
-
 }
 
 @media screen and (max-width: 900px) {
     .nav__link {
-        margin-right: 20px;
-    }
-
-    .nav__link-2 {
         margin-right: 20px;
     }
 
@@ -122,6 +96,11 @@
         padding-right: 3px;
     }
 
+    .nav__link:hover {
+        font-size: 20px;
+    }
+
+
 }
 
 @media screen and (max-width: 800px) {
@@ -129,18 +108,11 @@
         margin-right: 15px;
     }
 
-    .nav__link-2 {
-        margin-right: 15px;
-    }
 }
 
 
 @media screen and (max-width: 768px) {
     .nav__link {
-        margin-right: 20px;
-    }
-
-    .nav__link-2 {
         margin-right: 20px;
     }
 
@@ -154,13 +126,13 @@
         padding-right: 3px;
     }
 
+    .nav__link:hover {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
-
-    .nav__link-2 {
-        margin-right: 10px;
-    }
 
     .nav__link {
         margin-right: 10px;
@@ -169,10 +141,6 @@
 
 @media screen and (max-width: 650px) {
     .nav__link {
-        margin-right: 10px;
-    }
-
-    .nav__link-2 {
         margin-right: 10px;
     }
 
