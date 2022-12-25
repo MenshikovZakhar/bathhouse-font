@@ -66,7 +66,7 @@ function Catalog({ onOrderbuy, type }) {
                 </>
                 <>
                     <section className='сatalog-card'>
-                        <h2 className="сatalog__title">Купель</h2>
+                        <h2 className="сatalog__title">Купели</h2>
                         <ul className='elements'>
                             {type === 'all' ?
                                 catalog_1.slice(0, counter).map((card, index) => {

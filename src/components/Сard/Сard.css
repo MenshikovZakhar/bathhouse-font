@@ -48,8 +48,10 @@
     margin: 10px auto;
     align-items: center;
     display: flex;
-    background-color: #2BE080;
+    background-color: #00990F;
     cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: none;
 }
 
 .card__button:hover {
