@@ -4,6 +4,7 @@ import './App.css';
 import Main from '../Main/Main';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import Catalog from '../Catalog/Catalog';
+import Catalog_3 from '../Catalog/Catalog_3';
 import Emailjs from '../Emailjs/Emailjs';
 function App() {
   const [isOrderbuyOpen, sethandleOrderbuyOpen] = useState(false);
@@ -27,6 +28,10 @@ function App() {
         <Route exact path='/catalog'>
           <Catalog onOrderbuy={handleOrderbuy}
             cardx={selectedCard} type={'all'} />
+        </Route>
+
+        <Route exact path='/catalog_3'>
+          <Catalog_3 />
         </Route>
         <Route path='*'>
           <PageNotFound />

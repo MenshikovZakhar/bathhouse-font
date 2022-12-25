@@ -7,12 +7,15 @@ import ScrollToTop from "react-scroll-to-top";
 import Сard from '../Сard/Сard';
 import { catalog_1 } from '../../constants/arrayPortfolio';
 import { More } from './More/More';
+import CatalogNav from './CatalogNav/CatalogNav';
 import {
     WIDTH_1279,
     WIDTH_767,
+    WIDTH_530,
     NUMBER_OF_CARDS_OVER_1279,
     NUMBER_OF_CARDS_OVER_767,
-    NUMBER_OF_CARDS_LESS_767,
+    NUMBER_OF_CARDS_OVER_530,
+    NUMBER_OF_CARDS_LESS_530,
     ADD_NUMBER_CARD_3,
     ADD_NUMBER_CARD_2,
     ADD_NUMBER_CARD_1,
@@ -30,8 +33,14 @@ function Catalog({ onOrderbuy, type }) {
         } else if (width > WIDTH_767) {
             setCounter(NUMBER_OF_CARDS_OVER_767);
             return setMoreCard(ADD_NUMBER_CARD_2);
-        } else setCounter(NUMBER_OF_CARDS_LESS_767);
+        }
+        else if (width > WIDTH_530) {
+            setCounter(NUMBER_OF_CARDS_OVER_530);
+            return setMoreCard(ADD_NUMBER_CARD_1);
+        }
+        else setCounter(NUMBER_OF_CARDS_LESS_530);
         return setMoreCard(ADD_NUMBER_CARD_1);
+
     };
 
     useEffect(() => {
@@ -52,6 +61,9 @@ function Catalog({ onOrderbuy, type }) {
             />
             <main className='сatalog'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+                <>
+                    <CatalogNav />
+                </>
                 <>
                     <section className='сatalog-card'>
                         <h2 className="сatalog__title">Купель</h2>

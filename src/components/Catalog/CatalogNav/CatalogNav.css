@@ -1,0 +1,132 @@
+.portfolionav__link {
+    text-decoration: none;
+    color: #140800;
+    position: relative;
+    align-items: center;
+    height: 50px;
+    display: flex;
+
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    justify-content: center;
+}
+
+.portfolionav__link:hover {
+    box-shadow: 0px 5px 40px 20px rgb(204, 151, 4);
+    transition: opacity 0.9s;
+}
+
+.active:hover {
+    box-shadow: none;
+    transition: none;
+}
+
+.portfolionav__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    max-width: 700px;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 25px;
+    align-items: center;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.active {
+    background-image: none;
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding-bottom: 0px;
+}
+
+@media(max-width: 1280px) {
+    .portfolionav__menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        max-width: 700px;
+        height: 100%;
+    }
+
+    .portfolionav__link {
+        height: 50px;
+    }
+}
+
+
+@media(max-width: 1050px) {
+    .portfolionav__menu {
+        max-width: 800px;
+    }
+}
+
+@media(max-width: 980px) {
+    .portfolionav__menu {
+        max-width: 760px;
+    }
+}
+
+@media(max-width: 950px) {
+    .portfolionav__menu {
+        max-width: 800px;
+    }
+}
+
+@media(max-width: 900px) {
+    .portfolionav__menu {
+        max-width: 790px;
+    }
+}
+
+@media(max-width: 880px) {
+    .portfolionav__menu {
+        max-width: 760px;
+    }
+}
+
+@media(max-width: 850px) {
+    .portfolionav__menu {
+        max-width: 770px;
+    }
+}
+
+@media(max-width: 790px) {
+    .portfolionav__menu {
+        max-width: 520px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .portfolionav__link {
+        height: 40px;
+    }
+}
+
+@media(max-width: 530px) {
+    .portfolionav__menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 440px) {
+    .portfolionav__menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+
+    .portfolionav__link {
+        height: 40px;
+    }
+}
