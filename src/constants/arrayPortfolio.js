@@ -323,7 +323,7 @@ export const toppings = [
 export const top = [
     {
         name: "Сталь СТЗ, 2мм",
-        price: 33000,
+        price: 35000,
         src: slide1
 
     },

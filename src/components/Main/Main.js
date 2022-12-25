@@ -4,7 +4,7 @@ import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
 import About from './About/About';
-import Calculator from './Calculator/Calculator';
+import Calculator from '../Calculator/Calculator';
 import { toppings } from "../../constants/arrayPortfolio";
 import { top } from "../../constants/arrayPortfolio";
 ;

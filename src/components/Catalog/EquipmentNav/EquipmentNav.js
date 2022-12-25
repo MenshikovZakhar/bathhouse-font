@@ -1,40 +1,40 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import './CatalogNav.css';
+import './EquipmentNav.css';
 
 
 
-function PortfolioNav() {
+function EquipmentNav() {
 
     return (
         <>
             <nav className='catalog__menu'>
 
                 <NavLink
-                    to='/catalog'
+                    to='/equipment_4'
                     className={({ isActive }) =>
                         isActive ? 'catalog__link active' : 'catalog__link'
                     }
                 >
-                    Купели
+                    До 4 человек
                 </NavLink>
 
                 <NavLink
-                    to='/catalog_2'
+                    to='/equipment_6'
                     className={({ isActive }) =>
                         isActive ? 'catalog__link active' : 'catalog__link'
                     }
                 >
-                    Готовые решения
+                    До 6 человек
                 </NavLink>
 
                 <NavLink
-                    to='catalog_3'
+                    to='equipment_8'
                     className={({ isActive }) =>
                         isActive ? 'catalog__link active' : 'catalog__link'
                     }
                 >
-                    Собери свой чан
+                    До 8 человек
                 </NavLink>
 
             </nav>
@@ -43,4 +43,4 @@ function PortfolioNav() {
     );
 };
 
-export default PortfolioNav; 
+export default EquipmentNav; 
