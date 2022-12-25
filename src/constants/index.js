@@ -1,6 +1,6 @@
 // Ширина экрана
-export const WIDTH_1279 = 1050;
-export const WIDTH_767 = 767;
+export const WIDTH_1279 = 1300;
+export const WIDTH_767 = 800;
 
 // Количество карточек на экране
 export const NUMBER_OF_CARDS_OVER_1279 = 16;
