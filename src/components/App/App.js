@@ -5,8 +5,7 @@ import Main from '../Main/Main';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import Catalog from '../Catalog/Catalog';
 import Catalog_3 from '../Catalog/Catalog_3';
-import Catalog_4 from '../Catalog/Catalog_4';
-import Catalog_5 from '../Catalog/Catalog_5';
+
 import Emailjs from '../Emailjs/Emailjs';
 function App() {
   const [isOrderbuyOpen, sethandleOrderbuyOpen] = useState(false);
@@ -34,12 +33,7 @@ function App() {
         <Route exact path='/catalog_3'>
           <Catalog_3 />
         </Route>
-        <Route exact path='/catalog_4'>
-          <Catalog_4 />
-        </Route>
-        <Route exact path='/catalog_5'>
-          <Catalog_5 />
-        </Route>
+
         <Route path='*'>
           <PageNotFound />
         </Route>

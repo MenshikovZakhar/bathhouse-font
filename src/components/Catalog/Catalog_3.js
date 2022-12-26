@@ -7,17 +7,31 @@ import EquipmentNav from './EquipmentNav/EquipmentNav';
 import CatalogNav from './CatalogNav/CatalogNav';
 import { Route, Switch } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import Calculator from '../Calculator/Calculator';
-import { toppings } from "../../constants/arrayPortfolio";
-import { top } from "../../constants/arrayPortfolio";
+import Calculator_1 from '../Calculator/Calculator_1';
+import Calculator_2 from '../Calculator/Calculator_2';
 function Catalog_3({ }) {
-    const [selectedCard, setSelectedCard] = useState([]);
-    function handleClick() {
-        setSelectedCard(top);
-    }
-    function handleClick_1() {
-        setSelectedCard(toppings);
-    }
+
+    const [toggle, setToggle] = useState(true);
+    const [toggles, setToggles] = useState(true);
+
+    useEffect(() => {
+        setToggle(true);
+        setToggles(false);
+    }, []);
+
+    const onClickOpenMenu = () => {
+        setToggle(true);
+        setToggles(false);
+    };
+
+    const onClickOpenMenus = () => {
+        setToggles(true);
+        setToggle(false);
+    };
+
+    const onClickCloseMenu = () => {
+        setToggle(true);
+    };
     return (
         <>
             <Helmet>
@@ -36,11 +50,23 @@ function Catalog_3({ }) {
                 <>
                     <section className='сatalog-card'>
                         <h2 className="сatalog__title">Выбери и рассчитай свою комплектацию</h2>
-                        <EquipmentNav />
-                        <Calculator
-                            toppings={toppings}
-                        />
+                        <div className='сatalog-button'>
+                            <button className="card__button" onClick={onClickOpenMenu}>4</button>
+                            <button className="card__button" onClick={onClickOpenMenus}>6</button>
+                        </div>
+                        {toggle
+                            ? <Calculator_1 />
+                            : null
+                        }
+
+                        {toggles
+                            ? <Calculator_2 />
+                            : null
+                        }
+
+
                     </section>
+
                 </>
 
             </main>

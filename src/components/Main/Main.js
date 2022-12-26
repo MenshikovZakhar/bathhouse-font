@@ -4,7 +4,7 @@ import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
 import About from './About/About';
-import Calculator from '../Calculator/Calculator';
+import Calculator from '../Calculator/Calculator_1';
 import { toppings } from "../../constants/arrayPortfolio";
 import { top } from "../../constants/arrayPortfolio";
 ;
@@ -22,16 +22,7 @@ function Main({ onOrderbuy }) {
             <main className='content'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
                 <About />
-                <Calculator
-                    toppings={toppings}
-                    onOrderbuy={onOrderbuy}
 
-                />
-                <Calculator
-                    toppings={top}
-                    onOrderbuy={onOrderbuy}
-
-                />
             </main>
             <Footer />
 

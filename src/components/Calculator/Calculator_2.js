@@ -1,13 +1,12 @@
 import { useState } from "react";
-
-
+import { top } from "../../constants/arrayPortfolio";
 import "./Calculator.css";
 
 const getFormattedPrice = (price) => `₽ ${price.toFixed(2)}`;
 
-function Calculator({ toppings, onOrderbuy }) {
+function Calculator_2({ onOrderbuy }) {
     const [checkedState, setCheckedState] = useState(
-        new Array(toppings.length).fill(false)
+        new Array(top.length).fill(false)
     );
 
 
@@ -24,7 +23,7 @@ function Calculator({ toppings, onOrderbuy }) {
         const totalPrice = updatedCheckedState.reduce(
             (sum, currentState, index) => {
                 if (currentState === true) {
-                    return sum + toppings[index].price;
+                    return sum + top[index].price;
                 }
                 return sum;
             },
@@ -39,7 +38,7 @@ function Calculator({ toppings, onOrderbuy }) {
         <div className="App">
             <h3>Select Toppings</h3>
             <ul className="toppings-list">
-                {toppings.map(({ name, price, src }, index) => {
+                {top.map(({ name, price, src }, index) => {
                     return (
                         <li key={index}>
                             <div className="toppings-list-item">
@@ -72,4 +71,4 @@ function Calculator({ toppings, onOrderbuy }) {
     );
 }
 
-export default Calculator;
+export default Calculator_2;
