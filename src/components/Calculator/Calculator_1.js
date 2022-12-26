@@ -4,14 +4,17 @@ import "./Calculator.css";
 
 const getFormattedPrice = (price) => `₽ ${price.toFixed(2)}`;
 
-function Calculator_1({ onOrderbuy }) {
+function Calculator_1({ onCalcbuy }) {
     const [checkedState, setCheckedState] = useState(
         new Array(toppings.length).fill(false)
     );
 
-
+    function handleClick() {
+        onCalcbuy(tot);
+    }
 
     const [total, setTotal] = useState(0);
+    const [tot, setTot] = useState();
 
     const handleOnChange = (position) => {
         const updatedCheckedState = checkedState.map((item, index) =>
@@ -30,12 +33,25 @@ function Calculator_1({ onOrderbuy }) {
             0
         );
 
+        const checkedItems = updatedCheckedState.reduce(
+            (sum, currentState, index) => {
+                if (currentState === true) {
+                    return sum + ' ' + toppings[index].name + '; ';
+                }
+                return sum;
+            },
+            'Комплектация:'
+        );
+
+        setTot(checkedItems);
         setTotal(totalPrice);
     };
 
 
     return (
         <div className="App">
+            <h3>{tot}</h3>
+            <h3>Цена: {total}</h3>
             <h3>Select Toppings</h3>
             <ul className="toppings-list">
                 {toppings.map(({ name, price, src }, index) => {
@@ -65,6 +81,7 @@ function Calculator_1({ onOrderbuy }) {
                         <div className="right-section">{getFormattedPrice(total)}</div>
                     </div>
                 </li>
+                <button className="card__button" type="button" onClick={handleClick}>Заказать</button>
             </ul>
 
         </div>

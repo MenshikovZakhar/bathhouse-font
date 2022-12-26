@@ -3,13 +3,11 @@ import Footer from '../Footer/Footer';
 import './Catalog.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
-import EquipmentNav from './EquipmentNav/EquipmentNav';
 import CatalogNav from './CatalogNav/CatalogNav';
-import { Route, Switch } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Calculator_1 from '../Calculator/Calculator_1';
 import Calculator_2 from '../Calculator/Calculator_2';
-function Catalog_3({ }) {
+function Catalog_3({ onCalcbuy }) {
 
     const [toggle, setToggle] = useState(true);
     const [toggles, setToggles] = useState(true);
@@ -55,7 +53,8 @@ function Catalog_3({ }) {
                             <button className="card__button" onClick={onClickOpenMenus}>6</button>
                         </div>
                         {toggle
-                            ? <Calculator_1 />
+                            ? <Calculator_1 onCalcbuy={onCalcbuy}
+                            />
                             : null
                         }
 
