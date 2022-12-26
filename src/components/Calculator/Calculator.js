@@ -34,9 +34,6 @@ function Calculator({ toppings, onOrderbuy }) {
         setTotal(totalPrice);
     };
 
-    function handleClick() {
-        onOrderbuy(total);
-    }
 
     return (
         <div className="App">
@@ -70,7 +67,7 @@ function Calculator({ toppings, onOrderbuy }) {
                     </div>
                 </li>
             </ul>
-            <button type="button" onClick={handleClick}>Заказать</button>
+
         </div>
     );
 }

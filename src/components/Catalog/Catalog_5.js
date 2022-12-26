@@ -10,7 +10,9 @@ import { useState, useEffect } from 'react';
 import Calculator from '../Calculator/Calculator';
 import { toppings } from "../../constants/arrayPortfolio";
 import { top } from "../../constants/arrayPortfolio";
-function Catalog_3({ }) {
+import { topp } from "../../constants/arrayPortfolio";
+
+function Catalog_5({ }) {
     const [selectedCard, setSelectedCard] = useState([]);
     function handleClick() {
         setSelectedCard(top);
@@ -38,7 +40,7 @@ function Catalog_3({ }) {
                         <h2 className="сatalog__title">Выбери и рассчитай свою комплектацию</h2>
                         <EquipmentNav />
                         <Calculator
-                            toppings={toppings}
+                            toppings={topp}
                         />
                     </section>
                 </>
@@ -49,4 +51,4 @@ function Catalog_3({ }) {
     );
 }
 
-export default Catalog_3;
+export default Catalog_5;

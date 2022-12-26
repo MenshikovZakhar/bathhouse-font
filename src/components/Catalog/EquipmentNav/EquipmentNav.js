@@ -11,7 +11,7 @@ function EquipmentNav() {
             <nav className='catalog__menu'>
 
                 <NavLink
-                    to='/equipment_4'
+                    to='/catalog_3'
                     className={({ isActive }) =>
                         isActive ? 'catalog__link active' : 'catalog__link'
                     }
@@ -20,7 +20,7 @@ function EquipmentNav() {
                 </NavLink>
 
                 <NavLink
-                    to='/equipment_6'
+                    to='/catalog_4'
                     className={({ isActive }) =>
                         isActive ? 'catalog__link active' : 'catalog__link'
                     }
@@ -29,7 +29,7 @@ function EquipmentNav() {
                 </NavLink>
 
                 <NavLink
-                    to='equipment_8'
+                    to='catalog_5'
                     className={({ isActive }) =>
                         isActive ? 'catalog__link active' : 'catalog__link'
                     }
