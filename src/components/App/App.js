@@ -11,6 +11,7 @@ function App() {
   const [isOrderbuyOpen, sethandleOrderbuyOpen] = useState(false);
   const [isCalcbuyOpen, sethandleCalcbuyOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState({});
+  const [selectedCar, setSelectedCar] = useState();
   const closePopupsMessage = () => {
     sethandleOrderbuyOpen(false);
     sethandleCalcbuyOpen(false)
@@ -20,11 +21,13 @@ function App() {
   const handleOrderbuy = (card) => {
     setSelectedCard(card);
     sethandleOrderbuyOpen(true)
+
   }
 
   //открытие попапа онлайн записи
   const handleCalcbuy = (card) => {
     sethandleCalcbuyOpen(true)
+    setSelectedCar(card);
   }
   return (
     <div className='page'>
@@ -38,7 +41,7 @@ function App() {
             cardx={selectedCard} type={'all'} />
         </Route>
         <Route exact path='/catalog_3'>
-          <Catalog_3 onCalcbuy={handleCalcbuy} card={selectedCard} />
+          <Catalog_3 onCalcbuy={handleCalcbuy} t={selectedCar} />
         </Route>
 
         <Route path='*'>
@@ -54,7 +57,7 @@ function App() {
       <Emailjscalc
         isOpen={isCalcbuyOpen}
         onClose={closePopupsMessage}
-        card={selectedCard}
+        card={selectedCar}
       />
     </div>
   )

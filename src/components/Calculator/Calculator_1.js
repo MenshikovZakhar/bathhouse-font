@@ -4,13 +4,15 @@ import "./Calculator.css";
 
 const getFormattedPrice = (price) => `₽ ${price.toFixed(2)}`;
 
-function Calculator_1({ onCalcbuy }) {
+function Calculator_1({ onCalcbuy, t }) {
     const [checkedState, setCheckedState] = useState(
         new Array(toppings.length).fill(false)
     );
 
+
+
     function handleClick() {
-        onCalcbuy(tot);
+        onCalcbuy(total);
     }
 
     const [total, setTotal] = useState(0);
@@ -81,7 +83,7 @@ function Calculator_1({ onCalcbuy }) {
                         <div className="right-section">{getFormattedPrice(total)}</div>
                     </div>
                 </li>
-                <button className="card__button" type="button" onClick={handleClick}>Заказать</button>
+                <button className="card__button" type="button" t={tot} onClick={handleClick}>Заказать</button>
             </ul>
 
         </div>
