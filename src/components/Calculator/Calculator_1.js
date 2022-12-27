@@ -12,7 +12,7 @@ function Calculator_1({ onCalcbuy, onCalcb }) {
 
     function handleClick() {
         onCalcbuy(tot);
-
+        onCalcb(total);
     }
 
     const [total, setTotal] = useState(0);
@@ -83,7 +83,7 @@ function Calculator_1({ onCalcbuy, onCalcb }) {
                         <div className="right-section">{getFormattedPrice(total)}</div>
                     </div>
                 </li>
-                <button className="card__button" type="button" t={tot} onClick={handleClick} >Заказать</button>
+                <button className="card__button" type="button" onClick={handleClick} >Заказать</button>
             </ul>
 
         </div>

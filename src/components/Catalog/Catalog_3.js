@@ -7,7 +7,7 @@ import CatalogNav from './CatalogNav/CatalogNav';
 import { useState, useEffect } from 'react';
 import Calculator_1 from '../Calculator/Calculator_1';
 import Calculator_2 from '../Calculator/Calculator_2';
-function Catalog_3({ onCalcbuy }) {
+function Catalog_3({ onCalcbuy, onCalcb }) {
 
     const [toggle, setToggle] = useState(true);
     const [toggles, setToggles] = useState(true);
@@ -54,6 +54,7 @@ function Catalog_3({ onCalcbuy }) {
                         </div>
                         {toggle
                             ? <Calculator_1 onCalcbuy={onCalcbuy}
+                                onCalcb={onCalcb}
 
                             />
                             : null
