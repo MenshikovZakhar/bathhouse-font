@@ -11,7 +11,7 @@ function App() {
   const [isOrderbuyOpen, sethandleOrderbuyOpen] = useState(false);
   const [isCalcbuyOpen, sethandleCalcbuyOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState({});
-  const [selectedCar, setSelectedCar] = useState();
+  const [selectedCar, setSelectedCar] = useState([]);
   const closePopupsMessage = () => {
     sethandleOrderbuyOpen(false);
     sethandleCalcbuyOpen(false)
@@ -41,7 +41,7 @@ function App() {
             cardx={selectedCard} type={'all'} />
         </Route>
         <Route exact path='/catalog_3'>
-          <Catalog_3 onCalcbuy={handleCalcbuy} t={selectedCar} />
+          <Catalog_3 onCalcbuy={handleCalcbuy} />
         </Route>
 
         <Route path='*'>
@@ -58,6 +58,7 @@ function App() {
         isOpen={isCalcbuyOpen}
         onClose={closePopupsMessage}
         card={selectedCar}
+
       />
     </div>
   )

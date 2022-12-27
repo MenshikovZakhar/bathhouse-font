@@ -104,6 +104,8 @@ export default function Emailjs({ isOpen, card, onClose, }) {
                             required
                         />
                         <span className="register__error auth__error">{errors.phone}</span>
+                        <input className='emailjs__input_1' type="text" name="product" defaultValue={card} />
+
                         <p className='emailjs__input'>{card}</p>
 
                         <button disabled={!isFormValid} type="submit"
