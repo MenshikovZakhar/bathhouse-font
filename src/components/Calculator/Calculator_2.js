@@ -52,7 +52,7 @@ function Calculator_2({ onCalcbuy, onCalcb }) {
 
     return (
         <div className="App">
-            <h3>Select Toppings</h3>
+            <h3>Ø 2000 мм. 4–6 человека</h3>
             <ul className="calculator-list">
                 {top.map(({ name, price, src, size }, index) => {
                     return (

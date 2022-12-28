@@ -59,9 +59,9 @@ function Catalog_3({ onCalcbuy, onCalcb }) {
                     <section className='сatalog-card'>
                         <h2 className="сatalog__title">Выбери и рассчитай свою комплектацию</h2>
                         <div className='сatalog-button'>
-                            <button className="card__button" onClick={onClickOpenMenu}>4</button>
-                            <button className="card__button" onClick={onClickOpenMenus}>6</button>
-                            <button className="card__button" onClick={onClickOpenMen}>8</button>
+                            <button className="card__buttons" onClick={onClickOpenMenu}>1750 мм. 2– 4 человека</button>
+                            <button className="card__buttons" onClick={onClickOpenMenus}>2000 мм. 4–6 человека</button>
+                            <button className="card__buttons" onClick={onClickOpenMen}>2350 мм. 6–8 человека</button>
                         </div>
                         {toggle
                             ? <Calculator_1 onCalcbuy={onCalcbuy}

@@ -22,6 +22,8 @@
 .сatalog-button {
     display: flex;
     flex-direction: row;
+    width: 700px;
+    margin: 0 auto;
 }
 
 @media(max-width: 1300px) {
@@ -54,6 +56,56 @@
         grid-template-rows: 1fr 1fr;
         width: 520px;
     }
+
+    .сatalog__title {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .сatalog-button {
+        width: 600px;
+
+    }
+
+}
+
+.card__buttons {
+    border-radius: 7px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+    background-color: #00990F;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.card__buttons:hover {
+    transform: scale(1.3);
+}
+
+.card__buttons:active {
+    transform: scale(1.2);
+    transition: opacity 0.9s;
+}
+
+@media(max-width: 1000px) {
+    .card__buttons {
+        line-height: 25px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 620px) {
+    .сatalog-button {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media(max-width: 530px) {
@@ -63,4 +115,10 @@
         align-items: center;
         width: 250px;
     }
+
+    .сatalog__title {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
 }
