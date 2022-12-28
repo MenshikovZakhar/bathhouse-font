@@ -105,9 +105,9 @@ export default function Emailjs({ isOpen, card, onClose, }) {
                         />
                         <span className="register__error auth__error">{errors.phone}</span>
                         <p className='emailjs__input'>{card.product}</p>
-                        <p className='emailjs__input'>{card.size}</p>
-                        <p className='emailjs__input'>{card.material}</p>
-                        <p className='emailjs__input'>{card.price}</p>
+                        <p className='emailjs__input'>Диаметр: {card.size}</p>
+                        <p className='emailjs__input'>Материал: {card.material}</p>
+                        <p className='emailjs__input'>Стоимость заказа: {card.price}</p>
                         <input className='emailjs__input_1' type="text" name="product" defaultValue={card.product} />
                         <input className='emailjs__input_1' type="text" name="size" defaultValue={card.size} />
                         <input className='emailjs__input_1' type="text" name="material" defaultValue={card.material} />

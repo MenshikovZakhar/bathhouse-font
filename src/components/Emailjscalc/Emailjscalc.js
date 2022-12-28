@@ -106,8 +106,8 @@ export default function Emailjs({ isOpen, card, cards, onClose, }) {
                         <span className="register__error auth__error">{errors.phone}</span>
                         <input className='emailjs__input_1' type="text" name="product" defaultValue={card} />
                         <input className='emailjs__input_1' type="text" name="price" defaultValue={cards} />
-                        <p className='emailjs__input'>{card}</p>
-                        <p className='emailjs__input'>{cards}</p>
+
+                        <p className='emailjs__input'>Стоимость заказа: {cards} рублей</p>
                         <button disabled={!isFormValid} type="submit"
                             className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>
                             Заказать</button>

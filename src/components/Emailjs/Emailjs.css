@@ -132,7 +132,8 @@
 }
 
 .emailjs__iqons {
-    margin-left: 0px;
+    width: 220px;
+    margin: 0 auto;
 }
 
 .info-image {
@@ -190,6 +191,26 @@
     }
 }
 
+@media(max-width: 520px) {
+    .emailjs__iqons {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 450px) {
+    .emailjs__iqons {
+        width: 180px;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
 @media(max-width: 430px) {
     .emailjs__close {
         top: 10px;
@@ -241,7 +262,8 @@
     }
 
     .emailjs__iqons {
-        margin-left: 15px;
+        margin-left: 60px;
+        width: 300px;
     }
 
     .emailjs__message {

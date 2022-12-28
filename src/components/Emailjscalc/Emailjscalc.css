@@ -131,10 +131,6 @@
     display: none;
 }
 
-.emailjs__iqons {
-    margin-left: 0px;
-}
-
 .info-image {
     width: 150px;
     height: 170px;
@@ -238,10 +234,6 @@
 
     .auth__submit-button {
         width: 280px;
-    }
-
-    .emailjs__iqons {
-        margin-left: 15px;
     }
 
     .emailjs__message {

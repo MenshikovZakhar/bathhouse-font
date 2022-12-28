@@ -85,7 +85,7 @@ function Calculator_1({ onCalcbuy, onCalcb }) {
                 <div className="right-section">{getFormattedPrice(total)}</div>
             </div>
 
-            <button className="card__button" type="button" onClick={handleClick} >Заказать</button>
+            <button className="calculator__button" type="button" onClick={handleClick} >Заказать</button>
         </div>
     );
 }
