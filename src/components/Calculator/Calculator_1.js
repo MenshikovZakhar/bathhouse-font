@@ -38,7 +38,7 @@ function Calculator_1({ onCalcbuy, onCalcb }) {
         const checkedItems = updatedCheckedState.reduce(
             (sum, currentState, index) => {
                 if (currentState === true) {
-                    return sum + ' ' + toppings[index].name + '; ';
+                    return sum + ' ' + toppings[index].name + ' - ⌀' + toppings[index].size + '; ';
                 }
                 return sum;
             },
@@ -52,24 +52,23 @@ function Calculator_1({ onCalcbuy, onCalcb }) {
 
     return (
         <div className="App">
-            <h3>{tot}</h3>
-            <h3>Цена: {total}</h3>
             <h3>Select Toppings</h3>
-            <ul className="toppings-list">
-                {toppings.map(({ name, price, src }, index) => {
+            <ul className="calculator-list">
+                {toppings.map(({ name, price, src, size }, index) => {
                     return (
                         <li key={index}>
                             <div className="toppings-list-item">
+                                <input
+                                    className="calculator__input"
+                                    type="checkbox"
+                                    id={`custom-checkbox-${index}`}
+                                    name={name}
+                                    value={name}
+                                    checked={checkedState[index]}
+                                    onChange={() => handleOnChange(index)}
+                                />
                                 <img className="image_2" src={src} />
                                 <div className="left-section">
-                                    <input
-                                        type="checkbox"
-                                        id={`custom-checkbox-${index}`}
-                                        name={name}
-                                        value={name}
-                                        checked={checkedState[index]}
-                                        onChange={() => handleOnChange(index)}
-                                    />
                                     <label htmlFor={`custom-checkbox-${index}`}>{name}</label>
                                 </div>
                                 <div className="right-section">{getFormattedPrice(price)}</div>

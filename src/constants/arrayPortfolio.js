@@ -255,64 +255,76 @@ export const catalog_1 = [
 
 export const toppings = [
     {
+        size: "1750 мм",
         name: "Сталь СТЗ, 2мм",
         price: 33000,
         src: slide1
     },
     {
+        size: "1750 мм",
         name: "Сталь СТЗ, 3мм",
         price: 40000,
         src: slide1
     },
     {
+        size: "1750 мм",
         name: "Нержавеющая сталь AISI 304, 2мм",
         price: 102000,
         src: slide2
     },
     {
+        size: "1750 мм",
         name: "Отделка деревом",
         price: 15000,
         src: slide3
     },
     {
+        size: "1750 мм",
         name: "Подставка каркас",
         price: 9000,
         src: slide4
     },
     {
+        size: "1750 мм",
         name: "Подставка ветрозащита",
         price: 20000,
         src: slide5
     },
     {
+        size: "1750 мм",
         name: "Подставка печь",
         price: 37000,
         src: slide6
     },
     {
+        size: "1750 мм",
         name: "Дымоход из нержавейки",
         price: 5000,
         src: slide7
     },
 
     {
+        size: "1750 мм",
         name: "Лестница из сосны подставная",
         price: 5000,
         src: slide8
     },
     {
-        name: "Лестница с подставкой из металлокаркаса",
-        price: 37000,
+        size: "1750 мм",
+        name: "Лестница из металлокаркаса",
+        price: 14000,
         src: slide9
     },
 
     {
+        size: "1750 мм",
         name: "Крышка",
         price: 12000,
         src: slide11
     },
 
     {
+        size: "1750 мм",
         name: "Столик из нержавеющей стали",
         price: 12000,
         src: slide10
@@ -322,134 +334,164 @@ export const toppings = [
 
 export const top = [
     {
+        size: "2000 мм",
         name: "Сталь СТЗ, 2мм",
-        price: 35000,
+        price: 39000,
         src: slide1
 
     },
     {
+        size: "2000 мм",
         name: "Сталь СТЗ, 3мм",
-        price: 40000,
+        price: 46000,
         src: slide1
     },
     {
+        size: "2000 мм",
         name: "Нержавеющая сталь AISI 304, 2мм",
-        price: 102000,
+        price: 110000,
         src: slide2
     },
     {
+        size: "2000 мм",
+        name: "Нержавеющая сталь AISI 304, 3мм",
+        price: 141000,
+        src: slide2
+    },
+    {
+        size: "2000 мм",
         name: "Отделка деревом",
-        price: 15000,
+        price: 18000,
         src: slide3
     },
     {
+        size: "2000 мм",
         name: "Подставка каркас",
-        price: 9000,
+        price: 10000,
         src: slide4
     },
     {
+        size: "2000 мм",
         name: "Подставка ветрозащита",
-        price: 20000,
+        price: 21500,
         src: slide5
     },
     {
+        size: "2000 мм",
         name: "Подставка печь",
-        price: 37000,
+        price: 39000,
         src: slide6
     },
     {
+        size: "2000 мм",
         name: "Дымоход из нержавейки",
         price: 5000,
         src: slide7
     },
 
     {
+        size: "2000 мм",
         name: "Лестница из сосны подставная",
         price: 5000,
         src: slide8
     },
     {
-        name: "Лестница с подставкой из металлокаркаса",
-        price: 37000,
+        size: "2000 мм",
+        name: "Лестница из металлокаркаса",
+        price: 14000,
         src: slide9
     },
 
     {
+        size: "2000 мм",
         name: "Крышка",
         price: 12000,
         src: slide11
     },
 
     {
+        size: "2000 мм",
         name: "Столик из нержавеющей стали",
         price: 12000,
-        src: slide1
+        src: slide10
     },
 ];
 
 export const topp = [
-    {
-        name: "Сталь СТЗ, 2мм",
-        price: 35000,
-        src: slide1
 
-    },
     {
+        size: "2350 мм",
         name: "Сталь СТЗ, 3мм",
-        price: 40000,
+        price: 60000,
         src: slide1
     },
     {
+        size: "2350 мм",
         name: "Нержавеющая сталь AISI 304, 2мм",
-        price: 102000,
+        price: 138000,
         src: slide2
     },
     {
+        size: "2350 мм",
+        name: "Нержавеющая сталь AISI 304, 3мм",
+        price: 195000,
+        src: slide2
+    },
+    {
+        size: "2350 мм",
         name: "Отделка деревом",
-        price: 15000,
+        price: 20000,
         src: slide3
     },
     {
+        size: "2350 мм",
         name: "Подставка каркас",
-        price: 9000,
+        price: 11000,
         src: slide4
     },
     {
+        size: "2350 мм",
         name: "Подставка ветрозащита",
-        price: 20000,
+        price: 24000,
         src: slide5
     },
     {
+        size: "2350 мм",
         name: "Подставка печь",
-        price: 37000,
+        price: 54000,
         src: slide6
     },
     {
+        size: "2350 мм",
         name: "Дымоход из нержавейки",
         price: 5000,
         src: slide7
     },
 
     {
+        size: "2350 мм",
         name: "Лестница из сосны подставная",
         price: 5000,
         src: slide8
     },
     {
-        name: "Лестница с подставкой из металлокаркаса",
-        price: 37000,
+        size: "2350 мм",
+        name: "Лестница из металлокаркаса",
+        price: 14000,
         src: slide9
     },
 
     {
+        size: "2350 мм",
         name: "Крышка",
         price: 12000,
         src: slide11
     },
 
     {
+        size: "2350 мм",
         name: "Столик из нержавеющей стали",
         price: 12000,
-        src: slide1
+        src: slide10
     },
 ];

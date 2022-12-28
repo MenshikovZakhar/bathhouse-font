@@ -4,14 +4,19 @@ import "./Calculator.css";
 
 const getFormattedPrice = (price) => `₽ ${price.toFixed(2)}`;
 
-function Calculator_2({ onOrderbuy }) {
+function Calculator_2({ onCalcbuy, onCalcb }) {
     const [checkedState, setCheckedState] = useState(
         new Array(top.length).fill(false)
     );
 
 
+    function handleClick() {
+        onCalcbuy(tot);
+        onCalcb(total);
+    }
 
     const [total, setTotal] = useState(0);
+    const [tot, setTot] = useState([]);
 
     const handleOnChange = (position) => {
         const updatedCheckedState = checkedState.map((item, index) =>
@@ -30,6 +35,17 @@ function Calculator_2({ onOrderbuy }) {
             0
         );
 
+        const checkedItems = updatedCheckedState.reduce(
+            (sum, currentState, index) => {
+                if (currentState === true) {
+                    return sum + ' ' + top[index].name + ' - ⌀' + top[index].size + '; ';
+                }
+                return sum;
+            },
+            'Комплектация:'
+        );
+
+        setTot(checkedItems);
         setTotal(totalPrice);
     };
 
@@ -37,8 +53,8 @@ function Calculator_2({ onOrderbuy }) {
     return (
         <div className="App">
             <h3>Select Toppings</h3>
-            <ul className="toppings-list">
-                {top.map(({ name, price, src }, index) => {
+            <ul className="calculator-list">
+                {top.map(({ name, price, src, size }, index) => {
                     return (
                         <li key={index}>
                             <div className="toppings-list-item">
@@ -65,6 +81,7 @@ function Calculator_2({ onOrderbuy }) {
                         <div className="right-section">{getFormattedPrice(total)}</div>
                     </div>
                 </li>
+                <button className="card__button" type="button" onClick={handleClick} >Заказать</button>
             </ul>
 
         </div>

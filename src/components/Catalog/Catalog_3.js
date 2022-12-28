@@ -7,24 +7,34 @@ import CatalogNav from './CatalogNav/CatalogNav';
 import { useState, useEffect } from 'react';
 import Calculator_1 from '../Calculator/Calculator_1';
 import Calculator_2 from '../Calculator/Calculator_2';
+import Calculator_3 from '../Calculator/Calculator_3';
 function Catalog_3({ onCalcbuy, onCalcb }) {
 
     const [toggle, setToggle] = useState(true);
     const [toggles, setToggles] = useState(true);
-
+    const [toggl, setToggl] = useState(true);
     useEffect(() => {
         setToggle(true);
         setToggles(false);
+        setToggl(false);
     }, []);
 
     const onClickOpenMenu = () => {
         setToggle(true);
         setToggles(false);
+        setToggl(false);
     };
 
     const onClickOpenMenus = () => {
         setToggles(true);
         setToggle(false);
+        setToggl(false);
+    };
+
+    const onClickOpenMen = () => {
+        setToggl(true);
+        setToggle(false);
+        setToggles(false);
     };
 
     const onClickCloseMenu = () => {
@@ -51,6 +61,7 @@ function Catalog_3({ onCalcbuy, onCalcb }) {
                         <div className='сatalog-button'>
                             <button className="card__button" onClick={onClickOpenMenu}>4</button>
                             <button className="card__button" onClick={onClickOpenMenus}>6</button>
+                            <button className="card__button" onClick={onClickOpenMen}>8</button>
                         </div>
                         {toggle
                             ? <Calculator_1 onCalcbuy={onCalcbuy}
@@ -61,11 +72,14 @@ function Catalog_3({ onCalcbuy, onCalcb }) {
                         }
 
                         {toggles
-                            ? <Calculator_2 />
+                            ? <Calculator_2 onCalcbuy={onCalcbuy} onCalcb={onCalcb} />
                             : null
                         }
 
-
+                        {toggl
+                            ? <Calculator_3 onCalcbuy={onCalcbuy} onCalcb={onCalcb} />
+                            : null
+                        }
                     </section>
 
                 </>
