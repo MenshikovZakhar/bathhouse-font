@@ -80,6 +80,22 @@ h3 {
     font-weight: 900;
 }
 
+.total-list-item {
+    font-size: 20px;
+    border: 5px solid #ff0000;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.total-section {
+    font-size: 20px;
+
+}
+
 @media screen and (max-width: 950px) {
     .image_2 {
         width: 150px;
@@ -128,6 +144,21 @@ h3 {
     .toppings-list-item {
         height: 220px;
         width: 200px;
+    }
+
+    .total-list-item {
+        font-size: 15px;
+        border: 5px solid #ff0000;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        margin: 20px auto;
+    }
+
+    .total-section {
+        font-size: 18px;
     }
 
 }

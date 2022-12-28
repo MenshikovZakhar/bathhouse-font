@@ -76,15 +76,16 @@ function Calculator_1({ onCalcbuy, onCalcb }) {
                         </li>
                     );
                 })}
-                <li>
-                    <div className="toppings-list-item">
-                        <div className="left-section">Total:</div>
-                        <div className="right-section">{getFormattedPrice(total)}</div>
-                    </div>
-                </li>
-                <button className="card__button" type="button" onClick={handleClick} >Заказать</button>
-            </ul>
 
+
+
+            </ul>
+            <div className="total-list-item">
+                <div className="total-section">Общая стоимость:</div>
+                <div className="right-section">{getFormattedPrice(total)}</div>
+            </div>
+
+            <button className="card__button" type="button" onClick={handleClick} >Заказать</button>
         </div>
     );
 }

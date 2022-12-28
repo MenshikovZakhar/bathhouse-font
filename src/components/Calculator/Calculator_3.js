@@ -58,16 +58,17 @@ function Calculator_2({ onCalcbuy, onCalcb }) {
                     return (
                         <li key={index}>
                             <div className="toppings-list-item">
+                                <input
+                                    className="calculator__input"
+                                    type="checkbox"
+                                    id={`custom-checkbox-${index}`}
+                                    name={name}
+                                    value={name}
+                                    checked={checkedState[index]}
+                                    onChange={() => handleOnChange(index)}
+                                />
                                 <img className="image_2" src={src} />
                                 <div className="left-section">
-                                    <input
-                                        type="checkbox"
-                                        id={`custom-checkbox-${index}`}
-                                        name={name}
-                                        value={name}
-                                        checked={checkedState[index]}
-                                        onChange={() => handleOnChange(index)}
-                                    />
                                     <label htmlFor={`custom-checkbox-${index}`}>{name}</label>
                                 </div>
                                 <div className="right-section">{getFormattedPrice(price)}</div>
@@ -75,15 +76,13 @@ function Calculator_2({ onCalcbuy, onCalcb }) {
                         </li>
                     );
                 })}
-                <li>
-                    <div className="toppings-list-item">
-                        <div className="left-section">Total:</div>
-                        <div className="right-section">{getFormattedPrice(total)}</div>
-                    </div>
-                </li>
-                <button className="card__button" type="button" onClick={handleClick} >Заказать</button>
             </ul>
+            <div className="total-list-item">
+                <div className="total-section">Общая стоимость:</div>
+                <div className="right-section">{getFormattedPrice(total)}</div>
+            </div>
 
+            <button className="card__button" type="button" onClick={handleClick} >Заказать</button>
         </div>
     );
 }
