@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { top } from "../../constants/arrayPortfolio";
 import "./Calculator.css";
 
@@ -9,6 +9,7 @@ function Calculator_2({ onCalcbuy, onCalcb }) {
         new Array(top.length).fill(false)
     );
 
+    const [fixedHeader, setFixedHeader] = useState(false);
 
     function handleClick() {
         onCalcbuy(tot);
@@ -49,7 +50,15 @@ function Calculator_2({ onCalcbuy, onCalcb }) {
         setTotal(totalPrice);
     };
 
-
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 150) {
+                setFixedHeader(true);
+            } else {
+                setFixedHeader(false);
+            }
+        });
+    }, []);
     return (
         <div className="App">
             <h3>Ø 2000 мм. 4–6 человека</h3>
@@ -76,10 +85,8 @@ function Calculator_2({ onCalcbuy, onCalcb }) {
                         </li>
                     );
                 })}
-
-
             </ul>
-            <div className="total-list-item">
+            <div className={fixedHeader ? 'total-list-item_active' : 'total-list-item'}>
                 <div className="total-section">Общая стоимость:</div>
                 <div className="right-section">{getFormattedPrice(total)}</div>
             </div>
