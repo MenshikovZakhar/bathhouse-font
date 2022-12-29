@@ -5,6 +5,7 @@ import Main from '../Main/Main';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import Catalog from '../Catalog/Catalog';
 import Catalog_3 from '../Catalog/Catalog_3';
+import Catalog_2 from '../Catalog/Catalog_2'
 import Emailjs from '../Emailjs/Emailjs';
 import Emailjscalc from '../Emailjscalc/Emailjscalc';
 function App() {
@@ -44,6 +45,10 @@ function App() {
         </Route>
         <Route exact path='/catalog'>
           <Catalog onOrderbuy={handleOrderbuy}
+            cardx={selectedCard} type={'all'} />
+        </Route>
+        <Route exact path='/catalog_2'>
+          <Catalog_2 onOrderbuy={handleOrderbuy}
             cardx={selectedCard} type={'all'} />
         </Route>
         <Route exact path='/catalog_3'>
