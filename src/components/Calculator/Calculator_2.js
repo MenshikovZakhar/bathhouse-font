@@ -67,15 +67,18 @@ function Calculator_2({ onCalcbuy, onCalcb }) {
                     return (
                         <li key={index}>
                             <div className="toppings-list-item">
-                                <input
-                                    className="calculator__input"
-                                    type="checkbox"
-                                    id={`custom-checkbox-${index}`}
-                                    name={name}
-                                    value={name}
-                                    checked={checkedState[index]}
-                                    onChange={() => handleOnChange(index)}
-                                />
+                                <label className="calculator__container">
+                                    <input
+                                        className="calculator__input"
+                                        type="checkbox"
+                                        id={`custom-checkbox-${index}`}
+                                        name={name}
+                                        value={name}
+                                        checked={checkedState[index]}
+                                        onChange={() => handleOnChange(index)}
+                                    />
+                                    <span className="checkmark"></span>
+                                </label>
                                 <img className="image_2" src={src} />
                                 <div className="left-section">
                                     <label htmlFor={`custom-checkbox-${index}`}>{name}</label>
