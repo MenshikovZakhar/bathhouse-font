@@ -12,7 +12,7 @@ export const ADD_NUMBER_CARD_2 = 3;
 export const ADD_NUMBER_CARD_1 = 2;
 
 // Сообщения об успехе операции
-export const SAVE_MOVIE_MESSAGE = 'Ваше сообщение успешно доставлено. Я свяжусь с Вами в ближайшее время.';
+export const SAVE_MOVIE_MESSAGE = 'Ваше сообщение успешно доставлено. Мы свяжемся с Вами в ближайшее время.';
 
 // Ошибки
 export const NOT_FOUND_MESSAGE = 'К сожалению Ваше сообщение не доставлено. Попробуйте ещё раз.';

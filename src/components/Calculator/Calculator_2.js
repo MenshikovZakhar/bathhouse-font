@@ -90,7 +90,7 @@ function Calculator_2({ onCalcbuy, onCalcb }) {
                 })}
             </ul>
             <div className={fixedHeader ? 'total-list-item_active' : 'total-list-item'}>
-                <div className="total-section">Общая стоимость:</div>
+                <div className="total-section">Сумма заказа:</div>
                 <div className="right-section">{getFormattedPrice(total)}</div>
             </div>
 

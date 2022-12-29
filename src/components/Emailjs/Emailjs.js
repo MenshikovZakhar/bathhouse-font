@@ -80,7 +80,7 @@ export default function Emailjs({ isOpen, card, onClose, }) {
                 <img onLoad={() => setIsLoading(true)} style={isLoading ? {} : { display: 'none' }} className="info-image" src={imgAcceptAuth} alt="Отправках" /></div>) :
                 (<div className="emailjs">
                     <h2 className='emailjs__title'>Оставьте Вашу заявку.</h2>
-                    <p className='emailjs__text'>Я свяжусь с Вами в ближайшее время.</p>
+                    <p className='emailjs__text'>Мы свяжемся с Вами в ближайшее время.</p>
                     <form onSubmit={sendEmail} className="emailjs__form">
 
                         <input
@@ -117,7 +117,7 @@ export default function Emailjs({ isOpen, card, onClose, }) {
                             Заказать</button>
 
 
-                        <p className='emailjs__text_2'>Также для связи со мной Вы можете воспользоваться любым из доступных способов.</p>
+                        <p className='emailjs__text_2'>Также для связи с нами Вы можете воспользоваться любым из доступных способов.</p>
                         <div className='emailjs__iqons'>
                             <a href="tel:+79514840077">
                                 <img className='iqons__logo' src={phone} alt='logo' />
