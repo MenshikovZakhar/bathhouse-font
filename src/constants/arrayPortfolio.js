@@ -17,6 +17,7 @@ import slide16 from '../images/calculator/16.png';
 import slide17 from '../images/calculator/17.png';
 import slide18 from '../images/calculator/18.png';
 import slide19 from '../images/calculator/19.png';
+import slide20 from '../images/calculator/20.png';
 export const catalog_1 = [
     {
         product: "Купель",
@@ -738,6 +739,7 @@ export const catalog_3 = [
         price: "244000 руб",
         src: slide19
     },
+
 ]
 
 export const catalog_4 = [
@@ -749,7 +751,7 @@ export const catalog_4 = [
         volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "90000 руб",
+        price: "85000 руб",
         src: slide18
     },
 
@@ -761,7 +763,7 @@ export const catalog_4 = [
         volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "97000 руб",
+        price: "92000 руб",
         src: slide18
     },
 
@@ -773,7 +775,7 @@ export const catalog_4 = [
         volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "159000 руб",
+        price: "154000 руб",
         src: slide18
     },
 
@@ -785,7 +787,7 @@ export const catalog_4 = [
         volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "10100 руб",
+        price: "96000 руб",
         src: slide18
     },
 
@@ -797,7 +799,7 @@ export const catalog_4 = [
         volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "10800 руб",
+        price: "103000 руб",
         src: slide18
     },
 
@@ -809,9 +811,130 @@ export const catalog_4 = [
         volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
+        price: "167000 руб",
+        src: slide18
+    },
+    {
+        product: "Купель с печью",
+        size: "2000 мм",
+        material: "Нерж. сталь, 3мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, дымоход",
+        price: "198000 руб",
+        src: slide18
+    },
+
+    {
+        product: "Купель с печью",
+        size: "2350 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "6-8",
+        volume: "2200 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, дымоход",
+        price: "134000 руб",
+        src: slide18
+    },
+
+    {
+        product: "Купель с печью",
+        size: "2350 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "6-8",
+        volume: "2200 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, дымоход",
+        price: "212000 руб",
+        src: slide18
+    },
+
+    {
+        product: "Купель с печью",
+        size: "2350 мм",
+        material: "Нерж. сталь, 3мм",
+        quantity: "6-8",
+        volume: "2200 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, дымоход",
+        price: "269000 руб",
+        src: slide18
+    },
+
+
+    {
+        product: "Купель с печью",
+        size: "1750 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "2-4",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, лестница, дымоход",
+        price: "90000 руб",
+        src: slide20
+    },
+
+    {
+        product: "Купель с печью",
+        size: "1750 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "2-4",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, лестница, дымоход",
+        price: "97000 руб",
+        src: slide20
+    },
+
+    {
+        product: "Купель с печью",
+        size: "1750 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "2-4",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, лестница, дымоход",
+        price: "159000 руб",
+        src: slide20
+    },
+
+    {
+        product: "Купель с печью",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, лестница, дымоход",
+        price: "101000 руб",
+        src: slide20
+    },
+
+    {
+        product: "Купель с печью",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, лестница, дымоход",
+        price: "108000 руб",
+        src: slide20
+    },
+
+    {
+        product: "Купель с печью",
+        size: "2000 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, лестница, дымоход",
         price: "172000 руб",
-        src: slide18
+        src: slide20
     },
+
     {
         product: "Купель с печью",
         size: "2000 мм",
@@ -819,9 +942,9 @@ export const catalog_4 = [
         quantity: "4-6",
         volume: "1900 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-печь, дымоход",
+        equipment: "подставка-печь, лестница, дымоход",
         price: "203000 руб",
-        src: slide18
+        src: slide20
     },
 
     {
@@ -831,9 +954,9 @@ export const catalog_4 = [
         quantity: "6-8",
         volume: "2200 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-печь, дымоход",
+        equipment: "подставка-печь, лестница, дымоход",
         price: "139000 руб",
-        src: slide18
+        src: slide20
     },
 
     {
@@ -843,9 +966,9 @@ export const catalog_4 = [
         quantity: "6-8",
         volume: "2200 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-печь, дымоход",
+        equipment: "подставка-печь, лестница, дымоход",
         price: "217000 руб",
-        src: slide18
+        src: slide20
     },
 
     {
@@ -855,9 +978,9 @@ export const catalog_4 = [
         quantity: "6-8",
         volume: "2200 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-печь, дымоход",
+        equipment: "подставка-печь, лестница, дымоход",
         price: "274000 руб",
-        src: slide18
+        src: slide20
     },
 ]
 

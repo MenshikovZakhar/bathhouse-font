@@ -9,6 +9,7 @@ h3 {
     opacity: 0;
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 .calculator__input:checked~.checkmark {
