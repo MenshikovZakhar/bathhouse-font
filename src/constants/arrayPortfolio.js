@@ -984,6 +984,34 @@ export const catalog_4 = [
     },
 ]
 
+export const catalog_5 = [
+    {
+        product: "Купель с отделкой деревом",
+        size: "1750 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "2-4",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "59000 руб",
+        src: slide3
+    },
+
+
+    {
+        product: "Купель с отделкой деревом",
+        size: "1750 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "2-4",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "117000 руб",
+        src: slide12
+    },
+]
+
+
 
 export const toppings = [
     {

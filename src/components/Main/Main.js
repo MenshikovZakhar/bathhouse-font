@@ -8,7 +8,49 @@ import About from './About/About';
 import Calculator_4 from '../Calculator/Calculator_4';
 import Calculator_5 from '../Calculator/Calculator_5';
 import Calculator_6 from '../Calculator/Calculator_6';
-function Main({ onCalcbuy, onCalcb }) {
+import { NavLink } from 'react-router-dom';
+import Сard from '../Сard/Сard';
+import { More } from '../Catalog/More/More';
+import { catalog_5 } from '../../constants/arrayPortfolio';
+import {
+    WIDTH_1280,
+    WIDTH_768,
+    WIDTH_540,
+    NUMBER_OF_CARDS_OVER_1280,
+    NUMBER_OF_CARDS_OVER_768,
+    NUMBER_OF_CARDS_OVER_540,
+    NUMBER_OF_CARDS_LESS_540,
+    ADD_NUMBER_CARD_3,
+    ADD_NUMBER_CARD_2,
+    ADD_NUMBER_CARD_1,
+} from '../../constants/index.js';
+function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
+    const [counter, setCounter] = useState();
+    const [moreCard, setMoreCard] = useState();
+
+    const determiningCountCards = (width) => {
+        if (width > WIDTH_1280) {
+            setCounter(NUMBER_OF_CARDS_OVER_1280);
+            return setMoreCard(ADD_NUMBER_CARD_3);
+        } else if (width > WIDTH_768) {
+            setCounter(NUMBER_OF_CARDS_OVER_768);
+            return setMoreCard(ADD_NUMBER_CARD_2);
+        }
+        else if (width > WIDTH_540) {
+            setCounter(NUMBER_OF_CARDS_OVER_540);
+            return setMoreCard(ADD_NUMBER_CARD_1);
+        }
+        else setCounter(NUMBER_OF_CARDS_LESS_540);
+        return setMoreCard(ADD_NUMBER_CARD_1);
+
+    };
+
+    useEffect(() => {
+        const width = window.innerWidth;
+        determiningCountCards(width);
+    }, []);
+
+    const addCounter = () => setCounter((...prev) => Number(prev) + moreCard);
 
     const [toggle, setToggle] = useState(true);
     const [toggles, setToggles] = useState(true);
@@ -53,7 +95,40 @@ function Main({ onCalcbuy, onCalcb }) {
             />
             <main className='content'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+                <section className='сatalog-card'>
+                    <h2 className="сatalog__title">Популярные модели</h2>
+                    <ul className='catalog__elements'>
+                        {type === 'all' ?
+                            catalog_5.slice(0, counter).map((card, index) => {
+                                return (
+                                    <Сard key={index}
+                                        card={card}
+                                        onOrderbuy={onOrderbuy}
+                                    />
+                                );
+                            })
+                            : catalog_5.map((card, index) => {
+                                return (
+                                    <Сard key={index}
+                                        card={card}
+                                        onOrderbuy={onOrderbuy}
+                                    />
+                                );
+                            })}
+                    </ul>
 
+                    <NavLink
+                        to='/catalog'
+                        className='catalog__link'
+                    >
+                        Перейти в каталог
+                    </NavLink>
+
+                    {type === 'all' && catalog_5.length > counter && (
+                        <More addCounter={addCounter} />
+                    )}
+
+                </section>
                 <About />
                 <section className='сatalog-card'>
                     <h2 className="сatalog__title">Выбери и рассчитай свою комплектацию</h2>
