@@ -4,7 +4,7 @@ import "./Calculator.css";
 
 const getFormattedPrice = (price) => `₽ ${price.toFixed(2)}`;
 
-function Calculator_3({ onCalcbuy, onCalcb }) {
+function Calculator_6({ onCalcbuy, onCalcb }) {
     const [checkedState, setCheckedState] = useState(
         new Array(topp.length).fill(false)
     );
@@ -91,7 +91,7 @@ function Calculator_3({ onCalcbuy, onCalcb }) {
                     );
                 })}
             </ul>
-            <div className={fixedHeader ? 'total-list-item_active' : 'total-list-item'}>
+            <div className='total-list-item_active_1'>
                 <div className="total-section">Сумма заказа:</div>
                 <div className="right-section">{getFormattedPrice(total)}</div>
             </div>
@@ -102,4 +102,4 @@ function Calculator_3({ onCalcbuy, onCalcb }) {
     );
 }
 
-export default Calculator_3;
+export default Calculator_6;

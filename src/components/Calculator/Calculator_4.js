@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
-import { topp } from "../../constants/arrayPortfolio";
+import { toppings } from "../../constants/arrayPortfolio";
 import "./Calculator.css";
 
 const getFormattedPrice = (price) => `₽ ${price.toFixed(2)}`;
 
-function Calculator_3({ onCalcbuy, onCalcb }) {
+function Calculator_4({ onCalcbuy, onCalcb }) {
     const [checkedState, setCheckedState] = useState(
-        new Array(topp.length).fill(false)
+        new Array(toppings.length).fill(false)
     );
-
     const [fixedHeader, setFixedHeader] = useState(false);
+
     function handleClick() {
         onCalcbuy(tot);
         onCalcb(total);
@@ -28,7 +28,7 @@ function Calculator_3({ onCalcbuy, onCalcb }) {
         const totalPrice = updatedCheckedState.reduce(
             (sum, currentState, index) => {
                 if (currentState === true) {
-                    return sum + topp[index].price;
+                    return sum + toppings[index].price;
                 }
                 return sum;
             },
@@ -38,7 +38,7 @@ function Calculator_3({ onCalcbuy, onCalcb }) {
         const checkedItems = updatedCheckedState.reduce(
             (sum, currentState, index) => {
                 if (currentState === true) {
-                    return sum + ' ' + topp[index].name + ' - ⌀' + topp[index].size + '; ';
+                    return sum + ' ' + toppings[index].name + ' - ⌀' + toppings[index].size + '; ';
                 }
                 return sum;
             },
@@ -48,6 +48,7 @@ function Calculator_3({ onCalcbuy, onCalcb }) {
         setTot(checkedItems);
         setTotal(totalPrice);
     };
+
     useEffect(() => {
         window.addEventListener('scroll', () => {
             if (window.scrollY >= 150) {
@@ -60,13 +61,12 @@ function Calculator_3({ onCalcbuy, onCalcb }) {
 
     return (
         <div className="App">
-            <h3>Ø 2350 мм. 6–8 человека</h3>
+            <h3>Ø 1750 мм. 2– 4 человека</h3>
             <ul className="calculator-list">
-                {topp.map(({ name, price, src, size }, index) => {
+                {toppings.map(({ name, price, src, size }, index) => {
                     return (
                         <li key={index}>
                             <div className="toppings-list-item">
-
                                 <label className="calculator__container">
                                     <input
                                         className="calculator__input"
@@ -78,9 +78,7 @@ function Calculator_3({ onCalcbuy, onCalcb }) {
                                         onChange={() => handleOnChange(index)}
                                     />
                                     <span className="checkmark"></span>
-
                                 </label>
-
                                 <img className="image_2" src={src} />
                                 <div className="left-section">
                                     <label htmlFor={`custom-checkbox-${index}`}>{name}</label>
@@ -91,15 +89,16 @@ function Calculator_3({ onCalcbuy, onCalcb }) {
                     );
                 })}
             </ul>
-            <div className={fixedHeader ? 'total-list-item_active' : 'total-list-item'}>
+
+
+            <div className='total-list-item_active_1'>
                 <div className="total-section">Сумма заказа:</div>
                 <div className="right-section">{getFormattedPrice(total)}</div>
             </div>
-
 
             <button className="calculator__button" type="button" onClick={handleClick} >Заказать</button>
         </div>
     );
 }
 
-export default Calculator_3;
+export default Calculator_4;

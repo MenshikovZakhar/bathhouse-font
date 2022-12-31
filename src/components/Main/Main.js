@@ -5,9 +5,9 @@ import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
 import About from './About/About';
-import Calculator_1 from '../Calculator/Calculator_1';
-import Calculator_2 from '../Calculator/Calculator_2';
-import Calculator_3 from '../Calculator/Calculator_3';
+import Calculator_4 from '../Calculator/Calculator_4';
+import Calculator_5 from '../Calculator/Calculator_5';
+import Calculator_6 from '../Calculator/Calculator_6';
 function Main({ onCalcbuy, onCalcb }) {
 
     const [toggle, setToggle] = useState(true);
@@ -63,7 +63,7 @@ function Main({ onCalcbuy, onCalcb }) {
                         <button className="card__buttons" onClick={onClickOpenMen}>2350 мм. 6–8 человека</button>
                     </div>
                     {toggle
-                        ? <Calculator_1 onCalcbuy={onCalcbuy}
+                        ? <Calculator_4 onCalcbuy={onCalcbuy}
                             onCalcb={onCalcb}
 
                         />
@@ -71,12 +71,12 @@ function Main({ onCalcbuy, onCalcb }) {
                     }
 
                     {toggles
-                        ? <Calculator_2 onCalcbuy={onCalcbuy} onCalcb={onCalcb} />
+                        ? <Calculator_5 onCalcbuy={onCalcbuy} onCalcb={onCalcb} />
                         : null
                     }
 
                     {toggl
-                        ? <Calculator_3 onCalcbuy={onCalcbuy} onCalcb={onCalcb} />
+                        ? <Calculator_6 onCalcbuy={onCalcbuy} onCalcb={onCalcb} />
                         : null
                     }
                 </section>
