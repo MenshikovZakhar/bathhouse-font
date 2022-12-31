@@ -41,6 +41,7 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <Main
+            onCalcbuy={handleCalcbuy} onCalcb={handleCalcb}
           />
         </Route>
         <Route exact path='/catalog'>
