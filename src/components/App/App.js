@@ -71,7 +71,7 @@ function App() {
         </Route>
         <Route exact path='/portfolio'>
           <Portfolio
-            onCardClick={handleCardClick} />
+            onCardClick={handleCardClick} type={'all'} />
         </Route>
         <Route path='*'>
           <PageNotFound />

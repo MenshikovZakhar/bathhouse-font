@@ -11,6 +11,9 @@ export const ADD_NUMBER_CARD_3 = 4;
 export const ADD_NUMBER_CARD_2 = 3;
 export const ADD_NUMBER_CARD_1 = 2;
 
+export const WIDTH_550 = 530;
+export const NUMBER_OF_CARDS_OVER_550 = 6;
+export const NUMBER_OF_CARDS_LESS_550 = 6;
 
 export const WIDTH_1280 = 1300;
 export const WIDTH_768 = 800;

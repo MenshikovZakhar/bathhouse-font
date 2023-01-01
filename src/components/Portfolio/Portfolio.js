@@ -11,8 +11,8 @@ import {
     WIDTH_530,
     NUMBER_OF_CARDS_OVER_1279,
     NUMBER_OF_CARDS_OVER_767,
-    NUMBER_OF_CARDS_OVER_530,
-    NUMBER_OF_CARDS_LESS_530,
+    NUMBER_OF_CARDS_OVER_550,
+    NUMBER_OF_CARDS_LESS_550,
     ADD_NUMBER_CARD_3,
     ADD_NUMBER_CARD_2,
     ADD_NUMBER_CARD_1,
@@ -26,20 +26,18 @@ function Portfolio({ onCardClick, type }) {
     const determiningCountCards = (width) => {
         if (width > WIDTH_1279) {
             setCounter(NUMBER_OF_CARDS_OVER_1279);
-            return setMoreCard(ADD_NUMBER_CARD_3);
+            return setMoreCard(ADD_NUMBER_CARD_2);
         } else if (width > WIDTH_767) {
             setCounter(NUMBER_OF_CARDS_OVER_767);
             return setMoreCard(ADD_NUMBER_CARD_2);
         }
         else if (width > WIDTH_530) {
-            setCounter(NUMBER_OF_CARDS_OVER_530);
+            setCounter(NUMBER_OF_CARDS_OVER_550);
             return setMoreCard(ADD_NUMBER_CARD_1);
         }
-        else setCounter(NUMBER_OF_CARDS_LESS_530);
+        else setCounter(NUMBER_OF_CARDS_LESS_550);
         return setMoreCard(ADD_NUMBER_CARD_1);
-
     };
-
 
     useEffect(() => {
         const width = window.innerWidth;
@@ -59,6 +57,7 @@ function Portfolio({ onCardClick, type }) {
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
 
                 <section className='portfolio-card'>
+                    <h1 className="about__title">Наши работы</h1>
                     <ul className='portfolio__elements'>
                         {type === 'all'
                             ? portfolio.slice(0, counter).map((image, index) => {
