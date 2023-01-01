@@ -18,6 +18,33 @@ import slide17 from '../images/calculator/17.png';
 import slide18 from '../images/calculator/18.png';
 import slide19 from '../images/calculator/19.png';
 import slide20 from '../images/calculator/20.png';
+import slide21 from '../images/portfolio/1.jpg';
+import slide22 from '../images/portfolio/2.png';
+import slide23 from '../images/portfolio/3.jpg';
+import slide24 from '../images/portfolio/4.jpg';
+import slide25 from '../images/portfolio/5.jpg';
+import slide26 from '../images/portfolio/6.jpg';
+import slide27 from '../images/portfolio/7.jpg';
+import slide28 from '../images/portfolio/8.png';
+import slide29 from '../images/portfolio/9.jpg';
+import slide30 from '../images/portfolio/10.jpg';
+import slide31 from '../images/portfolio/11.jpg';
+import slide32 from '../images/portfolio/12.jpg';
+
+export const portfolio = [
+    { src: slide21 },
+    { src: slide22 },
+    { src: slide23 },
+    { src: slide24 },
+    { src: slide25 },
+    { src: slide26 },
+    { src: slide27 },
+    { src: slide28 },
+    { src: slide29 },
+    { src: slide30 },
+    { src: slide31 },
+    { src: slide32 },
+]
 export const catalog_1 = [
     {
         product: "Купель",

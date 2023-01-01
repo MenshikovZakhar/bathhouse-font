@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './Navigation.css';
 import HiddenMenu from '../HiddenMenu/HiddenMenu';
-import menu_icon from '../../images/menu_icon.png';
 
 function Navigation() {
     const [toggle, setToggle] = useState(true);
