@@ -159,6 +159,7 @@
 
     .about__list {
         gap: 10px;
+        width: 750px;
     }
 }
 
@@ -180,6 +181,11 @@
 @media(max-width: 740px) {
     .about__description {
         max-width: 650px;
+    }
+
+    .about__list {
+        gap: 10px;
+        width: 650px;
     }
 }
 
@@ -214,6 +220,11 @@
 
     .about__description {
         max-width: 600px;
+    }
+
+    .about__list {
+        gap: 10px;
+        width: 600px;
     }
 }
 
@@ -327,7 +338,7 @@
     .about__title {
         font-size: 25px;
         line-height: 30px;
-        width: 200px;
+        width: 300px;
         padding: 10px 0;
     }
 

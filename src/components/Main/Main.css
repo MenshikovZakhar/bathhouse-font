@@ -22,3 +22,14 @@
 .main__link:hover {
     transform: scale(1.3);
 }
+
+.main__title {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    color: #395036;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 400px;
+    padding: 15px 0;
+}

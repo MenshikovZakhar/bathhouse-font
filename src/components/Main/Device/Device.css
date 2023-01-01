@@ -1,0 +1,308 @@
+.device {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.device__description {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: 10px #395036;
+    border-style: ridge;
+    padding: 20px 0;
+    background-color: #eeeeee96;
+    display: flex;
+    flex-direction: column;
+}
+
+.device__about {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.device__about_2 {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.img_device {
+    width: 400px;
+    height: 400px;
+}
+
+.device__text_1 {
+    width: 400px;
+    font-size: 16px;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.device__text {
+    width: 400px;
+    font-size: 16px;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.device__name-title {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0;
+    width: 350px;
+    color: #395036;
+}
+
+@media(max-width: 1500px) {
+    .device__description {
+        max-width: 1300px;
+    }
+}
+
+
+@media(max-width: 1400px) {
+    .device__description {
+        max-width: 1250px;
+    }
+}
+
+@media(max-width: 1350px) {
+    .device__description {
+        max-width: 1200px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .device__description {
+        max-width: 1120px;
+    }
+}
+
+@media(max-width: 1220px) {
+    .device__description {
+        max-width: 1070px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .device__description {
+        max-width: 1000px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .device__description {
+        max-width: 890px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .device__description {
+        max-width: 840px;
+    }
+}
+
+@media(max-width: 870px) {
+    .device__description {
+        max-width: 750px;
+    }
+
+    .img_device {
+        width: 300px;
+        height: 300px;
+    }
+
+    .device__about {
+        width: 600px;
+        gap: 20px;
+    }
+
+    .device__text_1 {
+        padding-top: 0px;
+    }
+}
+
+@media(max-width: 830px) {
+    .device__description {
+        max-width: 720px;
+    }
+}
+
+@media(max-width: 740px) {
+    .device__description {
+        max-width: 650px;
+    }
+
+    .device__about_2 {
+        width: 650px;
+    }
+}
+
+@media(max-width: 680px) {
+    .device__about {
+        width: 600px;
+        gap: 0px;
+    }
+
+    .device__description {
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 650px) {
+    .device__about {
+        width: 550px;
+        gap: 0px;
+    }
+
+    .device__description {
+        max-width: 550px;
+    }
+
+    .img_device {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 570px) {
+
+    .device__about {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .device__description {
+        max-width: 500px;
+    }
+
+    .img_device {
+        width: 300px;
+        height: 300px;
+    }
+
+    .device__about_2 {
+        width: 500px;
+    }
+
+    .device__name-title {
+        margin: 20px auto;
+    }
+}
+
+@media(max-width: 530px) {
+    .device__description {
+        max-width: 450px;
+    }
+
+    .device__about {
+        width: 450px;
+    }
+
+    .device__about_2 {
+        width: 450px;
+    }
+}
+
+@media(max-width: 480px) {
+    .device__description {
+        max-width: 400px;
+    }
+
+    .device__about {
+        width: 400px;
+    }
+
+    .device__about_2 {
+        width: 400px;
+    }
+}
+
+@media(max-width: 440px) {
+    .device__description {
+        max-width: 350px;
+    }
+
+    .device__about {
+        width: 350px;
+    }
+
+    .device__about_2 {
+        width: 350px;
+    }
+
+    .device__text_1 {
+        width: 350px;
+    }
+
+    .device__text {
+        width: 350px;
+    }
+}
+
+@media(max-width: 390px) {
+    .device__description {
+        max-width: 320px;
+    }
+
+    .device__about {
+        width: 320px;
+    }
+
+    .device__about_2 {
+        width: 320px;
+    }
+
+    .device__text_1 {
+        width: 320px;
+    }
+
+    .device__text {
+        width: 320px;
+    }
+
+    .device__name-title {
+        font-size: 25px;
+        line-height: 30px;
+        width: 300px;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 335px) {
+    .device__description {
+        max-width: 295px;
+    }
+
+    .device__about {
+        width: 295px;
+    }
+
+    .device__about_2 {
+        width: 295px;
+    }
+
+    .device__text_1 {
+        width: 295px;
+    }
+
+    .device__text {
+        width: 295px;
+    }
+}

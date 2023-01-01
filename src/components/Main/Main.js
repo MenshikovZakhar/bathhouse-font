@@ -5,6 +5,7 @@ import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
 import About from './About/About';
+import Device from './Device/Device';
 import Calculator_4 from '../Calculator/Calculator_4';
 import Calculator_5 from '../Calculator/Calculator_5';
 import Calculator_6 from '../Calculator/Calculator_6';
@@ -97,7 +98,7 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
             <main className='content'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
                 <section className='сatalog-card'>
-                    <h2 className="сatalog__title">Лучший выбор</h2>
+                    <h2 className="main__title">Популярные комплектации</h2>
                     <ul className='catalog__elements'>
                         {type === 'all' ?
                             catalog_5.slice(0, counter).map((card, index) => {
@@ -130,7 +131,8 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
 
                 </section>
 
-                <About />
+                <Device />
+
                 <section className='сatalog-card'>
                     <h2 className="сatalog__title">Выбери и рассчитай свою комплектацию</h2>
                     <div className='сatalog-button'>
@@ -156,6 +158,9 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
                         : null
                     }
                 </section>
+
+                <About />
+
             </main>
             <Footer />
 
