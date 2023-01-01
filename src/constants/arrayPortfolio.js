@@ -1009,6 +1009,80 @@ export const catalog_5 = [
         price: "117000 руб",
         src: slide12
     },
+
+    {
+        product: "Купель с печью",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, дымоход",
+        price: "103000 руб",
+        src: slide18
+    },
+
+    {
+        product: "Купель с лестницей",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка, лестница",
+        price: "79000 руб",
+        src: slide14
+    },
+
+    {
+        product: "Купель с печью",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, лестница, дымоход",
+        price: "108000 руб",
+        src: slide20
+    },
+
+    {
+        product: "Купель",
+        size: "1750 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "2-4",
+        volume: "1400 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "33000 руб",
+        src: slide1
+    },
+
+
+    {
+        product: "Купель",
+        size: "2000 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "4-6",
+        volume: "1900 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "110000 руб",
+        src: slide2
+    },
+
+    {
+        product: "Купель на подставке-каркас",
+        size: "2350 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "6-8",
+        volume: "2200 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-каркас",
+        price: "91000 руб",
+        src: slide13
+    },
+
 ]
 
 

@@ -52,6 +52,7 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
 
     const addCounter = () => setCounter((...prev) => Number(prev) + moreCard);
 
+
     const [toggle, setToggle] = useState(true);
     const [toggles, setToggles] = useState(true);
     const [toggl, setToggl] = useState(true);
@@ -96,7 +97,7 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
             <main className='content'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
                 <section className='сatalog-card'>
-                    <h2 className="сatalog__title">Популярные модели</h2>
+                    <h2 className="сatalog__title">Лучший выбор</h2>
                     <ul className='catalog__elements'>
                         {type === 'all' ?
                             catalog_5.slice(0, counter).map((card, index) => {
@@ -116,10 +117,9 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
                                 );
                             })}
                     </ul>
-
                     <NavLink
                         to='/catalog'
-                        className='catalog__link'
+                        className='main__link'
                     >
                         Перейти в каталог
                     </NavLink>
@@ -129,6 +129,7 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
                     )}
 
                 </section>
+
                 <About />
                 <section className='сatalog-card'>
                     <h2 className="сatalog__title">Выбери и рассчитай свою комплектацию</h2>

@@ -42,6 +42,8 @@ function App() {
         <Route exact path='/'>
           <Main
             onCalcbuy={handleCalcbuy} onCalcb={handleCalcb}
+            onOrderbuy={handleOrderbuy}
+            cardx={selectedCard} type={'all'}
           />
         </Route>
         <Route exact path='/catalog'>

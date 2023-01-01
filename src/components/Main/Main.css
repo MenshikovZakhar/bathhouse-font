@@ -2,3 +2,18 @@
     background-image: url(../../images/img-top.png);
     background-size: cover;
 }
+
+.main__link {
+    text-decoration: none;
+    color: #140800;
+    position: relative;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    background-size: cover;
+    border-radius: 10px;
+    width: 180px;
+    justify-content: center;
+    border: 2px solid #395036;
+    margin: 0 auto;
+}
