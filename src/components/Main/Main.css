@@ -33,3 +33,17 @@
     width: 400px;
     padding: 15px 0;
 }
+
+@media(max-width: 440px) {
+    .main__title {
+        width: 350px;
+        font-size: 30px
+    }
+}
+
+@media(max-width: 390px) {
+    .main__title {
+        width: 300px;
+        font-size: 25px
+    }
+}
