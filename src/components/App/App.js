@@ -1,4 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import { useState, } from 'react';
 import './App.css';
 import Main from '../Main/Main';
@@ -51,36 +51,38 @@ function App() {
   }
   return (
     <div className='page'>
-      <Switch>
-        <Route exact path='/'>
-          <Main
-            onCalcbuy={handleCalcbuy} onCalcb={handleCalcb}
-            onOrderbuy={handleOrderbuy}
-            cardx={selectedCard} type={'all'}
-          />
-        </Route>
-        <Route exact path='/catalog'>
-          <Catalog onOrderbuy={handleOrderbuy}
-            cardx={selectedCard} type={'all'} />
-        </Route>
-        <Route exact path='/catalog_2'>
-          <Catalog_2 onOrderbuy={handleOrderbuy}
-            cardx={selectedCard} type={'all'} />
-        </Route>
-        <Route exact path='/catalog_3'>
-          <Catalog_3 onCalcbuy={handleCalcbuy} onCalcb={handleCalcb} />
-        </Route>
-        <Route exact path='/portfolio'>
-          <Portfolio
-            onCardClick={handleCardClick} type={'all'} />
-        </Route>
-        <Route exact path='/contacts'>
-          <Contacts />
-        </Route>
-        <Route path='*'>
-          <PageNotFound />
-        </Route>
-      </Switch>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/'>
+            <Main
+              onCalcbuy={handleCalcbuy} onCalcb={handleCalcb}
+              onOrderbuy={handleOrderbuy}
+              cardx={selectedCard} type={'all'}
+            />
+          </Route>
+          <Route exact path='/catalog'>
+            <Catalog onOrderbuy={handleOrderbuy}
+              cardx={selectedCard} type={'all'} />
+          </Route>
+          <Route exact path='/catalog_2'>
+            <Catalog_2 onOrderbuy={handleOrderbuy}
+              cardx={selectedCard} type={'all'} />
+          </Route>
+          <Route exact path='/catalog_3'>
+            <Catalog_3 onCalcbuy={handleCalcbuy} onCalcb={handleCalcb} />
+          </Route>
+          <Route exact path='/portfolio'>
+            <Portfolio
+              onCardClick={handleCardClick} type={'all'} />
+          </Route>
+          <Route exact path='/contacts'>
+            <Contacts />
+          </Route>
+          <Route path='*'>
+            <PageNotFound />
+          </Route>
+        </Switch>
+      </BrowserRouter>
       <Emailjs
         isOpen={isOrderbuyOpen}
         onClose={closePopupsMessage}
