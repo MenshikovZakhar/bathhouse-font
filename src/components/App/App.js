@@ -78,9 +78,7 @@ function App() {
         <Route exact path='/contacts'>
           <Contacts />
         </Route>
-        <Route path='*'>
-          <PageNotFound />
-        </Route>
+
       </Switch>
 
       <Emailjs
