@@ -68,7 +68,7 @@ function Catalog({ onOrderbuy, type }) {
                 </>
                 <>
                     <section className='сatalog-card'>
-                        <h2 className="сatalog__title"> Купель на подставке</h2>
+                        <h2 className="сatalog__title"> Купели на подставке</h2>
                         <ul className='catalog__elements'>
                             {type === 'all' ?
                                 catalog_2.slice(0, counter).map((card, index) => {
@@ -97,7 +97,7 @@ function Catalog({ onOrderbuy, type }) {
 
 
                     <section className='сatalog-card'>
-                        <h2 className="сatalog__title">Купель c печью</h2>
+                        <h2 className="сatalog__title">Купели c печью</h2>
                         <ul className='catalog__elements'>
                             {type === 'all' ?
                                 catalog_4.slice(0, counter).map((card, index) => {
@@ -125,7 +125,7 @@ function Catalog({ onOrderbuy, type }) {
                     </section>
 
                     <section className='сatalog-card'>
-                        <h2 className="сatalog__title">Купель с лестницей</h2>
+                        <h2 className="сatalog__title">Купели с лестницей</h2>
                         <ul className='catalog__elements'>
                             {type === 'all' ?
                                 catalog_3.slice(0, counter).map((card, index) => {

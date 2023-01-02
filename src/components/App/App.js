@@ -10,6 +10,7 @@ import Emailjs from '../Emailjs/Emailjs';
 import Emailjscalc from '../Emailjscalc/Emailjscalc';
 import Portfolio from '../Portfolio/Portfolio';
 import { ImagePopup } from '../ImagePopup/ImagePopup';
+import Contacts from '../Contacts/Contacts';
 function App() {
   const [isOrderbuyOpen, sethandleOrderbuyOpen] = useState(false);
   const [isCalcbuyOpen, sethandleCalcbuyOpen] = useState(false);
@@ -72,6 +73,9 @@ function App() {
         <Route exact path='/portfolio'>
           <Portfolio
             onCardClick={handleCardClick} type={'all'} />
+        </Route>
+        <Route exact path='/contacts'>
+          <Contacts />
         </Route>
         <Route path='*'>
           <PageNotFound />
