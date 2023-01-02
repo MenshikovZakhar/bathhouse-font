@@ -133,7 +133,7 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
 
                 <Device />
 
-                <section className='сatalog-card'>
+                <section className='calculator'>
                     <h2 className="сatalog__title">Выбери и рассчитай свою комплектацию</h2>
                     <div className='сatalog-button'>
                         <button className="card__buttons" onClick={onClickOpenMenu}>1750 мм. 2– 4 человека</button>
