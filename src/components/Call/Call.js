@@ -105,7 +105,7 @@ export default function Call({ isOpen, onClose }) {
                             required
                         />
                         <span className="register__error auth__error">{errors.phone}</span>
-                        <input className='emailjs__input_1' type="text" name="price" defaultValue={MESSAGE} />
+                        <input className='emailjs__input_1' type="text" name="product" defaultValue={MESSAGE} />
 
                         <button disabled={!isFormValid} type="submit"
                             className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>
