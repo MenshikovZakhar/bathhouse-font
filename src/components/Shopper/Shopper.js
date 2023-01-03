@@ -1,6 +1,7 @@
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import './Shopper.css';
+import ScrollToTop from "react-scroll-to-top";
 import { Helmet } from 'react-helmet-async';
 import icon_1 from '../../images/icon_1.png';
 import icon_2 from '../../images/icon_2.png';
@@ -19,6 +20,7 @@ function Shopper() {
             </Helmet>
             <Header />
             <section className='shopper'>
+                <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
                 <div className="shopper__description">
                     <h1 className="shopper__title">Как зделать заказ</h1>
 
@@ -66,6 +68,14 @@ function Shopper() {
                                 на изделие!!!</p></li>
                     </ul>
                 </div>
+
+
+                <p className="shopper__text">Мы сотрудничаем не только  с частными лицами, но изготавливаем банные чаны и для владельцев
+                    коммерческих компаний (бань, саун, фитнес-центров, оздоровительных комплексов). Это возможность для коммерческих компаний увеличить прибыль,
+                    привлечь и подарить своим клиентам новые, незабываемые ощущения банного отдыха.</p>
+                <p className="shopper__text">Вы можете выбрать банный чан из нашего каталога или заказать индивидуальную комплектацию. У нас
+                    каждый покупатель подберет для себя оптимальный вариант исполнения под ключ или самоотделку!</p>
+
             </section>
             <Footer />
         </>

@@ -29,6 +29,16 @@
     width: 200px;
 }
 
+.shopper__text {
+    text-align: start;
+    color: #000000;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    width: 800px;
+    margin: 10px auto;
+}
+
 .shopper__name-title {
     text-align: center;
     margin: 0;
@@ -168,6 +178,10 @@
     .shopper__description {
         max-width: 720px;
     }
+
+    .shopper__text {
+        max-width: 600px;
+    }
 }
 
 
@@ -201,6 +215,10 @@
     .shopper__description {
         max-width: 550px;
 
+    }
+
+    .shopper__text {
+        max-width: 500px;
     }
 
     .shopper__link {
@@ -239,6 +257,10 @@
         gap: 30px;
     }
 
+    .shopper__text {
+        max-width: 450px;
+    }
+
     .shopper {
         padding-bottom: 0px;
     }
@@ -246,6 +268,10 @@
 
 @media(max-width: 480px) {
     .shopper__description {
+        max-width: 400px;
+    }
+
+    .shopper__text {
         max-width: 400px;
     }
 
@@ -272,6 +298,12 @@
     }
 }
 
+@media(max-width: 420px) {
+    .shopper__text {
+        max-width: 350px;
+        font-size: 16px;
+    }
+}
 
 @media(max-width: 390px) {
     .shopper__title {
@@ -281,6 +313,12 @@
         padding: 10px 0;
     }
 
+}
+
+@media(max-width: 370px) {
+    .shopper__text {
+        max-width: 300px
+    }
 }
 
 @media(max-width: 340px) {
