@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.71b41a8f.css",
-    "main.js": "./static/js/main.dad8bc43.js",
+    "main.css": "./static/css/main.71b82785.css",
+    "main.js": "./static/js/main.9c15ae81.js",
     "static/js/787.8411ccae.chunk.js": "./static/js/787.8411ccae.chunk.js",
     "static/media/11.png": "./static/media/11.e4f0ae00150aae3a4a8f.png",
     "static/media/logo_1.png": "./static/media/logo_1.e8b8112b5680f9d732b7.png",
@@ -42,6 +42,7 @@
     "static/media/phone_3.png": "./static/media/phone_3.849a90d34210ca408941.png",
     "static/media/9.jpg": "./static/media/9.b095bfd813edbfacd966.jpg",
     "static/media/7.png": "./static/media/7.944cbeb4b50b48c39016.png",
+    "static/media/icon_3.png": "./static/media/icon_3.3e267cea1371a9fa0a7f.png",
     "static/media/about_3.png": "./static/media/about_3.c5b8aa350a662bb3a211.png",
     "static/media/whatsapp.svg": "./static/media/whatsapp.973a7e77f1662d32198f8505db6f2a02.svg",
     "static/media/location-4.svg": "./static/media/location-4.cb836c82828654b7ea46abbb2cd68f21.svg",
@@ -55,12 +56,12 @@
     "static/media/menu.svg": "./static/media/menu.111cfc3a3545a9ff785c.svg",
     "static/media/close.svg": "./static/media/close.ad98de32e342afafa118.svg",
     "static/media/closemenu.svg": "./static/media/closemenu.80dfd5bd01b8fe0a895e.svg",
-    "main.71b41a8f.css.map": "./static/css/main.71b41a8f.css.map",
-    "main.dad8bc43.js.map": "./static/js/main.dad8bc43.js.map",
+    "main.71b82785.css.map": "./static/css/main.71b82785.css.map",
+    "main.9c15ae81.js.map": "./static/js/main.9c15ae81.js.map",
     "787.8411ccae.chunk.js.map": "./static/js/787.8411ccae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71b41a8f.css",
-    "static/js/main.dad8bc43.js"
+    "static/css/main.71b82785.css",
+    "static/js/main.9c15ae81.js"
   ]
 }
