@@ -12,6 +12,7 @@ import Portfolio from '../Portfolio/Portfolio';
 import { ImagePopup } from '../ImagePopup/ImagePopup';
 import Contacts from '../Contacts/Contacts';
 import Shopper from '../Shopper/Shopper';
+import Call from '../Call/Call';
 function App() {
   const [isOrderbuyOpen, sethandleOrderbuyOpen] = useState(false);
   const [isCalcbuyOpen, sethandleCalcbuyOpen] = useState(false);
@@ -19,12 +20,13 @@ function App() {
   const [selectedCar, setSelectedCar] = useState([]);
   const [selectedC, setSelectedC] = useState([]);
   const [isImagePopup, setImagePopup] = useState(false);
+  const [isAppointmentpOpen, setAppointmentpOpen] = useState(false);
 
   const closePopupsMessage = () => {
     sethandleOrderbuyOpen(false);
     sethandleCalcbuyOpen(false)
     setImagePopup(false);
-
+    setAppointmentpOpen(false);
   };
 
   //открытие попапа с картинкой
@@ -45,10 +47,15 @@ function App() {
     setSelectedCar(card);
   }
 
-  //открытие попапа онлайн записи
+  //открытие попапа онлайн заказа
   const handleCalcb = (card) => {
     sethandleCalcbuyOpen(true)
     setSelectedC(card);
+  }
+
+  //открытие попапа обратного вызова
+  const handleAppointment = () => {
+    setAppointmentpOpen(true)
   }
   return (
     <div className='page'>
@@ -59,15 +66,17 @@ function App() {
             onCalcbuy={handleCalcbuy} onCalcb={handleCalcb}
             onOrderbuy={handleOrderbuy}
             cardx={selectedCard} type={'all'}
+            onAppointment={handleAppointment}
           />
         </Route>
         <Route exact path='/catalog'>
           <Catalog onOrderbuy={handleOrderbuy}
-            cardx={selectedCard} type={'all'} />
+            cardx={selectedCard} type={'all'} onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/catalog_2'>
           <Catalog_2 onOrderbuy={handleOrderbuy}
-            cardx={selectedCard} type={'all'} />
+            cardx={selectedCard} type={'all'}
+            onAppointment={handleAppointment} />
         </Route>
         <Route exact path='/catalog_3'>
           <Catalog_3 onCalcbuy={handleCalcbuy} onCalcb={handleCalcb} />
@@ -80,7 +89,7 @@ function App() {
           <Contacts />
         </Route>
         <Route exact path='/shopper'>
-          <Shopper />
+          <Shopper onAppointment={handleAppointment} />
         </Route>
 
         <Route path='*'>
@@ -103,6 +112,10 @@ function App() {
         isOpen={isImagePopup}
         onClose={closePopupsMessage}
         card={selectedCard}
+      />
+      <Call
+        isOpen={isAppointmentpOpen}
+        onClose={closePopupsMessage}
       />
     </div>
   )

@@ -9,7 +9,7 @@ import icon_3 from '../../images/icon_3.png';
 import icon_4 from '../../images/icon_4.png';
 import icon_5 from '../../images/icon_5.png';
 import icon_6 from '../../images/icon_6.png';
-function Shopper() {
+function Shopper({ onAppointment }) {
 
     return (
         <>
@@ -21,6 +21,7 @@ function Shopper() {
             <Header />
             <section className='shopper'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+                <button onClick={onAppointment} type="button" className="call">Заказать звонок</button>
                 <div className="shopper__description">
                     <h1 className="shopper__title">Как зделать заказ</h1>
 

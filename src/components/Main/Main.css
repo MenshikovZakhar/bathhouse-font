@@ -40,6 +40,20 @@
     margin: 0 auto;
 }
 
+.call {
+    position: fixed;
+    top: 200px;
+    right: -70px;
+    transform: rotate(-90deg);
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+    background-color: #00990F;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
 @media(max-width: 1300px) {
     .calculator {
         max-width: 1000px;
@@ -98,6 +112,21 @@
     .main__title {
         width: 350px;
         font-size: 30px
+    }
+
+
+    .call {
+        position: fixed;
+        top: 200px;
+        right: -60px;
+        transform: rotate(-90deg);
+        font-size: 17px;
+        line-height: 23px;
+        cursor: pointer;
+        background-color: #00990F;
+        border-radius: 5px;
+        color: white;
+        border: none;
     }
 }
 

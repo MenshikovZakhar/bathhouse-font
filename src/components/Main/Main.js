@@ -25,7 +25,7 @@ import {
     ADD_NUMBER_CARD_2,
     ADD_NUMBER_CARD_1,
 } from '../../constants/index.js';
-function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
+function Main({ onCalcbuy, onCalcb, onOrderbuy, type, onAppointment }) {
     const [counter, setCounter] = useState();
     const [moreCard, setMoreCard] = useState();
 
@@ -97,6 +97,7 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type }) {
             />
             <main className='content'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+                <button onClick={onAppointment} type="button" className="call">Заказать звонок</button>
                 <section className='сatalog-card'>
                     <h2 className="main__title">Популярные комплектации</h2>
                     <ul className='catalog__elements'>

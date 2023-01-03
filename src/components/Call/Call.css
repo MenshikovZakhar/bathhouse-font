@@ -1,0 +1,261 @@
+.auth__error {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #EE3465;
+    min-height: 12px;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 25;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 1s linear 0s;
+}
+
+.popup_opened {
+    visibility: visible;
+    opacity: 1;
+}
+
+.emailjs__close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/close.svg);
+    background-color: unset;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.emailjs {
+    position: relative;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 15px;
+    max-width: 450px;
+}
+
+
+.emailjs__close:hover {
+    opacity: 0.6;
+}
+
+.auth__submit-button {
+    background-color: #2BE080;
+    border-radius: 3px;
+    border: none;
+    width: 410px;
+    height: 45px;
+    outline: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.auth__submit-button_disabled {
+    background-color: #e1e1e1;
+    color: #7e7e7e;
+    width: 410px;
+}
+
+.auth__submit-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.emailjs__title {
+    color: #140800;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.emailjs__text_2 {
+    color: #140800;
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+    width: 400px;
+    text-align: center;
+}
+
+.emailjs__text {
+    color: #140800;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.emailjs__message {
+    background-color: #ffffff;
+    width: 400px;
+    margin: 100px auto;
+    min-height: 200px;
+    border-radius: 20px;
+}
+
+.emailjs__textarea {
+    width: 400px;
+    height: 300px;
+}
+
+.emailjs__form {
+    padding-left: 23px;
+}
+
+.emailjs__input {
+    width: 400px;
+}
+
+.emailjs__input_1 {
+    width: 400px;
+    display: none;
+}
+
+.info-image {
+    width: 150px;
+    height: 170px;
+    margin-left: 130px;
+}
+
+.emailjs__title_2 {
+    color: #140800;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+@media(max-width: 550px) {
+    .emailjs {
+        max-width: 350px;
+    }
+
+    .emailjs__title_2 {
+        font-size: 20px;
+    }
+
+    .emailjs__input {
+        width: 300px;
+        font-size: 100%;
+        line-height: 1.4;
+    }
+
+    .emailjs__textarea {
+        width: 300px;
+        height: 200px;
+    }
+
+    .auth__submit-button_disabled {
+        width: 310px;
+    }
+
+    .emailjs__text_2 {
+        width: 300px;
+    }
+
+    .emailjs__message {
+        width: 300px;
+    }
+
+    .auth__submit-button {
+        width: 310px;
+    }
+
+    .info-image {
+        margin-left: 90px;
+    }
+}
+
+@media(max-width: 430px) {
+    .emailjs__close {
+        top: 10px;
+        right: 0px;
+    }
+
+}
+
+@media(max-width: 400px) {
+
+    .emailjs {
+        max-width: 300px;
+    }
+
+    .emailjs__title {
+        font-size: 22px;
+    }
+
+    .emailjs__text {
+        font-size: 18px;
+    }
+
+    .emailjs__text_2 {
+        font-size: 18px;
+        margin: 20px 0 10px 0;
+        width: 280px;
+        text-align: center;
+    }
+
+    .emailjs__form {
+        padding-left: 10px;
+    }
+
+    .emailjs__input {
+        width: 270px;
+    }
+
+    .emailjs__textarea {
+        width: 270px;
+        height: 180px;
+    }
+
+    .auth__submit-button_disabled {
+        width: 280px;
+    }
+
+    .auth__submit-button {
+        width: 280px;
+    }
+
+    .emailjs__message {
+        width: 250px;
+    }
+
+    .emailjs__title_2 {
+        font-size: 18px;
+    }
+
+    .info-image {
+        width: 100px;
+        height: 120px;
+        margin-left: 130px;
+    }
+
+    .info-image {
+        margin-left: 80px;
+    }
+
+    .emailjs__close {
+        top: 10px;
+        right: 0px;
+    }
+}

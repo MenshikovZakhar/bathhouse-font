@@ -1,4 +1,4 @@
-import './Emailjscalc.css';
+import './Call.css';
 import { useState, useEffect } from 'react';
 import classNames from 'classnames';
 
@@ -11,13 +11,14 @@ import { Preloader } from '../Preloader/Preloader';
 import React from 'react';
 import emailjs from 'emailjs-com';
 import {
+    MESSAGE,
     NOT_FOUND_MESSAGE,
     SAVE_MOVIE_MESSAGE,
 } from '../../constants/index';
 import success from '../../images/success.png';
 import error from '../../images/error.png';
 
-export default function Emailjs({ isOpen, card, cards, onClose, }) {
+export default function Call({ isOpen, onClose }) {
     const classPopup = classNames(`popup`, {
         popup_opened: isOpen
     });
@@ -104,14 +105,11 @@ export default function Emailjs({ isOpen, card, cards, onClose, }) {
                             required
                         />
                         <span className="register__error auth__error">{errors.phone}</span>
-                        <input className='emailjs__input_1' type="text" name="product" defaultValue={card} />
-                        <input className='emailjs__input_1' type="text" name="price" defaultValue={cards} />
+                        <input className='emailjs__input_1' type="text" name="price" defaultValue={MESSAGE} />
 
-                        <p className='emailjs__input'>Стоимость заказа: {cards} рублей</p>
                         <button disabled={!isFormValid} type="submit"
                             className={`register__submit-button auth__submit-button ${isFormValid ? '' : 'auth__submit-button_disabled'}`}>
                             Заказать</button>
-
 
                         <p className='emailjs__text_2'>Также для связи с нами Вы можете воспользоваться любым из доступных способов.</p>
                         <div className='emailjs__iqons'>

@@ -23,7 +23,7 @@ import {
     ADD_NUMBER_CARD_1,
 } from '../../constants/index.js';
 
-function Catalog({ onOrderbuy, type }) {
+function Catalog({ onOrderbuy, type, onAppointment }) {
 
     const [counter, setCounter] = useState();
     const [moreCard, setMoreCard] = useState();
@@ -64,6 +64,7 @@ function Catalog({ onOrderbuy, type }) {
             <main className='сatalog'>
                 <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
                 <>
+                    <button onClick={onAppointment} type="button" className="call">Заказать звонок</button>
                     <CatalogNav />
                 </>
                 <>
