@@ -33,12 +33,12 @@ function Navigation() {
                 </NavLink>
 
                 <NavLink
-                    to='/delivery'
+                    to='/shopper'
                     className={({ isActive }) =>
                         isActive ? 'nav__link active' : 'nav__link'
                     }
                 >
-                    Доставка
+                    Покупателям
                 </NavLink>
                 <NavLink
                     to='/portfolio'

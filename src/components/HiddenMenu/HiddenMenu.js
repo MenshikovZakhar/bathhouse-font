@@ -32,7 +32,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             Каталог
           </NavLink>
           <NavLink
-            to='/delivery'
+            to='/shopper'
             className={({ isActive }) =>
               isActive
                 ? 'nav-movie__link-adapt active'
@@ -40,7 +40,7 @@ function HiddenMenu({ onClickCloseMenu }) {
             }
             onClick={onClickCloseMenu}
           >
-            Доставка
+            Покупателям
           </NavLink>
           <NavLink
             to='/portfolio'

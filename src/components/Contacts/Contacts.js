@@ -66,10 +66,10 @@ function Contacts({ onAppointment }) {
                         <a href="tel:+79514652520">
                             <img className='contacts__logo' src={phone} alt='logo' />
                         </a>
-                        <a href="https://wa.me/79514840077" target="_blank" rel="noreferrer">
+                        <a href="https://wa.me/79514652520" target="_blank" rel="noreferrer">
                             <img className='contacts__logo' src={whatsapp} alt='logo' />
                         </a>
-                        <a href="https://t.me/Valeria_Smolentseva" target="_blank" rel="noreferrer">
+                        <a href="https://t.me/79514652520" target="_blank" rel="noreferrer">
                             <img className='contacts__logo' src={telegram} alt='logo' />
                         </a>
                     </div>
