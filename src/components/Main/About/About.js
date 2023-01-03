@@ -27,7 +27,7 @@ function Services() {
                         </p>
                     </li>
                     <li className="about__link"><img className='img_about' src={about_img_3} alt='' />
-                        <h2 className="about__name-title">Коммерческая выгода.</h2>
+                        <h2 className="about__name-title">Коммерческая выгода</h2>
                         <p className="about__name">Банный чан можно приобрести и для коммерческого использования – для банных комплексов,
                             санаториев, туристических баз. Это возможность увеличить прибыль, привлечь и подарить
                             своим клиентам новые, незабываемые ощущения банного отдыха. </p></li>

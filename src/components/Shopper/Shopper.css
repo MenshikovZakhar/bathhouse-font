@@ -1,0 +1,296 @@
+.shopper__list {
+    display: grid;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 30px 0 0px;
+    margin: 0 auto;
+}
+
+.shopper__description {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.shopper__name {
+    text-align: center;
+    margin: 0;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px 0;
+    width: 200px;
+}
+
+.shopper__name-title {
+    text-align: center;
+    margin: 0;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0;
+    width: 200px;
+    color: #395036;
+}
+
+.shopper__number {
+    text-align: start;
+    margin: 0;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 25px;
+    padding: 0;
+
+    color: #395036;
+}
+
+.shopper__title {
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+    color: #395036;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 450px;
+    padding: 15px 0;
+}
+
+.shopper-title {
+    text-decoration: none;
+}
+
+
+.shopper {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+.shopper__link {
+    text-decoration: none;
+}
+
+.img_shopper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+@media(max-width: 1500px) {
+
+    .shopper__description {
+        max-width: 1300px;
+    }
+}
+
+@media(max-width: 1400px) {
+
+    .shopper__description {
+        max-width: 1250px;
+    }
+}
+
+@media(max-width: 1350px) {
+
+    .shopper__description {
+        max-width: 1200px;
+    }
+}
+
+@media(max-width: 1280px) {
+
+    .shopper__description {
+        max-width: 1120px;
+    }
+
+}
+
+@media(max-width: 1220px) {
+
+    .shopper__description {
+        max-width: 1070px;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .shopper__description {
+        max-width: 1000px;
+    }
+
+}
+
+@media(max-width: 1050px) {
+
+    .shopper__description {
+        max-width: 890px;
+    }
+
+    .shopper {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+}
+
+@media(max-width: 1000px) {
+
+    .shopper__description {
+        max-width: 840px;
+    }
+
+}
+
+@media(max-width: 870px) {
+    .shopper__description {
+        max-width: 750px;
+    }
+
+    .shopper__list {
+        gap: 10px;
+        width: 750px;
+    }
+}
+
+@media(max-width: 830px) {
+    .shopper__description {
+        max-width: 720px;
+    }
+}
+
+
+
+@media(max-width: 740px) {
+    .shopper__description {
+        max-width: 650px;
+    }
+
+    .shopper__list {
+        gap: 10px;
+        width: 650px;
+    }
+}
+
+@media(max-width: 680px) {
+    .shopper__list {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 auto;
+        width: 450px;
+    }
+
+    .shopper__link {
+        text-decoration: none;
+        width: 200px;
+    }
+}
+
+@media(max-width: 650px) {
+    .shopper__description {
+        max-width: 550px;
+
+    }
+
+    .shopper__link {
+        gap: 5px;
+    }
+
+
+    .shopper {
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 570px) {
+
+    .shopper__title {
+        font-size: 35px;
+        width: 320px;
+    }
+
+    .shopper__description {
+        padding: 0px 0;
+    }
+
+    .shopper {
+        padding: 0;
+    }
+}
+
+@media(max-width: 530px) {
+    .shopper__description {
+        max-width: 450px;
+    }
+
+    .shopper__list {
+        width: 450px;
+        gap: 30px;
+    }
+
+    .shopper {
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width: 480px) {
+    .shopper__description {
+        max-width: 400px;
+    }
+
+    .shopper {
+        padding-top: 5px;
+    }
+
+    .shopper__list {
+        width: 330px;
+        gap: 10px;
+    }
+
+    .shopper__name-title {
+        width: 150px;
+    }
+
+    .shopper__name {
+        width: 150px;
+    }
+
+    .shopper__link {
+        text-decoration: none;
+        width: 150px;
+    }
+}
+
+
+@media(max-width: 390px) {
+    .shopper__title {
+        font-size: 25px;
+        line-height: 30px;
+        width: 300px;
+        padding: 10px 0;
+    }
+
+}
+
+@media(max-width: 340px) {
+
+    .shopper__number {
+        text-align: start;
+        margin: 0;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 25px;
+        padding: 0 0 10px 10px;
+    }
+}
