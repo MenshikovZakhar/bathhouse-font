@@ -1,4 +1,4 @@
-# Проект: Колорист
+# Проект: Банный чан
 <p align="center">
     <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-blue" />
     <img alt="Quality" src="https://img.shields.io/badge/status-release-orange.svg" >
