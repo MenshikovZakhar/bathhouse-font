@@ -1,5 +1,5 @@
 .image {
-    width: 200px;
+    width: 230px;
     height: 200px;
     margin: 0 auto;
     cursor: pointer;
@@ -64,7 +64,7 @@
 
 @media(max-width: 1000px) {
     .image {
-        width: 150px;
+        width: 180px;
         height: 150px;
     }
 

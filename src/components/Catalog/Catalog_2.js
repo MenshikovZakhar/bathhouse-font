@@ -125,33 +125,7 @@ function Catalog({ onOrderbuy, type, onAppointment }) {
 
                     </section>
 
-                    <section className='сatalog-card'>
-                        <h2 className="сatalog__title">Купели с лестницей</h2>
-                        <ul className='catalog__elements'>
-                            {type === 'all' ?
-                                catalog_3.slice(0, counter).map((card, index) => {
-                                    return (
-                                        <Сard key={index}
-                                            card={card}
-                                            onOrderbuy={onOrderbuy}
-                                        />
-                                    );
-                                })
-                                : catalog_2.map((card, index) => {
-                                    return (
-                                        <Сard key={index}
-                                            card={card}
-                                            onOrderbuy={onOrderbuy}
-                                        />
-                                    );
-                                })}
-                        </ul>
 
-                        {type === 'all' && catalog_2.length > counter && (
-                            <More addCounter={addCounter} />
-                        )}
-
-                    </section>
                 </>
 
             </main>

@@ -30,6 +30,18 @@ import slide29 from '../images/portfolio/9.jpg';
 import slide30 from '../images/portfolio/10.jpg';
 import slide31 from '../images/portfolio/11.jpg';
 import slide32 from '../images/portfolio/12.jpg';
+import slide33 from '../images/calculator/21.png';
+import slide34 from '../images/calculator/22.png';
+import slide35 from '../images/calculator/23.png';
+import slide36 from '../images/calculator/24.png';
+import slide37 from '../images/calculator/25.png';
+import slide38 from '../images/calculator/26.png';
+import slide39 from '../images/calculator/27.png';
+import slide40 from '../images/calculator/28.png';
+import slide41 from '../images/calculator/29.png';
+import slide42 from '../images/calculator/30.png';
+import slide43 from '../images/calculator/31.png';
+import slide44 from '../images/calculator/32.png';
 
 export const portfolio = [
     { src: slide21 },
@@ -139,7 +151,7 @@ export const catalog_1 = [
         finishing: "Под отделку",
         equipment: " ",
         price: "60000 руб",
-        src: slide1
+        src: slide37
     },
 
     {
@@ -151,7 +163,7 @@ export const catalog_1 = [
         finishing: "Под отделку",
         equipment: " ",
         price: "138000 руб",
-        src: slide2
+        src: slide36
     },
 
     {
@@ -163,7 +175,7 @@ export const catalog_1 = [
         finishing: "Под отделку",
         equipment: " ",
         price: "195000 руб",
-        src: slide2
+        src: slide36
     },
 
     {
@@ -259,7 +271,7 @@ export const catalog_1 = [
         finishing: "Отделка деревом",
         equipment: " ",
         price: "80000 руб",
-        src: slide3
+        src: slide43
     },
 
     {
@@ -271,7 +283,7 @@ export const catalog_1 = [
         finishing: "Отделка деревом",
         equipment: " ",
         price: "158000 руб",
-        src: slide12
+        src: slide44
     },
 
     {
@@ -283,7 +295,7 @@ export const catalog_1 = [
         finishing: "Отделка деревом",
         equipment: " ",
         price: "215000 руб",
-        src: slide12
+        src: slide44
     },
 ]
 
@@ -380,7 +392,7 @@ export const catalog_2 = [
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
         price: "91000 руб",
-        src: slide13
+        src: slide38
     },
 
     {
@@ -392,7 +404,7 @@ export const catalog_2 = [
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
         price: "169000 руб",
-        src: slide16
+        src: slide39
     },
 
     {
@@ -404,7 +416,7 @@ export const catalog_2 = [
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
         price: "226000 руб",
-        src: slide16
+        src: slide39
     },
 
     {
@@ -440,7 +452,7 @@ export const catalog_2 = [
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
         price: "137000 руб",
-        src: slide15
+        src: slide34
     },
 
     {
@@ -476,7 +488,7 @@ export const catalog_2 = [
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
         price: "149500 руб",
-        src: slide15
+        src: slide34
     },
     {
         product: "Купель на подставке-ветрозащита",
@@ -487,7 +499,7 @@ export const catalog_2 = [
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
         price: "185000 руб",
-        src: slide15
+        src: slide34
     },
 
     {
@@ -499,7 +511,7 @@ export const catalog_2 = [
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
         price: "10400 руб",
-        src: slide15
+        src: slide33
     },
 
     {
@@ -511,7 +523,7 @@ export const catalog_2 = [
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
         price: "182000 руб",
-        src: slide15
+        src: slide35
     },
 
     {
@@ -523,7 +535,7 @@ export const catalog_2 = [
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
         price: "239000 руб",
-        src: slide15
+        src: slide35
     },
 
 ]
@@ -779,7 +791,7 @@ export const catalog_4 = [
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
         price: "85000 руб",
-        src: slide18
+        src: slide40
     },
 
     {
@@ -791,7 +803,7 @@ export const catalog_4 = [
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
         price: "92000 руб",
-        src: slide18
+        src: slide40
     },
 
     {
@@ -815,7 +827,7 @@ export const catalog_4 = [
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
         price: "96000 руб",
-        src: slide18
+        src: slide40
     },
 
     {
@@ -827,7 +839,7 @@ export const catalog_4 = [
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
         price: "103000 руб",
-        src: slide18
+        src: slide40
     },
 
     {
@@ -862,7 +874,7 @@ export const catalog_4 = [
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
         price: "134000 руб",
-        src: slide18
+        src: slide41
     },
 
     {
@@ -874,7 +886,7 @@ export const catalog_4 = [
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
         price: "212000 руб",
-        src: slide18
+        src: slide42
     },
 
     {
@@ -886,7 +898,7 @@ export const catalog_4 = [
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
         price: "269000 руб",
-        src: slide18
+        src: slide42
     },
 
 
