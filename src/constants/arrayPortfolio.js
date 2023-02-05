@@ -16,20 +16,26 @@ import slide15 from '../images/calculator/15.png';
 import slide16 from '../images/calculator/16.png';
 import slide17 from '../images/calculator/17.png';
 import slide18 from '../images/calculator/18.png';
-import slide19 from '../images/calculator/19.png';
-import slide20 from '../images/calculator/20.png';
+
 import slide21 from '../images/portfolio/1.jpg';
 import slide22 from '../images/portfolio/2.png';
-import slide23 from '../images/portfolio/3.jpg';
-import slide24 from '../images/portfolio/4.jpg';
-import slide25 from '../images/portfolio/5.jpg';
-import slide26 from '../images/portfolio/6.jpg';
+import slide23 from '../images/portfolio/3.png';
+import slide24 from '../images/portfolio/4.png';
+import slide25 from '../images/portfolio/5.png';
+import slide26 from '../images/portfolio/6.jpeg';
 import slide27 from '../images/portfolio/7.jpg';
 import slide28 from '../images/portfolio/8.png';
 import slide29 from '../images/portfolio/9.jpg';
-import slide30 from '../images/portfolio/10.jpg';
-import slide31 from '../images/portfolio/11.jpg';
-import slide32 from '../images/portfolio/12.jpg';
+import slide30 from '../images/portfolio/10.jpeg';
+import slide31 from '../images/portfolio/11.png';
+import slide32 from '../images/portfolio/12.jpeg';
+import slide47 from '../images/portfolio/13.jpg';
+import slide48 from '../images/portfolio/14.jpg';
+import slide49 from '../images/portfolio/15.jpg';
+import slide50 from '../images/portfolio/16.jpg';
+import slide51 from '../images/portfolio/17.jpg';
+import slide52 from '../images/portfolio/18.jpeg';
+
 import slide33 from '../images/calculator/21.png';
 import slide34 from '../images/calculator/22.png';
 import slide35 from '../images/calculator/23.png';
@@ -42,7 +48,8 @@ import slide41 from '../images/calculator/29.png';
 import slide42 from '../images/calculator/30.png';
 import slide43 from '../images/calculator/31.png';
 import slide44 from '../images/calculator/32.png';
-
+import slide45 from '../images/calculator/33.png';
+import slide46 from '../images/calculator/34.png';
 export const portfolio = [
     { src: slide21 },
     { src: slide22 },
@@ -56,6 +63,12 @@ export const portfolio = [
     { src: slide30 },
     { src: slide31 },
     { src: slide32 },
+    { src: slide47 },
+    { src: slide48 },
+    { src: slide49 },
+    { src: slide50 },
+    { src: slide51 },
+    { src: slide52 },
 ]
 export const catalog_1 = [
     {
@@ -309,7 +322,7 @@ export const catalog_1 = [
 export const catalog_2 = [
     {
         product: "Купель на подставке-каркас",
-        diameter: "1800х920x1800 мм",
+        diameter: "1800х1450x1800 мм",
         size: "1800 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "2-4",
@@ -322,7 +335,7 @@ export const catalog_2 = [
 
     {
         product: "Купель на подставке-каркас",
-        diameter: "1800х920x1800 мм",
+        diameter: "1800х1450x1800 мм",
         size: "1800 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "2-4",
@@ -335,7 +348,7 @@ export const catalog_2 = [
 
     {
         product: "Купель на подставке-каркас",
-        diameter: "2000х970x2000 мм",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "4-6",
@@ -348,7 +361,7 @@ export const catalog_2 = [
 
     {
         product: "Купель на подставке-каркас",
-        diameter: "2000х970x2000 мм",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "4-6",
@@ -361,7 +374,7 @@ export const catalog_2 = [
 
     {
         product: "Купель на подставке-каркас",
-        diameter: "2000х970x2000 мм",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "4-6",
@@ -373,7 +386,7 @@ export const catalog_2 = [
     },
     {
         product: "Купель на подставке-каркас",
-        diameter: "2000х970x2000 мм",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "4-6",
@@ -386,7 +399,7 @@ export const catalog_2 = [
 
     {
         product: "Купель на подставке-каркас",
-        diameter: "2350х1150x2350 мм",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "6-8",
@@ -399,7 +412,7 @@ export const catalog_2 = [
 
     {
         product: "Купель на подставке-каркас",
-        diameter: "2350х1150x2350 мм",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "6-8",
@@ -412,7 +425,7 @@ export const catalog_2 = [
 
     {
         product: "Купель на подставке-каркас",
-        diameter: "2350х1150x2350 мм",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "6-8",
@@ -425,7 +438,7 @@ export const catalog_2 = [
 
     {
         product: "Купель на подставке-каркас",
-        diameter: "2350х1150x2350 мм",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "6-8",
@@ -438,7 +451,7 @@ export const catalog_2 = [
 
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "1800х920x1800 мм",
+        diameter: "1800х1450x1800 мм",
         size: "1800 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "2-4",
@@ -450,116 +463,116 @@ export const catalog_2 = [
     },
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "1800х920x1800 мм",
+        diameter: "1800х1450x1800 мм",
         size: "1800 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "2-4",
         volume: "1100 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
+        equipment: "подставка-ветрозащита, дымоход",
         price: "123500 руб",
         src: slide34
     },
 
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "2000х970x2000 мм",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "4-6",
         volume: "1400 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
+        equipment: "подставка-ветрозащита, дымоход",
         price: "83500 руб",
         src: slide15
     },
 
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "2000х970x2000 мм",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "4-6",
         volume: "1400 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
+        equipment: "подставка-ветрозащита, дымоход",
         price: "99500 руб",
         src: slide15
     },
 
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "2000х970x2000 мм",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "4-6",
         volume: "1400 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
+        equipment: "подставка-ветрозащита, дымоход",
         price: "123500 руб",
         src: slide34
     },
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "2000х970x2000 мм",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "4-6",
         volume: "1400 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
+        equipment: "подставка-ветрозащита, дымоход",
         price: "153500 руб",
         src: slide34
     },
 
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "2350х1150x2350 мм",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "6-8",
         volume: "1900 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
+        equipment: "подставка-ветрозащита, дымоход",
         price: "125000 руб",
         src: slide33
     },
 
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "2350х1150x2350 мм",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "6-8",
         volume: "1900 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
+        equipment: "подставка-ветрозащита, дымоход",
         price: "140000 руб",
         src: slide33
     },
 
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "2350х1150x2350 мм",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "6-8",
         volume: "1900 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
+        equipment: "подставка-ветрозащита, дымоход",
         price: "206000 руб",
         src: slide35
     },
 
     {
         product: "Купель на подставке-ветрозащита",
-        diameter: "2350х1150x2350 мм",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "6-8",
         volume: "1900 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
+        equipment: "подставка-ветрозащита, дымоход",
         price: "266000 руб",
         src: slide35
     },
@@ -569,346 +582,370 @@ export const catalog_2 = [
 export const catalog_4 = [
     {
         product: "Купель с печью",
-        size: "1750 мм",
+        diameter: "1800х1450x1800 мм",
+        size: "1800 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "2-4",
-        volume: "1400 л",
+        volume: "1100 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "85000 руб",
+        price: "95500 руб",
         src: slide40
     },
 
     {
         product: "Купель с печью",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, дымоход",
-        price: "92000 руб",
-        src: slide40
-    },
-
-    {
-        product: "Купель с печью",
-        size: "1750 мм",
+        diameter: "1800х1450x1800 мм",
+        size: "1800 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "2-4",
-        volume: "1400 л",
+        volume: "1100 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "154000 руб",
+        price: "142500 руб",
         src: slide18
     },
 
     {
         product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "96000 руб",
+        price: "102500 руб",
         src: slide40
     },
 
     {
         product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "103000 руб",
+        price: "118500 руб",
         src: slide40
     },
 
     {
         product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "167000 руб",
+        price: "142500 руб",
         src: slide18
     },
     {
         product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "198000 руб",
+        price: "172500 руб",
         src: slide18
     },
 
     {
         product: "Купель с печью",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
-        material: "Сталь СТЗ, 3мм",
+        material: "Сталь СТЗ, 2мм",
         quantity: "6-8",
-        volume: "2200 л",
+        volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "134000 руб",
+        price: "158000 руб",
         src: slide41
     },
 
     {
         product: "Купель с печью",
+        diameter: "2350х1700x2350 мм",
+        size: "2350 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "6-8",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, дымоход",
+        price: "173000 руб",
+        src: slide41
+    },
+
+    {
+        product: "Купель с печью",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "6-8",
-        volume: "2200 л",
+        volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "212000 руб",
+        price: "239000 руб",
         src: slide42
     },
 
     {
         product: "Купель с печью",
+        diameter: "2350х1700x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "6-8",
-        volume: "2200 л",
+        volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-печь, дымоход",
-        price: "269000 руб",
+        price: "299000 руб",
         src: slide42
     },
 
-
     {
         product: "Купель с печью",
-        size: "1750 мм",
+        diameter: "1800х1450x1800 мм",
+        size: "1800 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "2-4",
-        volume: "1400 л",
+        volume: "1100 л",
         finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "90000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель с печью",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "97000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель с печью",
-        size: "1750 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "159000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель с печью",
-        size: "2000 мм",
-        material: "Сталь СТЗ, 2мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "101000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель с печью",
-        size: "2000 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "108000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель с печью",
-        size: "2000 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "172000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель с печью",
-        size: "2000 мм",
-        material: "Нерж. сталь, 3мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "203000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель с печью",
-        size: "2350 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "6-8",
-        volume: "2200 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "139000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель с печью",
-        size: "2350 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "6-8",
-        volume: "2200 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "217000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель с печью",
-        size: "2350 мм",
-        material: "Нерж. сталь, 3мм",
-        quantity: "6-8",
-        volume: "2200 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "274000 руб",
-        src: slide20
-    },
-]
-
-export const catalog_5 = [
-    {
-        product: "Купель с отделкой деревом",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: " ",
-        price: "59000 руб",
-        src: slide3
-    },
-
-
-    {
-        product: "Купель с отделкой деревом",
-        size: "1750 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: " ",
-        price: "117000 руб",
-        src: slide12
-    },
-
-    {
-        product: "Купель с печью",
-        size: "2000 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, дымоход",
-        price: "103000 руб",
-        src: slide18
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2000 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "79000 руб",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "98000 руб",
         src: slide14
     },
 
     {
         product: "Купель с печью",
+        diameter: "1800х1450x1800 мм",
+        size: "1800 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "2-4",
+        volume: "1100 л",
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "170500 руб",
+        src: slide17
+    },
+
+
+    {
+        product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "4-6",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "105000 руб",
+        src: slide14
+    },
+
+    {
+        product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-печь, лестница, дымоход",
-        price: "108000 руб",
-        src: slide20
-    },
-
-    {
-        product: "Купель",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 2мм",
-        quantity: "2-4",
         volume: "1400 л",
-        finishing: "Под отделку",
-        equipment: " ",
-        price: "33000 руб",
-        src: slide1
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "121000 руб",
+        src: slide14
     },
 
-
     {
-        product: "Купель",
+        product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "4-6",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "170500 руб",
+        src: slide17
+    },
+
+    {
+        product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
+        size: "2000 мм",
+        material: "Нерж. сталь, 3мм",
+        quantity: "4-6",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "200500 руб",
+        src: slide17
+    },
+
+    {
+        product: "Купель с печью",
+        diameter: "2350х1700x2350 мм",
+        size: "2350 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "6-8",
         volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "143000 руб",
+        src: slide45
+    },
+
+    {
+        product: "Купель с печью",
+        diameter: "2350х1700x2350 мм",
+        size: "2350 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "6-8",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "158000 руб",
+        src: slide45
+    },
+
+    {
+        product: "Купель с печью",
+        diameter: "2350х1700x2350 мм",
+        size: "2350 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "6-8",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "259000 руб",
+        src: slide46
+    },
+
+    {
+        product: "Купель с печью",
+        diameter: "2350х1700x2350 мм",
+        size: "2350 мм",
+        material: "Нерж. сталь, 3мм",
+        quantity: "6-8",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "319000 руб",
+        src: slide46
+    },
+]
+
+export const catalog_5 = [
+    {
+        product: "Купель",
+        diameter: "1800х920x1800 мм",
+        size: "1800мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "2-4",
+        volume: "1100 л",
         finishing: "Под отделку",
         equipment: " ",
-        price: "110000 руб",
-        src: slide2
+        price: "38000 руб",
+        src: slide1
+    },
+
+    {
+        product: "Купель с отделкой деревом",
+        diameter: "1800х920x1800 мм",
+        size: "1800 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "2-4",
+        volume: "1100 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "55000 руб",
+        src: slide3
     },
 
     {
         product: "Купель на подставке-каркас",
-        size: "2350 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "6-8",
-        volume: "2200 л",
+        diameter: "1800х1450x1800 мм",
+        size: "1800 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "2-4",
+        volume: "1100 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "91000 руб",
+        price: "62500 руб",
         src: slide13
     },
 
-]
+    {
+        product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
+        size: "2000 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "4-6",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, дымоход",
+        price: "102500 руб",
+        src: slide40
+    },
+    {
+        product: "Купель с печью",
+        diameter: "2350х1700x2350 мм",
+        size: "2350 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "6-8",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "приварная печь, подставка-каркас, дымоход",
+        price: "143000 руб",
+        src: slide45
+    },
 
+    {
+        product: "Купель с печью",
+        diameter: "2000х1500x2000 мм",
+        size: "2000 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "4-6",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-печь, дымоход",
+        price: "142500 руб",
+        src: slide18
+    },
+
+    {
+        product: "Купель на подставке-ветрозащита",
+        diameter: "2350х1700x2350 мм",
+        size: "2350 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "6-8",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-ветрозащита, дымоход",
+        price: "206000 руб",
+        src: slide35
+    },
+
+    {
+        product: "Купель с отделкой деревом",
+        diameter: "2000х970x2000 мм",
+        size: "2000 мм",
+        material: "Нерж. сталь, 2мм",
+        quantity: "4-6",
+        volume: "1400 л",
+        finishing: "Отделка деревом",
+        equipment: " ",
+        price: "102500 руб",
+        src: slide12
+    },
+
+]
 
 
 export const toppings = [
