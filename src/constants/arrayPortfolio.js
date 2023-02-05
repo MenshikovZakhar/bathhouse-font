@@ -140,6 +140,19 @@ export const catalog_1 = [
         product: "Купель",
         diameter: "2350х1150x2350 мм",
         size: "2350 мм",
+        material: "Сталь СТЗ, 2мм",
+        quantity: "6-8",
+        volume: "1900 л",
+        finishing: "Под отделку",
+        equipment: " ",
+        price: "67000 руб",
+        src: slide37
+    },
+
+    {
+        product: "Купель",
+        diameter: "2350х1150x2350 мм",
+        size: "2350 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "6-8",
         volume: "1900 л",
@@ -296,481 +309,259 @@ export const catalog_1 = [
 export const catalog_2 = [
     {
         product: "Купель на подставке-каркас",
-        size: "1750 мм",
+        diameter: "1800х920x1800 мм",
+        size: "1800 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "2-4",
-        volume: "1400 л",
+        volume: "1100 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "57000 руб",
+        price: "62500 руб",
         src: slide13
     },
 
     {
         product: "Купель на подставке-каркас",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-каркас",
-        price: "64000 руб",
-        src: slide13
-    },
-
-    {
-        product: "Купель на подставке-каркас",
-        size: "1750 мм",
+        diameter: "1800х920x1800 мм",
+        size: "1800 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "2-4",
-        volume: "1400 л",
+        volume: "1100 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "126000 руб",
+        price: "109500 руб",
         src: slide16
     },
 
     {
         product: "Купель на подставке-каркас",
+        diameter: "2000х970x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "67000 руб",
+        price: "69500 руб",
         src: slide13
     },
 
     {
         product: "Купель на подставке-каркас",
+        diameter: "2000х970x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "74000 руб",
+        price: "85500 руб",
         src: slide13
     },
 
     {
         product: "Купель на подставке-каркас",
+        diameter: "2000х970x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "138000 руб",
+        price: "109500 руб",
         src: slide16
     },
     {
         product: "Купель на подставке-каркас",
+        diameter: "2000х970x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "169000 руб",
+        price: "139500 руб",
         src: slide16
     },
 
     {
         product: "Купель на подставке-каркас",
+        diameter: "2350х1150x2350 мм",
         size: "2350 мм",
-        material: "Сталь СТЗ, 3мм",
+        material: "Сталь СТЗ, 2мм",
         quantity: "6-8",
-        volume: "2200 л",
+        volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "91000 руб",
+        price: "103000 руб",
         src: slide38
     },
 
     {
         product: "Купель на подставке-каркас",
+        diameter: "2350х1150x2350 мм",
+        size: "2350 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "6-8",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-каркас",
+        price: "118000 руб",
+        src: slide38
+    },
+
+    {
+        product: "Купель на подставке-каркас",
+        diameter: "2350х1150x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "6-8",
-        volume: "2200 л",
+        volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "169000 руб",
+        price: "184000 руб",
         src: slide39
     },
 
     {
         product: "Купель на подставке-каркас",
+        diameter: "2350х1150x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "6-8",
-        volume: "2200 л",
+        volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-каркас",
-        price: "226000 руб",
+        price: "244000 руб",
         src: slide39
     },
 
     {
         product: "Купель на подставке-ветрозащита",
-        size: "1750 мм",
+        diameter: "1800х920x1800 мм",
+        size: "1800 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "2-4",
-        volume: "1400 л",
+        volume: "1100 л",
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
-        price: "68000 руб",
+        price: "76500 руб",
         src: slide15
     },
-
     {
         product: "Купель на подставке-ветрозащита",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита",
-        price: "99000 руб",
-        src: slide15
-    },
-
-    {
-        product: "Купель на подставке-ветрозащита",
-        size: "1750 мм",
+        diameter: "1800х920x1800 мм",
+        size: "1800 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "2-4",
-        volume: "1400 л",
+        volume: "1100 л",
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
-        price: "137000 руб",
+        price: "123500 руб",
         src: slide34
     },
 
     {
         product: "Купель на подставке-ветрозащита",
+        diameter: "2000х970x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 2мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
-        price: "78500 руб",
+        price: "83500 руб",
         src: slide15
     },
 
     {
         product: "Купель на подставке-ветрозащита",
+        diameter: "2000х970x2000 мм",
         size: "2000 мм",
         material: "Сталь СТЗ, 3мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
-        price: "85500 руб",
+        price: "99500 руб",
         src: slide15
     },
 
     {
         product: "Купель на подставке-ветрозащита",
+        diameter: "2000х970x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
-        price: "149500 руб",
+        price: "123500 руб",
         src: slide34
     },
     {
         product: "Купель на подставке-ветрозащита",
+        diameter: "2000х970x2000 мм",
         size: "2000 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "4-6",
-        volume: "1900 л",
+        volume: "1400 л",
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
-        price: "185000 руб",
+        price: "153500 руб",
         src: slide34
     },
 
     {
         product: "Купель на подставке-ветрозащита",
+        diameter: "2350х1150x2350 мм",
         size: "2350 мм",
-        material: "Сталь СТЗ, 3мм",
+        material: "Сталь СТЗ, 2мм",
         quantity: "6-8",
-        volume: "2200 л",
+        volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
-        price: "10400 руб",
+        price: "125000 руб",
         src: slide33
     },
 
     {
         product: "Купель на подставке-ветрозащита",
+        diameter: "2350х1150x2350 мм",
+        size: "2350 мм",
+        material: "Сталь СТЗ, 3мм",
+        quantity: "6-8",
+        volume: "1900 л",
+        finishing: "Отделка деревом",
+        equipment: "подставка-ветрозащита",
+        price: "140000 руб",
+        src: slide33
+    },
+
+    {
+        product: "Купель на подставке-ветрозащита",
+        diameter: "2350х1150x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 2мм",
         quantity: "6-8",
-        volume: "2200 л",
+        volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
-        price: "182000 руб",
+        price: "206000 руб",
         src: slide35
     },
 
     {
         product: "Купель на подставке-ветрозащита",
+        diameter: "2350х1150x2350 мм",
         size: "2350 мм",
         material: "Нерж. сталь, 3мм",
         quantity: "6-8",
-        volume: "2200 л",
+        volume: "1900 л",
         finishing: "Отделка деревом",
         equipment: "подставка-ветрозащита",
-        price: "239000 руб",
+        price: "266000 руб",
         src: slide35
-    },
-
-]
-
-export const catalog_3 = [
-    {
-        product: "Купель с лестницей",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 2мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "62000 руб",
-        src: slide14
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "69000 руб",
-        src: slide14
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "1750 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "131000 руб",
-        src: slide17
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2000 мм",
-        material: "Сталь СТЗ, 2мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "72000 руб",
-        src: slide14
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2000 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "79000 руб",
-        src: slide14
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2000 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "143000 руб",
-        src: slide17
-    },
-    {
-        product: "Купель с лестницей",
-        size: "2000 мм",
-        material: "Нерж. сталь, 3мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "173000 руб",
-        src: slide17
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2350 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "6-8",
-        volume: "2200 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "96000 руб",
-        src: slide14
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2350 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "6-8",
-        volume: "2200 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "174000 руб",
-        src: slide17
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2350 мм",
-        material: "Нерж. сталь, 3мм",
-        quantity: "6-8",
-        volume: "2200 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка, лестница",
-        price: "231000 руб",
-        src: slide17
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 2мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "73000 руб",
-        src: slide19
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "1750 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "80000 руб",
-        src: slide19
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "1750 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "2-4",
-        volume: "1400 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "142000 руб",
-        src: slide19
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2000 мм",
-        material: "Сталь СТЗ, 2мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "83500 руб",
-        src: slide19
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2000 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "90500 руб",
-        src: slide19
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2000 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "154500 руб",
-        src: slide19
-    },
-    {
-        product: "Купель с лестницей",
-        size: "2000 мм",
-        material: "Нерж. сталь, 3мм",
-        quantity: "4-6",
-        volume: "1900 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "185500 руб",
-        src: slide19
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2350 мм",
-        material: "Сталь СТЗ, 3мм",
-        quantity: "6-8",
-        volume: "2200 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "109000 руб",
-        src: slide19
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2350 мм",
-        material: "Нерж. сталь, 2мм",
-        quantity: "6-8",
-        volume: "2200 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "187000 руб",
-        src: slide19
-    },
-
-    {
-        product: "Купель с лестницей",
-        size: "2350 мм",
-        material: "Нерж. сталь, 3мм",
-        quantity: "6-8",
-        volume: "2200 л",
-        finishing: "Отделка деревом",
-        equipment: "подставка-ветрозащита, лестница",
-        price: "244000 руб",
-        src: slide19
     },
 
 ]
