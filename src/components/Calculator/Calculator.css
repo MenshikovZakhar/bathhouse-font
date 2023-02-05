@@ -59,7 +59,7 @@ h3 {
 }
 
 .image_2 {
-    width: 200px;
+    width: 250px;
     height: 200px;
 }
 
@@ -174,7 +174,7 @@ h3 {
 
 @media screen and (max-width: 950px) {
     .image_2 {
-        width: 150px;
+        width: 180px;
         height: 150px;
     }
 

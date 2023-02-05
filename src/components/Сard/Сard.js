@@ -18,11 +18,15 @@ function Сard({ card, onOrderbuy }) {
                     <p className="card__characteristic">{card.material}</p>
                 </div>
                 <div className="elements__characteristic">
+                    <p className="card__text">Габариты:</p>
+                    <p className="card__characteristic">{card.diameter}</p>
+                </div>
+                <div className="elements__characteristic">
                     <p className="card__text">Кол-во человек:</p>
                     <p className="card__characteristic">{card.quantity}</p>
                 </div>
                 <div className="elements__characteristic">
-                    <p className="card__text">Объём:</p>
+                    <p className="card__text">Объём воды:</p>
                     <p className="card__characteristic">{card.volume}</p>
                 </div>
                 <div className="elements__characteristic">
