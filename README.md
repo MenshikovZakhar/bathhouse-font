@@ -1,4 +1,4 @@
-# Проект: Колорист
+# Проект: Банный чан
 <p align="center">
     <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-blue" />
     <img alt="Quality" src="https://img.shields.io/badge/status-release-orange.svg" >
@@ -6,6 +6,10 @@
 </p>
 
 ## [Ссылка на проект](https://menshikovzakhar.github.io/bathhouse-font/)
+
+## :memo: Описание
+Сайт с адаптивным дизайном выполненный для компании, занимающейся изготовлением и продажей банных чанов. В проекте были 
+использованы функциональные компоненты, state переменные и управление эффектами useEffect;
 
 ## :hammer: Стэк технологий
 1. HTML,
