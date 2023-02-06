@@ -20,14 +20,14 @@ import slide18 from '../images/calculator/18.png';
 import slide21 from '../images/portfolio/1.jpg';
 import slide22 from '../images/portfolio/2.png';
 import slide23 from '../images/portfolio/3.png';
-import slide24 from '../images/portfolio/4.png';
+import slide24 from '../images/portfolio/4.jpg';
 import slide25 from '../images/portfolio/5.png';
 import slide26 from '../images/portfolio/6.jpeg';
 import slide27 from '../images/portfolio/7.jpg';
-import slide28 from '../images/portfolio/8.png';
+import slide28 from '../images/portfolio/8.jpg';
 import slide29 from '../images/portfolio/9.jpg';
 import slide30 from '../images/portfolio/10.jpeg';
-import slide31 from '../images/portfolio/11.png';
+import slide31 from '../images/portfolio/11.jpg';
 import slide32 from '../images/portfolio/12.jpeg';
 import slide47 from '../images/portfolio/13.jpg';
 import slide48 from '../images/portfolio/14.jpg';
@@ -35,6 +35,12 @@ import slide49 from '../images/portfolio/15.jpg';
 import slide50 from '../images/portfolio/16.jpg';
 import slide51 from '../images/portfolio/17.jpg';
 import slide52 from '../images/portfolio/18.jpeg';
+import slide53 from '../images/portfolio/19.jpg';
+import slide54 from '../images/portfolio/20.jpg';
+import slide55 from '../images/portfolio/21.jpg';
+import slide56 from '../images/portfolio/22.jpg';
+import slide57 from '../images/portfolio/23.jpg';
+import slide58 from '../images/portfolio/24.jpg';
 
 import slide33 from '../images/calculator/21.png';
 import slide34 from '../images/calculator/22.png';
@@ -50,13 +56,15 @@ import slide43 from '../images/calculator/31.png';
 import slide44 from '../images/calculator/32.png';
 import slide45 from '../images/calculator/33.png';
 import slide46 from '../images/calculator/34.png';
+
+
 export const portfolio = [
     { src: slide21 },
     { src: slide22 },
     { src: slide23 },
-    { src: slide24 },
+
     { src: slide25 },
-    { src: slide26 },
+
     { src: slide27 },
     { src: slide28 },
     { src: slide29 },
@@ -66,9 +74,16 @@ export const portfolio = [
     { src: slide47 },
     { src: slide48 },
     { src: slide49 },
-    { src: slide50 },
+
     { src: slide51 },
     { src: slide52 },
+    { src: slide53 },
+    { src: slide54 },
+    { src: slide55 },
+    { src: slide56 },
+    { src: slide57 },
+    { src: slide58 },
+
 ]
 export const catalog_1 = [
     {

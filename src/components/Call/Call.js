@@ -18,6 +18,7 @@ import {
 import success from '../../images/success.png';
 import error from '../../images/error.png';
 
+
 export default function Call({ isOpen, onClose }) {
     const classPopup = classNames(`popup`, {
         popup_opened: isOpen
@@ -30,7 +31,10 @@ export default function Call({ isOpen, onClose }) {
     const [messageAcceptAuth, setMessageAcceptAuth] = useState('');
     const [imgAcceptAuth, setImgAcceptAuth] = useState('');
 
+    function onclick() {
 
+        window.location.assign('http://localhost:3000/contacts');
+    }
 
     function sendEmail(e) {
         e.preventDefault();
@@ -39,8 +43,7 @@ export default function Call({ isOpen, onClose }) {
             .then((response) => {
                 window.location.reload()
                 console.log('SUCCESS!', response.status, response.text);
-                setMessageAcceptAuth(SAVE_MOVIE_MESSAGE);
-                setImgAcceptAuth(success);
+                onclick()
             }).catch((err) => {
                 console.log('FAILED...', err);
                 setMessageAcceptAuth(NOT_FOUND_MESSAGE);
