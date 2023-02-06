@@ -13,6 +13,7 @@ import { ImagePopup } from '../ImagePopup/ImagePopup';
 import Contacts from '../Contacts/Contacts';
 import Shopper from '../Shopper/Shopper';
 import Call from '../Call/Call';
+import Success from '../Success/Success';
 function App() {
   const [isOrderbuyOpen, sethandleOrderbuyOpen] = useState(false);
   const [isCalcbuyOpen, sethandleCalcbuyOpen] = useState(false);
@@ -90,6 +91,10 @@ function App() {
         </Route>
         <Route exact path='/shopper'>
           <Shopper onAppointment={handleAppointment} />
+        </Route>
+
+        <Route path='/success'>
+          <Success />
         </Route>
 
         <Route path='*'>

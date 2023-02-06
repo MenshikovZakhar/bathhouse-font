@@ -32,8 +32,7 @@ export default function Call({ isOpen, onClose }) {
     const [imgAcceptAuth, setImgAcceptAuth] = useState('');
 
     function onclick() {
-
-        window.location.assign('http://localhost:3000/contacts');
+        window.location.assign('http://localhost:3000/success');
     }
 
     function sendEmail(e) {

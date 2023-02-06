@@ -29,7 +29,9 @@ export default function Emailjs({ isOpen, card, onClose, }) {
     const [messageAcceptAuth, setMessageAcceptAuth] = useState('');
     const [imgAcceptAuth, setImgAcceptAuth] = useState('');
 
-
+    function onclick() {
+        window.location.assign('http://localhost:3000/success');
+    }
 
     function sendEmail(e) {
         e.preventDefault();
@@ -38,8 +40,7 @@ export default function Emailjs({ isOpen, card, onClose, }) {
             .then((response) => {
                 window.location.reload()
                 console.log('SUCCESS!', response.status, response.text);
-                setMessageAcceptAuth(SAVE_MOVIE_MESSAGE);
-                setImgAcceptAuth(success);
+                onclick()
             }).catch((err) => {
                 console.log('FAILED...', err);
                 setMessageAcceptAuth(NOT_FOUND_MESSAGE);
