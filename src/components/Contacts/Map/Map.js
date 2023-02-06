@@ -3,7 +3,7 @@ import './Map.css';
 const Maps = () => (
   <YMaps>
     <div>
-      <Map className='maps' defaultState={{ center: [55.145468, 61.372631], zoom: 18 }} />
+      <Map className='maps' defaultState={{ center: [55.09338, 61.387085], zoom: 18 }} />
     </div>
   </YMaps>
 );

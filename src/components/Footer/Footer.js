@@ -14,7 +14,7 @@ function Footer() {
             </h1>
             <div className='footer__info'>
                 <div className='footer__address'>
-                    <p className='footer__year'><img className='iqon__location' src={location} alt='logo' />Челябинск, xxxxxxxx</p>
+                    <p className='footer__year'><img className='iqon__location' src={location} alt='logo' />Челябинск, Троицкий тракт 21</p>
                     <p className='footer__year'><img className='iqon__email' src={email} alt='logo' />xxxxxxxxx@mail.ru</p>
                     <p className='footer__year'><img className='iqon__phone' src={phone_2} alt='logo' />+7(951)465-25-20</p>
                 </div>
