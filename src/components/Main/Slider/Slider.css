@@ -1,1 +1,158 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
+
+.slider {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.slider__description {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: 10px #395036;
+    border-style: ridge;
+    padding: 20px 0;
+    background-color: #eeeeee96;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #395036;
+}
+
+.slider__title {
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+@media(max-width: 1500px) {
+    .slider__description {
+        max-width: 1300px;
+    }
+}
+
+
+@media(max-width: 1400px) {
+    .slider__description {
+        max-width: 1250px;
+    }
+}
+
+@media(max-width: 1350px) {
+    .slider__description {
+        max-width: 1200px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .slider__description {
+        max-width: 1120px;
+    }
+}
+
+@media(max-width: 1220px) {
+    .slider__description {
+        max-width: 1070px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .slider__description {
+        max-width: 1000px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .slider__description {
+        max-width: 890px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .slider__description {
+        max-width: 840px;
+    }
+}
+
+@media(max-width: 870px) {
+    .slider__description {
+        max-width: 750px;
+    }
+}
+
+@media(max-width: 830px) {
+    .slider__description {
+        max-width: 720px;
+    }
+}
+
+@media(max-width: 740px) {
+    .slider__description {
+        max-width: 650px;
+    }
+}
+
+@media(max-width: 680px) {
+    .slider__description {
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 650px) {
+    .slider__about {
+        width: 550px;
+        gap: 0px;
+    }
+
+    .slider__description {
+        max-width: 550px;
+    }
+}
+
+@media(max-width: 570px) {
+
+    .slider__description {
+        max-width: 500px;
+    }
+
+    .slider__title {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width: 530px) {
+    .slider__description {
+        max-width: 450px;
+    }
+}
+
+@media(max-width: 480px) {
+    .slider__description {
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 440px) {
+    .slider__description {
+        max-width: 350px;
+    }
+
+    .slider__title {
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width: 390px) {
+    .slider__description {
+        max-width: 320px;
+    }
+}
+
+@media(max-width: 335px) {
+    .slider__description {
+        max-width: 295px;
+    }
+}

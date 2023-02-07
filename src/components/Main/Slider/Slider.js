@@ -112,7 +112,14 @@ const images = [
 
 class Slider extends React.Component {
     render() {
-        return <ImageGallery items={images} />;
+        return (
+            <section className='slider'>
+                <div className="slider__description">
+                    <h1 className="slider__title">Галерея наших работ</h1>
+                    <ImageGallery items={images} />
+                </div>
+            </section>
+        )
     }
 }
 
