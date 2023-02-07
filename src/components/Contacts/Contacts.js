@@ -34,7 +34,7 @@ function Contacts({ onAppointment }) {
                             <img className='map__iqons' src={location_1} alt='logo' />
                             <div className="contacts__value">
                                 <h3 className="contacts__title">Адрес</h3>
-                                <span className="contacts__name">г. Челябинск, ул. Троицкий тракт, д.21</span>
+                                <span className="contacts__name">г. Челябинск, ул. Троицкий тр-т, д.21</span>
                             </div>
                         </div>
 
