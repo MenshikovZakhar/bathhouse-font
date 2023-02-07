@@ -30,13 +30,13 @@ export default function Emailjs({ isOpen, card, onClose, }) {
     const [imgAcceptAuth, setImgAcceptAuth] = useState('');
 
     function onclick() {
-        window.location.assign('http://localhost:3000/success');
+        window.location.assign('http://chel-chan.ru/success');
     }
 
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_jqb24ow', 'template_mlgutby', e.target, '-LJby7CkMCeE2d5DF')
+        emailjs.sendForm('service_7tu4f99', 'template_mnqmt2q', e.target, 'cQDdPgqtnpmidoMjc')
             .then((response) => {
                 window.location.reload()
                 console.log('SUCCESS!', response.status, response.text);

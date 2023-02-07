@@ -133,7 +133,6 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type, onAppointment }) {
 
                 </section>
                 <Slider />
-                <Device />
                 <section className='calculator'>
                     <h2 className="сatalog__title">Выбери и рассчитай свою комплектацию</h2>
                     <div className='сatalog-button'>
@@ -161,7 +160,7 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type, onAppointment }) {
                 </section>
 
                 <About />
-
+                <Device />
             </main>
             <Footer />
 

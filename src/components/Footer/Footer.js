@@ -10,12 +10,12 @@ function Footer() {
     return (
         <footer className='footer'>
             <h1 className='footer__title'>
-                © 2022 XXXXXXXXXXXXXXXX
+                © 2023 chel-chan.ru
             </h1>
             <div className='footer__info'>
                 <div className='footer__address'>
                     <p className='footer__year'><img className='iqon__location' src={location} alt='logo' />Челябинск, Троицкий тракт 21</p>
-                    <p className='footer__year'><img className='iqon__email' src={email} alt='logo' />xxxxxxxxx@mail.ru</p>
+                    <p className='footer__year'><img className='iqon__email' src={email} alt='logo' />chel-chan@mail.ru</p>
                     <p className='footer__year'><img className='iqon__phone' src={phone_2} alt='logo' />+7(951)465-25-20</p>
                 </div>
                 <ul className='footer__list'>
