@@ -95,8 +95,6 @@ function Catalog({ onOrderbuy, type, onAppointment }) {
                         )}
 
                     </section>
-
-
                     <section className='сatalog-card'>
                         <h2 className="сatalog__title">Купели c печью</h2>
                         <ul className='catalog__elements'>
@@ -124,8 +122,6 @@ function Catalog({ onOrderbuy, type, onAppointment }) {
                         )}
 
                     </section>
-
-
                 </>
 
             </main>
