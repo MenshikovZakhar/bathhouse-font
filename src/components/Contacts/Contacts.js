@@ -58,7 +58,7 @@ function Contacts({ onAppointment }) {
                             <img className='map__iqons' src={location_4} alt='logo' />
                             <div className="contacts__value">
                                 <h3 className="contacts__title">E-mail</h3>
-                                <span className="contacts__name">xxxxxxxxx@mail.ru</span>
+                                <span className="contacts__name">chel-chan@mail.ru</span>
                             </div>
                         </div>
                     </div>
