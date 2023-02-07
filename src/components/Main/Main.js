@@ -5,6 +5,7 @@ import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
 import About from './About/About';
+import Slider from './Slider/Slider';
 import Device from './Device/Device';
 import Calculator_4 from '../Calculator/Calculator_4';
 import Calculator_5 from '../Calculator/Calculator_5';
@@ -131,9 +132,8 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type, onAppointment }) {
                     )}
 
                 </section>
-
+                <Slider />
                 <Device />
-
                 <section className='calculator'>
                     <h2 className="сatalog__title">Выбери и рассчитай свою комплектацию</h2>
                     <div className='сatalog-button'>
