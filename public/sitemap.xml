@@ -8,7 +8,7 @@
 
    <url>
 
-      <loc>https://valeria-colorist.ru/#/</loc>
+      <loc>https:/http://chel-chan.ru/</loc>
 
       <lastmod>2022-11-15T16:28:27+00:00</lastmod>
 
@@ -19,43 +19,43 @@
    </url>
     <url>
 
-      <loc>https://valeria-colorist.ru/#/about</loc>
+      <loc>https:/http://chel-chan.ru/catalog</loc>
 
       <lastmod>2022-11-15T16:28:27+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
-      <priority>0.6</priority>
+      <priority>0.8</priority>
 
    </url>
 
    <url>
 
-      <loc>https://valeria-colorist.ru/#/services</loc>
+      <loc>https:/http://chel-chan.ru/catalog_2</loc>
 
       <lastmod>2022-11-15T16:28:27+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
-      <priority>0.7</priority>
+      <priority>0.8</priority>
 
    </url>
 
       <url>
 
-      <loc>https://valeria-colorist.ru/#/services_1</loc>
+      <loc>https:/http://chel-chan.ru/catalog_3</loc>
 
       <lastmod>2022-11-15T16:28:27+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
-      <priority>0.7</priority>
+      <priority>0.8</priority>
 
    </url>
 
        <url>
 
-      <loc>https://valeria-colorist.ru/#/services_2</loc>
+      <loc>https:/http://chel-chan.ru/portfolio</loc>
 
       <lastmod>2022-11-15T16:28:27+00:00</lastmod>
 
@@ -66,7 +66,7 @@
    </url>
        <url>
 
-      <loc>https://valeria-colorist.ru/#/services_3</loc>
+      <loc>https:/http://chel-chan.ru/contacts</loc>
 
       <lastmod>2022-11-15T16:28:27+00:00</lastmod>
 
@@ -77,19 +77,7 @@
    </url>
     <url>
 
-      <loc>https://valeria-colorist.ru/#/services_4</loc>
-
-      <lastmod>2022-11-15T16:28:27+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.6</priority>
-
-   </url>
-
- 
- <url>
-      <loc>https://valeria-colorist.ru/#/price</loc>
+      <loc>https:/http://chel-chan.ru/shopper</loc>
 
       <lastmod>2022-11-15T16:28:27+00:00</lastmod>
 
@@ -99,89 +87,18 @@
 
    </url>
 
-     
+ 
  <url>
-      <loc>https://valeria-colorist.ru/#/portfolio</loc>
+      <loc>https:/http://chel-chan.ru/success</loc>
 
       <lastmod>2022-11-15T16:28:27+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
-      <priority>0.7</priority>
+      <priority>0.5</priority>
 
    </url>
 
-    
- <url>
-      <loc>https://valeria-colorist.ru/#/portfolio_1</loc>
-
-      <lastmod>2022-11-15T16:28:27+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.6</priority>
-
-   </url>
-
-   
- <url>
-      <loc>https://valeria-colorist.ru/#/portfolio_2</loc>
-
-      <lastmod>2022-11-15T16:28:27+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.6</priority>
-
-   </url>
-
-     <url>
-
-      <loc>https://valeria-colorist.ru/#/portfolio_3</loc>
-
-      <lastmod>2022-11-15T16:28:27+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.6</priority>
-
-   </url>
-
-     <url>
-
-      <loc>https://valeria-colorist.ru/#/portfolio_4</loc>
-
-      <lastmod>2022-11-15T16:28:27+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.6</priority>
-
-   </url>
-
-     <url>
-
-      <loc>https://valeria-colorist.ru/#/portfolio_5</loc>
-
-      <lastmod>2022-11-15T16:28:27+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.6</priority>
-
-   </url>
-
-  <url>
-
-      <loc>https://valeria-colorist.ru/#/contacts</loc>
-
-      <lastmod>2022-11-15T16:28:27+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.7</priority>
-
-   </url>
 
 
 </urlset> 
