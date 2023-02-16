@@ -1,0 +1,153 @@
+.aboutus {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.aboutus__description {
+    max-width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+    border: 10px #395036;
+    border-style: ridge;
+    padding: 20px 0;
+    background-image: url(../../../images/aboutus.jpg);
+    background-size: cover;
+
+}
+
+.aboutus__title {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.aboutus__text {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutus__form {
+    margin: 280px auto;
+}
+
+@media(max-width: 1440px) {
+
+    .aboutus__description {
+        max-width: 1200px;
+    }
+}
+
+@media(max-width: 1250px) {
+
+    .aboutus__description {
+        max-width: 1000px;
+        height: 600px;
+    }
+
+}
+
+
+@media(max-width: 1050px) {
+
+    .aboutus__description {
+        max-width: 800px;
+        height: 500px;
+    }
+
+    .aboutus__form {
+        margin: 200px auto;
+    }
+
+}
+
+@media(max-width: 890px) {
+
+    .aboutus__description {
+        max-width: 700px;
+        height: 500px;
+    }
+
+    .aboutus__form {
+        margin: 150px auto;
+    }
+
+}
+
+@media(max-width: 750px) {
+
+    .aboutus__description {
+        max-width: 600px;
+        height: 450px;
+    }
+
+    .aboutus__form {
+        margin: 130px auto;
+    }
+
+    .aboutus__text {
+        margin: 0;
+    }
+}
+
+@media(max-width: 540px) {
+
+    .aboutus__description {
+        max-width: 400px;
+        height: 250px;
+    }
+
+    .aboutus__form {
+        margin: 70px auto;
+    }
+
+    .aboutus__title {
+        font-size: 25px;
+    }
+
+    .aboutus__text {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 440px) {
+
+    .aboutus__description {
+        max-width: 350px;
+        height: 220px;
+    }
+
+    .aboutus__form {
+        margin: 60px auto;
+    }
+
+    .aboutus__title {
+        font-size: 22px;
+    }
+
+    .aboutus__text {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 380px) {
+
+    .aboutus__description {
+        max-width: 310px;
+        height: 190px;
+    }
+
+    .aboutus__form {
+        margin: 50px auto;
+    }
+
+    .aboutus__title {
+        font-size: 20px;
+    }
+
+    .aboutus__text {
+        font-size: 15px;
+    }
+}

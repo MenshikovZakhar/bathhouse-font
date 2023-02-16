@@ -5,6 +5,7 @@ import './Main.css';
 import { Helmet } from 'react-helmet-async';
 import ScrollToTop from "react-scroll-to-top";
 import About from './About/About';
+import Aboutus from './Aboutus/Aboutus';
 import Slider from './Slider/Slider';
 import Device from './Device/Device';
 import Calculator_4 from '../Calculator/Calculator_4';
@@ -97,8 +98,9 @@ function Main({ onCalcbuy, onCalcb, onOrderbuy, type, onAppointment }) {
             <Header
             />
             <main className='content'>
-                <ScrollToTop smooth className="scrolltop" viewBox="0 0 24 24" />
+
                 <button onClick={onAppointment} type="button" className="call">Заказать звонок</button>
+                <Aboutus />
                 <section className='сatalog-card'>
                     <h2 className="main__title">Популярные комплектации</h2>
                     <ul className='catalog__elements'>
